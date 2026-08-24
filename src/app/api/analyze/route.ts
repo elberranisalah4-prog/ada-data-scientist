@@ -1,5 +1,5 @@
 import { spawn } from "node:child_process";
-import { mkdtemp, rm, writeFile } from "node:fs/promises";
+import { mkdtemp, readFile, rm, writeFile } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import path from "node:path";
 import { existsSync } from "node:fs";
@@ -17,23 +17,44 @@ function pythonBin(): string {
 export async function POST(request: Request) {
   const form = await request.formData();
   const file = form.get("file");
+  const useSample = String(form.get("sample") ?? "") === "1";
   const targetRaw = form.get("target");
   const target = typeof targetRaw === "string" && targetRaw.trim() ? targetRaw.trim() : "";
 
-  if (!(file instanceof File)) {
-    return Response.json({ error: "Aucun fichier CSV." }, { status: 400 });
-  }
-  if (file.size > 20 * 1024 * 1024) {
-    return Response.json({ error: "Fichier trop volumineux (20 Mo max)." }, { status: 413 });
-  }
-
   const dir = await mkdtemp(path.join(tmpdir(), "ada-"));
   const csvPath = path.join(dir, "input.csv");
-  const bytes = Buffer.from(await file.arrayBuffer());
-  await writeFile(csvPath, bytes);
+  let filename = "dataset.csv";
+
+  try {
+    if (useSample) {
+      const sample = path.join(process.cwd(), "public", "samples", "customers.csv");
+      if (!existsSync(sample)) {
+        await rm(dir, { recursive: true, force: true });
+        return Response.json({ error: "customers.csv est introuvable." }, { status: 404 });
+      }
+      await writeFile(csvPath, await readFile(sample));
+      filename = "customers.csv";
+    } else if (file instanceof File) {
+      if (file.size > 20 * 1024 * 1024) {
+        await rm(dir, { recursive: true, force: true });
+        return Response.json({ error: "Fichier trop volumineux (20 Mo max)." }, { status: 413 });
+      }
+      await writeFile(csvPath, Buffer.from(await file.arrayBuffer()));
+      filename = file.name || "dataset.csv";
+    } else {
+      await rm(dir, { recursive: true, force: true });
+      return Response.json({ error: "Aucun fichier CSV." }, { status: 400 });
+    }
+  } catch (err) {
+    await rm(dir, { recursive: true, force: true });
+    return Response.json(
+      { error: err instanceof Error ? err.message : "Impossible de lire le CSV." },
+      { status: 400 }
+    );
+  }
 
   const agent = path.join(process.cwd(), "pipeline", "agent.py");
-  const args = ["-u", agent, "--csv", csvPath, "--filename", file.name || "dataset.csv"];
+  const args = ["-u", agent, "--csv", csvPath, "--filename", filename];
   if (target) args.push("--target", target);
 
   const encoder = new TextEncoder();

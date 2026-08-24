@@ -2,7 +2,7 @@
 
 import { useCallback, useMemo, useState } from "react";
 import { Upload } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Button, buttonVariants } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { ChartsGrid } from "@/components/charts-grid";
@@ -17,7 +17,7 @@ import {
   type StageId,
   type StageState,
 } from "@/lib/types";
-import { guessTarget, peekCsvColumns } from "@/lib/utils";
+import { cn, guessTarget, peekCsvColumns } from "@/lib/utils";
 
 type RunStatus = "idle" | "running" | "done" | "error";
 
@@ -62,25 +62,16 @@ export function Workbench() {
   }, []);
 
   const loadSample = async () => {
-    const res = await fetch("/samples/customers.csv");
-    if (!res.ok) {
-      setError("Impossible de charger customers.csv.");
-      return;
-    }
-    const blob = await res.blob();
-    const sample = new File([blob], "customers.csv", { type: "text/csv" });
-    const text = await sample.slice(0, 64_000).text();
-    const cols = peekCsvColumns(text);
-    setFile(sample);
-    setColumns(cols);
+    setFile(null);
+    setColumns([]);
     setTarget("churn");
-    await run(sample, "churn");
+    await run(undefined, "churn", true);
   };
 
-  const run = async (csvFile?: File, csvTarget?: string) => {
+  const run = async (csvFile?: File, csvTarget?: string, sample = false) => {
     const active = csvFile ?? file;
     const tgt = csvTarget ?? target;
-    if (!active) return;
+    if (!sample && !active) return;
     setStatus("running");
     setError(null);
     setResult(null);
@@ -95,7 +86,11 @@ export function Workbench() {
     );
 
     const form = new FormData();
-    form.append("file", active);
+    if (sample) {
+      form.append("sample", "1");
+    } else if (active) {
+      form.append("file", active);
+    }
     if (tgt) form.append("target", tgt);
 
     try {
@@ -206,7 +201,13 @@ export function Workbench() {
 
       <div className="mx-auto flex w-full max-w-7xl flex-1 flex-col gap-6 px-4 py-6 lg:flex-row">
         {status === "idle" && !file ? (
-          <IdleHero onFile={onFile} onSample={loadSample} dragOver={dragOver} setDragOver={setDragOver} />
+          <IdleHero
+            onFile={onFile}
+            onSample={loadSample}
+            dragOver={dragOver}
+            setDragOver={setDragOver}
+            error={error}
+          />
         ) : (
           <>
             <aside className="lg:w-72 lg:shrink-0">
@@ -305,15 +306,17 @@ function IdleHero({
   onSample,
   dragOver,
   setDragOver,
+  error,
 }: {
   onFile: (file: File | null) => void;
   onSample: () => void;
   dragOver: boolean;
   setDragOver: (v: boolean) => void;
+  error: string | null;
 }) {
   return (
     <div className="flex w-full flex-col gap-10 py-6 lg:flex-row lg:items-center">
-      <div className="max-w-xl space-y-5">
+      <div className="relative z-10 max-w-xl space-y-5">
         <p className="text-[11px] font-medium tracking-[0.22em] text-primary uppercase">
           Data → Cleaning → EDA → Features → ML → Report
         </p>
@@ -325,13 +328,14 @@ function IdleHero({
           logistique, forêt aléatoire et XGBoost, puis rédige un rapport. Chaque étape apparaît
           dans le workflow — uniquement les décisions utiles, pas une chaîne de pensée privée.
         </p>
-        <div className="flex flex-wrap gap-2">
-          <Button onClick={onSample} size="lg">
+        {error ? <p className="text-sm text-destructive">{error}</p> : null}
+        <div className="relative z-10 flex flex-wrap gap-2">
+          <button type="button" className={cn(buttonVariants({ size: "lg" }))} onClick={onSample}>
             Analyser customers.csv
-          </Button>
-          <Button variant="outline" size="lg" render={<label htmlFor="csv-input" />}>
+          </button>
+          <label htmlFor="csv-input" className={cn(buttonVariants({ variant: "outline", size: "lg" }))}>
             Importer un CSV
-          </Button>
+          </label>
         </div>
       </div>
       <label
