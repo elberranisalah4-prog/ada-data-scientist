@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "ADA_PYTHON=$PWD/.venv/bin/python next dev --hostname 0.0.0.0 --port 43217",
+    "dev": "ADA_PYTHON=$PWD/.venv/bin/python MYSQL_HOST=127.0.0.1 MYSQL_PORT=3306 MYSQL_USER=ada MYSQL_PASSWORD=ada MYSQL_DATABASE=ada next dev --hostname 0.0.0.0 --port 43217",
     "build": "next build",
-    "start": "ADA_PYTHON=$PWD/.venv/bin/python next start --hostname 0.0.0.0 --port 43217",
+    "start": "ADA_PYTHON=$PWD/.venv/bin/python MYSQL_HOST=127.0.0.1 MYSQL_PORT=3306 MYSQL_USER=ada MYSQL_PASSWORD=ada MYSQL_DATABASE=ada next start --hostname 0.0.0.0 --port 43217",
     "lint": "eslint"
   },
   "dependencies": {
@@ -13,6 +13,7 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^1.34.0",
+    "mysql2": "^3.24.2",
     "next": "16.3.2",
     "react": "19.2.8",
     "react-dom": "19.2.8",

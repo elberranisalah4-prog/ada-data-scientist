@@ -3,6 +3,15 @@ import { mkdtemp, readFile, rm, writeFile } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import path from "node:path";
 import { existsSync } from "node:fs";
+import {
+  addFinding,
+  completeRun,
+  createRun,
+  failRun,
+  upsertStage,
+} from "@/lib/runs-repo";
+import type { AgentEvent } from "@/lib/types";
+
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 export const maxDuration = 180;
@@ -85,6 +94,18 @@ export async function POST(request: Request) {
   const args = ["-u", agent, "--csv", csvPath, "--filename", filename];
   if (target) args.push("--target", target);
 
+  let runId: string | null = null;
+  try {
+    runId = await createRun(filename, target);
+  } catch (err) {
+    console.error("mysql createRun", err);
+  }
+
+  let persistQueue = Promise.resolve();
+  const persist = (task: () => Promise<void>) => {
+    persistQueue = persistQueue.then(task).catch((err) => console.error("mysql", err));
+  };
+
   const encoder = new TextEncoder();
 
   let proc: ChildProcess | undefined;
@@ -101,8 +122,21 @@ export async function POST(request: Request) {
         } catch {
           closed = true;
           proc?.kill("SIGTERM");
+          return;
+        }
+        if (!runId) return;
+        try {
+          const event = JSON.parse(trimmed) as AgentEvent;
+          const id = runId;
+          persist(() => persistEvent(id, event));
+        } catch {
+          /* not JSON */
         }
       };
+
+      if (runId) {
+        pushLine(JSON.stringify({ type: "persisted", id: runId }));
+      }
 
       proc = spawn(pythonBin(), args, {
         env: {
@@ -129,26 +163,34 @@ export async function POST(request: Request) {
       });
 
       const finish = (code: number | null) => {
-        if (closed) {
-          void rm(dir, { recursive: true, force: true });
-          return;
-        }
-        if (buf.trim()) pushLine(buf);
-        if (code && code !== 0 && !buf.includes('"type": "error"')) {
-          pushLine(
-            JSON.stringify({
-              type: "error",
-              message: "Le pipeline s'est arrêté de façon inattendue.",
-            })
-          );
-        }
-        closed = true;
-        try {
-          controller.close();
-        } catch {
-          /* already closed by the client */
-        }
-        void rm(dir, { recursive: true, force: true });
+        void (async () => {
+          if (buf.trim()) pushLine(buf);
+          if (code && code !== 0 && !buf.includes('"type": "error"')) {
+            pushLine(
+              JSON.stringify({
+                type: "error",
+                message: "Le pipeline s'est arrêté de façon inattendue.",
+              })
+            );
+          }
+          await persistQueue;
+          if (runId && code && code !== 0) {
+            const id = runId;
+            persist(() => failRun(id, "Le pipeline s'est arrêté de façon inattendue."));
+            await persistQueue;
+          }
+          if (closed) {
+            await rm(dir, { recursive: true, force: true });
+            return;
+          }
+          closed = true;
+          try {
+            controller.close();
+          } catch {
+            /* already closed by the client */
+          }
+          await rm(dir, { recursive: true, force: true });
+        })();
       };
 
       proc.on("close", (code) => finish(code));
@@ -169,4 +211,23 @@ export async function POST(request: Request) {
       "X-Accel-Buffering": "no",
     },
   });
+}
+
+async function persistEvent(runId: string, event: AgentEvent): Promise<void> {
+  if (event.type === "stage_start") {
+    await upsertStage(runId, event.id, "running", { intent: event.intent });
+  } else if (event.type === "finding") {
+    await addFinding(runId, {
+      stage: event.stage,
+      kind: event.kind,
+      title: event.title,
+      detail: event.detail,
+    });
+  } else if (event.type === "stage_complete") {
+    await upsertStage(runId, event.id, "done", { summary: event.summary });
+  } else if (event.type === "complete") {
+    await completeRun(runId, event.result);
+  } else if (event.type === "error") {
+    await failRun(runId, event.message);
+  }
 }

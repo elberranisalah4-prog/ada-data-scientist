@@ -100,6 +100,7 @@ export type AgentResult = {
 };
 
 export type AgentEvent =
+  | { type: "persisted"; id: string }
   | { type: "run_start"; filename: string; stages: StageDef[] }
   | { type: "stage_start"; id: StageId; intent: string }
   | { type: "finding"; stage: StageId; kind: FindingKind; title: string; detail: string }
@@ -115,6 +116,21 @@ export type StageState = {
   intent?: string;
   summary?: string;
   findings: Finding[];
+};
+
+export type RunSummary = {
+  id: string;
+  filename: string;
+  target: string | null;
+  status: "running" | "done" | "error";
+  task: string | null;
+  selected_model: string | null;
+  scoring: string | null;
+  rows_in: number | null;
+  rows_clean: number | null;
+  error_message: string | null;
+  created_at: string;
+  finished_at: string | null;
 };
 
 export const DEFAULT_STAGES: StageDef[] = [

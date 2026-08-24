@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { Upload } from "lucide-react";
 import { Button, buttonVariants } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -9,11 +9,13 @@ import { ChartsGrid } from "@/components/charts-grid";
 import { FindingList } from "@/components/finding-list";
 import { ReportPanel } from "@/components/report-panel";
 import { WorkflowRail } from "@/components/workflow-rail";
+import { RunHistory } from "@/components/run-history";
 import {
   DEFAULT_STAGES,
   type AgentEvent,
   type AgentResult,
   type Finding,
+  type RunSummary,
   type StageId,
   type StageState,
 } from "@/lib/types";
@@ -40,6 +42,39 @@ export function Workbench() {
   const [selectedId, setSelectedId] = useState<StageId>("data");
   const [result, setResult] = useState<AgentResult | null>(null);
   const [tab, setTab] = useState("workflow");
+  const [runId, setRunId] = useState<string | null>(null);
+  const [runs, setRuns] = useState<RunSummary[]>([]);
+  const [dbVersion, setDbVersion] = useState<string | null>(null);
+  const [dbError, setDbError] = useState<string | null>(null);
+
+  const refreshRuns = useCallback(async () => {
+    try {
+      const res = await fetch("/api/runs");
+      const payload = (await res.json()) as {
+        ok?: boolean;
+        version?: string;
+        error?: string;
+        runs?: RunSummary[];
+      };
+      if (!res.ok || payload.ok === false) {
+        setDbError(payload.error ?? "MySQL injoignable");
+        setRuns([]);
+        return;
+      }
+      setDbError(null);
+      setDbVersion(payload.version ?? null);
+      setRuns(payload.runs ?? []);
+    } catch (err) {
+      setDbError(err instanceof Error ? err.message : "MySQL injoignable");
+    }
+  }, []);
+
+  useEffect(() => {
+    const timer = window.setTimeout(() => {
+      void refreshRuns();
+    }, 0);
+    return () => window.clearTimeout(timer);
+  }, [refreshRuns]);
 
   const selected = stages.find((s) => s.id === selectedId) ?? stages[0];
   const doneCount = stages.filter((s) => s.status === "done").length;
@@ -82,6 +117,7 @@ export function Workbench() {
     setResult(null);
     setTab("workflow");
     setSelectedId("data");
+    setRunId(null);
     setStages(
       DEFAULT_STAGES.map((stage) => ({
         ...stage,
@@ -113,6 +149,9 @@ export function Workbench() {
       let finished = false;
       await consumeStream(res.body, {
         onEvent: (event) => {
+          if (event.type === "persisted") {
+            setRunId(event.id);
+          }
           if (event.type === "run_start") {
             setStages((prev) =>
               (event.stages.length ? event.stages : DEFAULT_STAGES).map((def) => ({
@@ -156,6 +195,7 @@ export function Workbench() {
             setStatus("done");
             setSelectedId("report");
             setTab("report");
+            void refreshRuns();
           }
           if (event.type === "error") {
             finished = true;
@@ -186,7 +226,44 @@ export function Workbench() {
     setStatus("idle");
     setStages(initialStages());
     setSelectedId("data");
+    setRunId(null);
     setTab("workflow");
+  };
+
+  const openStoredRun = async (id: string) => {
+    const res = await fetch(`/api/runs/${id}`);
+    if (!res.ok) {
+      setError("Impossible de relire ce run MySQL.");
+      setStatus("error");
+      return;
+    }
+    const stored = (await res.json()) as {
+      id: string;
+      status: string;
+      error_message: string | null;
+      findings: Finding[];
+      stages: { id: StageId; status: StageState["status"]; intent: string | null; summary: string | null }[];
+      result: AgentResult | null;
+    };
+    setRunId(stored.id);
+    setFile(null);
+    setError(stored.error_message);
+    setResult(stored.result);
+    setStages(
+      DEFAULT_STAGES.map((def) => {
+        const log = stored.stages.find((s) => s.id === def.id);
+        return {
+          ...def,
+          status: log?.status ?? (stored.result ? "done" : "idle"),
+          intent: log?.intent ?? undefined,
+          summary: log?.summary ?? undefined,
+          findings: stored.findings.filter((f) => f.stage === def.id),
+        };
+      })
+    );
+    setStatus(stored.status === "error" ? "error" : stored.result ? "done" : "running");
+    setSelectedId("report");
+    setTab(stored.result ? "report" : "workflow");
   };
 
   const findingsAll = useMemo(
@@ -208,6 +285,9 @@ export function Workbench() {
             </div>
           </div>
           <div className="flex items-center gap-2">
+            <span className={`text-xs ${dbError ? "text-destructive" : "text-muted-foreground"}`}>
+              {dbError ? "MySQL hors ligne" : `MySQL · ${runs.length} run${runs.length > 1 ? "s" : ""}`}
+            </span>
             {status !== "idle" ? (
               <Button variant="ghost" size="sm" onClick={reset}>
                 Nouveau run
@@ -219,13 +299,21 @@ export function Workbench() {
 
       <div className="mx-auto flex w-full max-w-7xl flex-1 flex-col gap-6 px-4 py-6 lg:flex-row">
         {status === "idle" && !file ? (
-          <IdleHero
-            onFile={onFile}
-            onSample={loadSample}
-            dragOver={dragOver}
-            setDragOver={setDragOver}
-            error={error}
-          />
+          <div className="flex w-full flex-col gap-8">
+            <IdleHero
+              onFile={onFile}
+              onSample={loadSample}
+              dragOver={dragOver}
+              setDragOver={setDragOver}
+              error={error}
+            />
+            <RunHistory
+              runs={runs}
+              dbVersion={dbVersion}
+              dbError={dbError}
+              onOpen={(id) => void openStoredRun(id)}
+            />
+          </div>
         ) : (
           <>
             <aside className="lg:w-72 lg:shrink-0">
@@ -233,6 +321,11 @@ export function Workbench() {
                 Workflow
               </p>
               <WorkflowRail stages={stages} selectedId={selectedId} onSelect={setSelectedId} />
+              {runId ? (
+                <p className="mt-3 font-mono text-[11px] break-all text-muted-foreground">
+                  run {runId}
+                </p>
+              ) : null}
               {status === "running" ? (
                 <p className="mt-4 text-xs text-muted-foreground">
                   {doneCount}/{stages.length} étapes · les faits affichés sont les décisions
