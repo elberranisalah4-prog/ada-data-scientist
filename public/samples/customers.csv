@@ -1,0 +1,1409 @@
+client_id,age,genre,anciennete_mois,facture_mensuelle,facture_totale,type_contrat,service_internet,moyen_paiement,tickets_support,region,offre_promo,senior,facture_electronique,dernier_contact_jours,churn
+C100353,45.0,Femme,41,30.78,1126.09,Mensuel,DSL,Carte bancaire,2,Hauts-de-France,0,0,1,12,Oui
+C100864,72.0,Homme,38,61.04,2115.34,Mensuel,Aucun,Prélèvement,2,Grand Est,0,1,1,20,Oui
+C101161,,Autre,58,49.68,2891.79,Mensuel,Fibre,Carte bancaire,0,Occitanie,0,0,1,23,Non
+C100192,56.0,Femme,1,78.61,77.59,Mensuel,DSL,Carte bancaire,2,Nouvelle-Aquitaine,1,0,1,20,Oui
+C100782,25.0,Homme,14,60.51,882.58,Mensuel,Fibre,Virement,2,Occitanie,1,0,1,31,Oui
+C100529,76.0,Femme,48,113.18,5434.37,Mensuel,Fibre,Carte bancaire,0,Occitanie,0,1,1,27,Oui
+C100261,28.0,Femme,25,30.61,715.9,Mensuel,Fibre,Prélèvement,1,Nouvelle-Aquitaine,1,0,1,7,Oui
+C100067,41.0,Femme,67,35.67,2546.58,Mensuel,Aucun,Prélèvement,1,Nouvelle-Aquitaine,1,0,1,2,Non
+C100990,,Homme,53,57.49,2952.07,Mensuel,DSL,Carte bancaire,2,Île-de-France,0,0,1,22,Oui
+C100051,30.0,Femme,28,40.35,1136.26,Mensuel,Fibre,Carte bancaire,0,Île-de-France,1,0,0,17,Non
+C100231,72.0,Femme,7,18.5,119.8,Mensuel,Aucun,Virement,0,Occitanie,0,1,0,47,Non
+C100309,24.0,Femme,70,72.78,4772.19,Biennal,Fibre,Prélèvement,1,Occitanie,0,0,0,11,Non
+C101047,56.0,Homme,68,27.24,1737.49,Annuel,Fibre,Carte bancaire,0,Provence-Alpes-Côte d'Azur,1,0,1,36,Non
+C101227,81.0,Homme,11,37.56,424.0,Annuel,Aucun,Carte bancaire,1,Provence-Alpes-Côte d'Azur,0,1,1,16,Oui
+C100471,69.0,Homme,50,85.11,4090.39,Annuel,Fibre,Prélèvement,3,Auvergne-Rhône-Alpes,0,1,1,5,Non
+C100852,79.0,Femme,70,29.59,,Mensuel,DSL,Prélèvement,0,Nouvelle-Aquitaine,0,1,0,21,Non
+C100817,24.0,Homme,39,32.14,1173.19,Mensuel,DSL,Carte bancaire,2,Occitanie,0,0,0,8,Non
+C100485,32.0,Homme,53,79.95,4039.83,Annuel,Fibre,Carte bancaire,2,Hauts-de-France,0,0,1,50,Non
+C101249,80.0,Homme,13,74.99,870.47,Annuel,Fibre,Carte bancaire,1,Auvergne-Rhône-Alpes,1,1,1,12,Non
+C100599,59.0,Femme,40,88.14,,Annuel,DSL,Virement,2,Hauts-de-France,0,0,1,9,Non
+C100451,77.0,Homme,71,59.76,4250.53,Mensuel,Aucun,Virement,0,Auvergne-Rhône-Alpes,0,1,0,18,Non
+C100818,60.0,Femme,57,102.52,5892.44,Mensuel,DSL,Carte bancaire,2,Provence-Alpes-Côte d'Azur,0,0,1,28,Non
+C100477,19.0,Femme,41,18.5,720.4,Mensuel,Fibre,Carte bancaire,2,Occitanie,0,0,1,6,Non
+C100070,68.0,Femme,58,83.81,4681.82,Annuel,Aucun,Virement,2,Provence-Alpes-Côte d'Azur,0,1,0,32,Oui
+C101226,24.0,Femme,60,54.05,2991.7,Annuel,Aucun,Prélèvement,0,Nouvelle-Aquitaine,0,0,1,16,Non
+C100796,79.0,Homme,54,69.44,3886.7,Biennal,Fibre,Chèque électronique,1,Grand Est,1,1,1,22,Non
+C101100,48.0,Homme,5,57.6,298.48,Mensuel,DSL,Prélèvement,0,Île-de-France,0,0,1,18,Oui
+C101296,34.0,Femme,56,58.09,3392.95,Annuel,Aucun,Carte bancaire,0,Provence-Alpes-Côte d'Azur,0,0,0,20,Non
+C100486,39.0,Femme,69,62.21,4416.76,Annuel,Fibre,Carte bancaire,0,Île-de-France,0,0,1,37,Non
+C100598,58.0,Homme,29,86.03,2616.15,Annuel,Aucun,Carte bancaire,1,Nouvelle-Aquitaine,0,0,0,27,Non
+C100430,23.0,Autre,11,80.15,857.26,Mensuel,Fibre,Prélèvement,0,Île-de-France,0,0,1,19,Oui
+C101346,72.0,Femme,12,74.93,,Mensuel,Aucun,Prélèvement,2,Occitanie,0,1,1,20,Non
+C100945,25.0,Femme,55,59.19,3001.42,Annuel,Aucun,Chèque électronique,1,Grand Est,0,0,1,20,Non
+C101202,81.0,Homme,49,63.18,2929.92,Biennal,Fibre,Carte bancaire,1,Île-de-France,0,1,0,71,Non
+C100078,54.0,Homme,53,116.0,6598.95,Mensuel,Fibre,Chèque électronique,0,Occitanie,0,0,1,5,Non
+C100665,62.0,Homme,43,26.83,1107.0,Annuel,Fibre,Prélèvement,3,Occitanie,0,0,1,30,Oui
+C100660,29.0,Homme,5,104.01,536.68,Mensuel,DSL,Prélèvement,1,Île-de-France,0,0,0,95,Non
+C100560,52.0,Femme,70,546.19,6306.41,Mensuel,DSL,Chèque électronique,1,Auvergne-Rhône-Alpes,0,0,1,4,Non
+C100237,45.0,Femme,69,74.35,4867.56,Mensuel,Fibre,Carte bancaire,2,Provence-Alpes-Côte d'Azur,1,0,1,10,Non
+C100029,46.0,Homme,2,84.52,161.61,Annuel,Fibre,Prélèvement,1,Hauts-de-France,0,0,0,23,Non
+C101263,70.0,Femme,22,65.19,1454.11,Annuel,DSL,Prélèvement,0,Provence-Alpes-Côte d'Azur,1,1,1,84,Non
+C101055,81.0,Homme,25,85.04,1905.12,Mensuel,Aucun,Chèque électronique,2,Auvergne-Rhône-Alpes,0,1,1,56,Oui
+C101049,25.0,Femme,42,43.28,1744.41,Mensuel,Aucun,Chèque électronique,0,Auvergne-Rhône-Alpes,1,0,0,29,Non
+C100316,64.0,Homme,26,66.43,1779.5,Mensuel,Fibre,Prélèvement,1,Auvergne-Rhône-Alpes,1,0,0,8,Non
+C101245,81.0,Homme,26,46.1,1066.93,Mensuel,Fibre,Carte bancaire,0,Hauts-de-France,1,1,1,24,Non
+C100367,38.0,Homme,51,18.5,857.1,Mensuel,Fibre,Virement,0,Occitanie,0,0,1,95,Non
+C100049,67.0,Homme,28,107.92,3126.35,Mensuel,Aucun,Virement,2,Île-de-France,0,1,0,5,Non
+C101246,,Femme,49,40.24,1898.79,Mensuel,Aucun,Virement,2,Île-de-France,0,1,0,58,Oui
+C100887,30.0,Homme,18,62.71,1094.02,Biennal,Fibre,Prélèvement,2,Provence-Alpes-Côte d'Azur,0,0,1,34,Non
+C100494,36.0,Homme,51,112.66,5428.39,Mensuel,Fibre,Carte bancaire,2,Grand Est,0,0,0,44,Non
+C101177,30.0,Femme,19,68.55,1332.41,Mensuel,DSL,Virement,3,Nouvelle-Aquitaine,0,0,1,70,Oui
+C100816,20.0,Femme,5,75.89,384.38,Mensuel,DSL,Prélèvement,3,Nouvelle-Aquitaine,0,0,0,17,Non
+C100983,59.0,Femme,65,76.84,4448.17,Mensuel,DSL,Virement,0,Grand Est,1,0,0,34,Non
+C100350,52.0,Homme,4,80.28,305.4,Mensuel,Fibre,Chèque électronique,0,Île-de-France,0,0,1,10,Oui
+C100076,39.0,Homme,5,66.18,318.13,Mensuel,Fibre,Prélèvement,0,Auvergne-Rhône-Alpes,1,0,0,24,Non
+C100823,59.0,Homme,31,109.61,3545.01,Biennal,DSL,Carte bancaire,2,Île-de-France,0,0,1,11,Oui
+C100998,79.0,Homme,41,86.84,3633.64,Mensuel,DSL,Chèque électronique,0,Provence-Alpes-Côte d'Azur,0,1,1,1,Oui
+C100787,61.0,Femme,67,93.94,6425.11,Mensuel,Fibre,Prélèvement,1,Provence-Alpes-Côte d'Azur,1,0,1,4,Non
+C100778,35.0,Femme,67,44.11,2620.47,Annuel,Aucun,Carte bancaire,0,Grand Est,0,0,1,16,Non
+C100861,77.0,Homme,45,74.71,3295.45,Biennal,Fibre,Carte bancaire,0,Auvergne-Rhône-Alpes,0,1,1,18,Non
+C100630,65.0,Homme,26,95.96,2369.9,Annuel,DSL,Prélèvement,0,Provence-Alpes-Côte d'Azur,0,1,0,4,Oui
+C100044,22.0,Homme,26,24.85,624.1,Mensuel,DSL,Carte bancaire,0,Île-de-France,0,0,1,11,Non
+C101103,27.0,Homme,31,103.06,3250.47,Mensuel,Fibre,Carte bancaire,1,Hauts-de-France,0,0,1,45,Oui
+C101073,51.0,Homme,34,86.2,3019.19,Mensuel,Aucun,Carte bancaire,2,Provence-Alpes-Côte d'Azur,0,0,1,22,Non
+C101101,48.0,Homme,72,33.21,2307.5,Annuel,DSL,Prélèvement,1,Provence-Alpes-Côte d'Azur,0,0,0,21,Non
+C100461,26.0,Homme,42,72.82,2704.77,Annuel,Aucun,Virement,0,Nouvelle-Aquitaine,0,0,1,19,Non
+C100239,58.0,Femme,23,80.06,1770.81,Annuel,Fibre,Carte bancaire,1,Grand Est,0,0,0,10,Non
+C100247,44.0,Homme,14,61.24,781.44,Annuel,DSL,Carte bancaire,0,Occitanie,0,0,1,21,Non
+C100651,59.0,Homme,53,55.77,3045.62,Mensuel,DSL,Prélèvement,1,Hauts-de-France,0,0,1,49,Non
+C100558,68.0,Homme,33,70.49,2054.63,Annuel,Fibre,Prélèvement,0,Provence-Alpes-Côte d'Azur,0,1,1,10,Oui
+C100847,21.0,Homme,46,122.56,6026.99,Mensuel,Aucun,Chèque électronique,0,Nouvelle-Aquitaine,0,0,0,29,Non
+C100303,75.0,Femme,56,84.38,5076.77,Annuel,DSL,Prélèvement,1,Occitanie,1,1,0,13,Non
+C100198,39.0,Femme,6,76.89,407.76,Biennal,Fibre,Virement,1,Grand Est,1,0,1,42,Non
+C101392,80.0,Homme,39,67.7,2603.22,Mensuel,DSL,Prélèvement,2,Grand Est,0,1,0,71,Non
+C100413,26.0,Homme,38,57.86,2006.81,Annuel,DSL,Virement,2,Grand Est,0,0,1,28,Non
+C100829,19.0,Femme,17,623.89,1282.65,Mensuel,Fibre,Carte bancaire,0,Grand Est,1,0,1,43,Non
+C100365,51.0,Autre,25,45.28,1148.27,Annuel,DSL,Carte bancaire,2,Grand Est,0,0,1,3,Non
+C100233,66.0,Homme,9,100.05,868.01,Mensuel,Fibre,Prélèvement,2,Occitanie,0,1,0,64,Oui
+C100915,47.0,Femme,19,35.21,652.33,Biennal,Aucun,Chèque électronique,1,Auvergne-Rhône-Alpes,0,0,1,12,Non
+C100605,52.0,Homme,55,76.12,3911.67,Annuel,DSL,Virement,2,Auvergne-Rhône-Alpes,0,0,1,7,Oui
+C100549,61.0,Homme,27,25.69,639.28,Mensuel,Fibre,Virement,2,Occitanie,0,0,1,13,Oui
+C100820,19.0,Femme,64,70.08,3968.04,Annuel,Aucun,Virement,0,Auvergne-Rhône-Alpes,0,0,1,57,Non
+C100275,48.0,Homme,24,86.3,2055.49,Biennal,DSL,Carte bancaire,1,Auvergne-Rhône-Alpes,0,0,1,11,Non
+C100259,55.0,Homme,48,52.78,,Mensuel,Aucun,Prélèvement,1,Occitanie,0,0,0,20,Non
+C100043,40.0,Femme,3,68.35,212.0,Mensuel,DSL,Carte bancaire,0,Auvergne-Rhône-Alpes,1,0,1,69,Oui
+C101330,46.0,Femme,43,24.17,1056.05,Annuel,Fibre,Prélèvement,1,Nouvelle-Aquitaine,0,0,0,19,Non
+C100933,59.0,Homme,3,41.19,132.98,Annuel,DSL,Chèque électronique,0,Hauts-de-France,0,0,0,24,Non
+C101366,37.0,Homme,16,79.19,1122.41,Mensuel,DSL,Prélèvement,0,Nouvelle-Aquitaine,1,0,0,54,Non
+C100339,78.0,Femme,63,63.8,3775.34,Mensuel,Fibre,Carte bancaire,1,Grand Est,0,1,1,15,Non
+C100371,60.0,Homme,7,28.05,174.82,Annuel,Aucun,Virement,1,Nouvelle-Aquitaine,1,0,1,31,Non
+C100634,29.0,Homme,71,52.32,3381.34,Mensuel,Fibre,Chèque électronique,1,Occitanie,0,0,1,19,Oui
+C100669,26.0,Femme,51,18.5,933.25,Biennal,DSL,Carte bancaire,3,Occitanie,1,0,1,45,Oui
+C100428,19.0,Homme,55,84.13,,Annuel,Fibre,Carte bancaire,0,Provence-Alpes-Côte d'Azur,1,0,0,30,Non
+C100481,71.0,Femme,13,157.83,1930.95,Mensuel,Fibre,Carte bancaire,1,Île-de-France,0,1,1,8,Oui
+C101001,65.0,Autre,30,108.8,3235.66,Mensuel,Fibre,Carte bancaire,0,Occitanie,0,1,0,15,Non
+C100756,65.0,Femme,12,68.67,838.22,Mensuel,Aucun,Carte bancaire,0,Nouvelle-Aquitaine,0,1,0,49,Non
+C100101,30.0,Femme,48,73.49,3577.24,Biennal,DSL,Virement,0,Nouvelle-Aquitaine,0,0,1,21,Non
+C100322,57.0,Autre,39,99.55,,Mensuel,DSL,Carte bancaire,1,Auvergne-Rhône-Alpes,0,0,0,14,Non
+C100065,38.0,Femme,72,72.66,4854.79,Mensuel,DSL,Carte bancaire,2,Occitanie,0,0,1,11,Non
+C100351,20.0,Femme,3,77.57,243.66,Annuel,DSL,Chèque électronique,2,Occitanie,0,0,0,20,Non
+C101211,68.0,Femme,34,117.64,3958.93,Mensuel,DSL,Carte bancaire,4,Occitanie,1,1,1,3,Non
+C100115,54.0,Homme,20,38.46,801.39,Mensuel,DSL,Carte bancaire,0,Provence-Alpes-Côte d'Azur,1,0,0,8,Non
+C100464,18.0,Femme,23,61.16,1239.73,Mensuel,DSL,Prélèvement,0,Occitanie,1,0,1,28,Non
+C101119,49.0,Homme,17,75.99,1293.54,Mensuel,Fibre,Carte bancaire,0,Provence-Alpes-Côte d'Azur,1,0,0,19,Non
+C100361,75.0,Homme,31,52.92,1663.58,Biennal,Fibre,Carte bancaire,0,Occitanie,0,1,1,7,Non
+C101032,64.0,Homme,22,103.03,2067.21,Mensuel,Fibre,Carte bancaire,4,Île-de-France,0,0,1,27,Oui
+C101078,44.0,Femme,28,67.15,1937.48,Mensuel,Fibre,Virement,0,Nouvelle-Aquitaine,1,0,1,15,Non
+C101157,72.0,Femme,54,64.8,3490.4,Biennal,Fibre,Chèque électronique,3,Hauts-de-France,0,1,0,28,Non
+C100032,23.0,Femme,44,54.2,2432.96,Mensuel,DSL,Carte bancaire,1,Provence-Alpes-Côte d'Azur,1,0,1,9,Non
+C100591,75.0,Homme,72,98.83,6959.36,Annuel,Fibre,Carte bancaire,0,Île-de-France,0,1,1,11,Non
+C100358,23.0,Homme,55,95.03,4840.73,Biennal,Fibre,Carte bancaire,2,Occitanie,0,0,1,16,Non
+C100168,39.0,Femme,67,80.49,5476.47,Annuel,Fibre,Prélèvement,0,Île-de-France,0,0,1,13,Non
+C100220,26.0,Femme,52,84.82,4595.04,Mensuel,Fibre,Prélèvement,2,Provence-Alpes-Côte d'Azur,0,0,0,22,Non
+C100342,57.0,Homme,67,120.98,7240.0,Biennal,Aucun,Prélèvement,4,Auvergne-Rhône-Alpes,0,0,0,19,Non
+C100346,81.0,Femme,43,89.59,3626.25,Annuel,Aucun,Carte bancaire,1,Occitanie,0,1,0,2,Non
+C100218,46.0,Femme,52,110.91,5522.36,Mensuel,Fibre,Prélèvement,1,Hauts-de-France,0,0,1,24,Oui
+C100415,61.0,Femme,32,66.32,1900.22,Annuel,Fibre,Prélèvement,2,Île-de-France,0,0,1,32,Oui
+C100184,49.0,Femme,28,89.76,2483.4,Mensuel,Aucun,Carte bancaire,2,Provence-Alpes-Côte d'Azur,0,0,1,31,Oui
+C101376,79.0,Autre,42,58.82,2551.13,Annuel,Aucun,,0,Hauts-de-France,0,1,0,33,Non
+C100793,70.0,Homme,40,81.36,2956.33,Mensuel,Fibre,Virement,1,Grand Est,0,1,0,33,Oui
+C100679,77.0,Femme,55,49.03,,Annuel,Fibre,Prélèvement,1,Hauts-de-France,0,1,1,9,Non
+C101067,59.0,Femme,46,107.51,5248.38,Mensuel,Aucun,Carte bancaire,2,Nouvelle-Aquitaine,1,0,0,20,Non
+C100994,51.0,Homme,27,60.27,1464.65,Annuel,Aucun,Carte bancaire,2,Nouvelle-Aquitaine,0,0,1,13,Non
+C100566,32.0,Femme,42,59.55,2215.94,Annuel,DSL,Virement,0,Île-de-France,1,0,1,12,Non
+C100869,20.0,Homme,69,29.86,1852.51,Annuel,DSL,Chèque électronique,1,Occitanie,1,0,0,46,Non
+C101133,66.0,Femme,65,59.44,3791.24,Mensuel,Fibre,Prélèvement,0,Auvergne-Rhône-Alpes,0,1,1,26,Non
+C101363,30.0,Femme,8,73.76,,Mensuel,Fibre,Virement,1,Auvergne-Rhône-Alpes,1,0,0,13,Non
+C101179,19.0,Homme,37,70.69,2817.96,Annuel,Aucun,Chèque électronique,2,Occitanie,1,0,0,26,Non
+C100629,41.0,Femme,36,44.4,1661.16,Annuel,Aucun,Prélèvement,1,Nouvelle-Aquitaine,1,0,0,27,Non
+C100265,55.0,Femme,7,69.19,493.24,Mensuel,Fibre,Prélèvement,3,Île-de-France,0,0,1,45,Oui
+C100636,33.0,Femme,10,76.61,,Mensuel,Fibre,Chèque électronique,2,Occitanie,0,0,1,106,Oui
+C100619,26.0,Homme,68,87.92,6017.26,Biennal,DSL,Chèque électronique,1,Île-de-France,0,0,0,80,Non
+C101358,24.0,Femme,38,18.5,688.88,Mensuel,DSL,Prélèvement,1,Île-de-France,0,0,1,35,Oui
+C100618,21.0,Homme,39,89.77,,Mensuel,DSL,Prélèvement,0,Provence-Alpes-Côte d'Azur,0,0,0,37,Non
+C100944,26.0,Femme,47,39.94,1791.03,Mensuel,Fibre,Prélèvement,0,Grand Est,0,0,1,54,Non
+C100063,79.0,Femme,55,85.08,4673.45,Mensuel,Aucun,Prélèvement,1,Nouvelle-Aquitaine,0,1,0,29,Non
+C100254,60.0,Homme,45,68.47,3225.15,Annuel,DSL,Chèque électronique,1,Hauts-de-France,0,0,1,1,Non
+C101033,38.0,Femme,15,108.57,1656.65,Mensuel,Fibre,Carte bancaire,4,Auvergne-Rhône-Alpes,1,0,1,31,Non
+C101102,76.0,Femme,13,48.25,553.36,Annuel,DSL,Carte bancaire,0,Nouvelle-Aquitaine,1,1,0,49,Non
+C100240,26.0,Femme,24,72.67,1578.86,Mensuel,Fibre,Chèque électronique,1,Hauts-de-France,0,0,0,39,Oui
+C101005,76.0,Autre,33,39.9,1346.15,Mensuel,Fibre,Prélèvement,3,Occitanie,1,1,0,41,Non
+C100163,44.0,Homme,70,110.54,7816.14,Annuel,Aucun,Carte bancaire,2,Auvergne-Rhône-Alpes,0,0,1,11,Non
+C100706,18.0,Homme,21,115.91,2498.61,Mensuel,Aucun,Chèque électronique,0,Île-de-France,1,0,1,45,Oui
+C100030,46.0,Femme,6,88.25,516.72,Mensuel,Aucun,Virement,2,Occitanie,0,0,1,28,Non
+C100244,58.0,Femme,54,78.72,4097.04,Annuel,Fibre,Prélèvement,1,Grand Est,1,0,1,41,Non
+C101141,39.0,Homme,45,50.4,2211.15,Mensuel,Fibre,Chèque électronique,2,Nouvelle-Aquitaine,0,0,1,46,Oui
+C100543,29.0,Femme,24,87.73,2233.29,Mensuel,Fibre,Chèque électronique,2,Occitanie,0,0,1,13,Oui
+C101208,36.0,Homme,41,64.15,2837.22,Mensuel,Fibre,Virement,1,Grand Est,1,0,0,11,Non
+C100582,,Femme,25,47.49,1261.79,Biennal,Aucun,Chèque électronique,0,Auvergne-Rhône-Alpes,0,0,1,6,Non
+C101373,44.0,Homme,50,45.87,2361.39,Mensuel,Aucun,Chèque électronique,3,Nouvelle-Aquitaine,0,0,1,18,Non
+C101265,,Femme,40,29.64,1117.97,Annuel,Aucun,,0,Hauts-de-France,0,0,1,81,Non
+C100809,81.0,Homme,20,114.07,2172.62,Mensuel,Fibre,Prélèvement,1,Hauts-de-France,0,1,0,19,Oui
+C100677,23.0,Homme,32,55.37,1589.2,Biennal,DSL,Chèque électronique,1,Hauts-de-France,0,0,0,8,Non
+C100551,43.0,Femme,11,63.37,665.51,Mensuel,DSL,Chèque électronique,3,Provence-Alpes-Côte d'Azur,0,0,1,48,Oui
+C100743,35.0,Femme,63,101.97,5843.36,Mensuel,Aucun,Chèque électronique,0,Hauts-de-France,0,0,0,44,Non
+C101010,35.0,Homme,8,52.76,382.13,Annuel,Fibre,Chèque électronique,0,Hauts-de-France,0,0,0,15,Non
+C100621,48.0,Femme,50,48.8,2603.51,Mensuel,Fibre,Prélèvement,0,Occitanie,1,0,1,41,Non
+C100363,75.0,Homme,14,73.84,988.51,Annuel,Aucun,Prélèvement,0,Occitanie,0,1,1,32,Non
+C101138,65.0,Homme,29,63.92,1931.63,Mensuel,Aucun,Prélèvement,1,Nouvelle-Aquitaine,0,1,0,35,Non
+C101256,32.0,Homme,12,80.88,924.37,Mensuel,Fibre,Virement,2,Auvergne-Rhône-Alpes,0,0,1,22,Oui
+C100824,57.0,Homme,63,70.9,4503.05,Annuel,DSL,Prélèvement,1,Hauts-de-France,0,0,1,49,Non
+C100552,71.0,Femme,59,65.32,3741.43,Mensuel,Fibre,Carte bancaire,0,Occitanie,0,1,0,13,Non
+C100798,38.0,Femme,49,80.01,3631.28,Biennal,Fibre,Carte bancaire,1,Grand Est,1,0,1,16,Non
+C101389,76.0,Femme,61,114.16,6962.47,Mensuel,DSL,Prélèvement,0,Hauts-de-France,0,1,0,21,Non
+C100890,24.0,Femme,64,100.11,6806.69,Mensuel,Fibre,Prélèvement,0,Occitanie,0,0,0,17,Non
+C100203,62.0,Femme,68,78.81,5643.51,Annuel,Fibre,Carte bancaire,1,Nouvelle-Aquitaine,1,0,1,11,Non
+C100661,65.0,Femme,60,62.1,3810.28,Annuel,Aucun,Prélèvement,1,Occitanie,1,1,1,8,Oui
+C100583,21.0,Homme,55,56.77,2882.53,Mensuel,DSL,Chèque électronique,1,Occitanie,1,0,0,17,Non
+C101381,36.0,Femme,61,103.63,6421.41,Mensuel,Fibre,Prélèvement,2,Grand Est,0,0,1,106,Oui
+C100923,27.0,Femme,49,28.82,1246.74,Mensuel,DSL,Chèque électronique,2,Grand Est,0,0,1,12,Oui
+C100479,24.0,Femme,5,43.12,200.93,Mensuel,Aucun,Carte bancaire,2,Nouvelle-Aquitaine,0,0,1,23,Oui
+C100532,27.0,Femme,55,74.3,3847.3,Mensuel,Fibre,Chèque électronique,1,Nouvelle-Aquitaine,0,0,1,21,Non
+C101378,50.0,Femme,33,59.62,2080.03,Annuel,Aucun,Prélèvement,0,Occitanie,1,0,1,22,Non
+C100422,67.0,Homme,60,91.2,5601.51,Annuel,DSL,Carte bancaire,3,Auvergne-Rhône-Alpes,1,1,0,62,Non
+C100650,49.0,Homme,67,54.47,3696.68,Annuel,Fibre,Carte bancaire,2,Provence-Alpes-Côte d'Azur,1,0,1,20,Non
+C101192,28.0,Homme,58,123.07,6686.15,Mensuel,Aucun,Chèque électronique,0,Occitanie,0,0,1,24,Oui
+C101093,43.0,Homme,53,19.27,1008.82,Mensuel,DSL,Carte bancaire,2,Île-de-France,0,0,1,23,Oui
+C100058,65.0,Femme,44,80.75,3832.15,Annuel,Aucun,Prélèvement,1,Provence-Alpes-Côte d'Azur,0,1,1,39,Non
+C101140,74.0,Femme,22,85.46,1988.63,Mensuel,Fibre,Prélèvement,3,Occitanie,0,1,0,18,Non
+C100271,19.0,Femme,64,99.77,6003.82,Biennal,Fibre,Carte bancaire,2,Auvergne-Rhône-Alpes,0,0,1,20,Non
+C101146,52.0,Femme,36,115.14,4462.08,Mensuel,DSL,Prélèvement,0,Occitanie,1,0,0,23,Non
+C100023,77.0,Homme,39,18.5,656.92,Biennal,Fibre,Chèque électronique,2,Grand Est,0,1,0,12,Non
+C100107,60.0,Femme,58,65.69,3653.61,Mensuel,Fibre,Virement,3,Occitanie,1,0,1,50,Non
+C100949,35.0,Homme,40,64.01,2468.86,Mensuel,Fibre,Chèque électronique,1,Nouvelle-Aquitaine,0,0,1,11,Non
+C101006,72.0,Femme,51,19.31,894.23,Annuel,Fibre,Prélèvement,2,Grand Est,0,1,0,14,Non
+C101200,74.0,Homme,62,64.85,3969.93,Annuel,DSL,Chèque électronique,0,Hauts-de-France,0,1,1,50,Non
+C100638,68.0,Homme,62,60.66,3998.32,Mensuel,Fibre,Prélèvement,0,Île-de-France,0,1,0,22,Non
+C100982,53.0,Homme,46,90.41,4090.3,Biennal,Fibre,,1,Auvergne-Rhône-Alpes,0,0,0,62,Non
+C100462,65.0,Homme,12,82.81,1067.41,Mensuel,Fibre,Chèque électronique,2,Occitanie,1,1,1,29,Non
+C101096,71.0,Homme,1,103.32,99.08,Mensuel,Aucun,Carte bancaire,1,Nouvelle-Aquitaine,0,1,1,17,Oui
+C101359,41.0,Femme,10,18.5,,Mensuel,Fibre,Virement,0,Occitanie,1,0,1,38,Oui
+C101087,81.0,Homme,63,69.81,4148.3,Biennal,DSL,Chèque électronique,0,Provence-Alpes-Côte d'Azur,0,1,0,27,Non
+C101166,19.0,Homme,7,70.17,477.88,Mensuel,Fibre,Prélèvement,0,Occitanie,0,0,1,18,Non
+C100722,72.0,Femme,40,63.2,2268.09,Mensuel,Fibre,Virement,2,Provence-Alpes-Côte d'Azur,0,1,0,27,Oui
+C100885,65.0,Homme,25,51.77,1336.43,Mensuel,Fibre,Prélèvement,0,Hauts-de-France,0,1,0,28,Oui
+C101188,54.0,Homme,36,56.71,1979.49,Biennal,Fibre,Chèque électronique,2,Île-de-France,0,0,1,43,Non
+C100628,50.0,Femme,67,95.75,6520.67,Biennal,DSL,Chèque électronique,0,Île-de-France,0,0,1,49,Non
+C100196,39.0,Femme,22,96.06,1970.81,Annuel,Fibre,Prélèvement,2,Hauts-de-France,0,0,0,7,Oui
+C100370,39.0,Homme,50,67.03,3482.21,Biennal,Fibre,Prélèvement,2,Provence-Alpes-Côte d'Azur,0,0,0,10,Non
+C100128,54.0,Homme,4,62.73,258.97,Mensuel,Aucun,Virement,0,Grand Est,1,0,0,23,Non
+C101186,27.0,Femme,17,79.85,1276.97,Mensuel,Fibre,Carte bancaire,4,Île-de-France,1,0,1,13,Non
+C100081,45.0,Homme,65,39.86,2339.38,Mensuel,Fibre,Chèque électronique,0,Île-de-France,0,0,0,14,Non
+C101320,25.0,Homme,32,27.27,808.24,Biennal,Fibre,Prélèvement,1,Auvergne-Rhône-Alpes,0,0,1,43,Oui
+C100354,80.0,Femme,52,72.09,3322.01,Mensuel,Fibre,Chèque électronique,0,Île-de-France,0,1,1,24,Oui
+C101091,46.0,Femme,64,63.36,4121.71,Annuel,Fibre,Prélèvement,1,Provence-Alpes-Côte d'Azur,0,0,0,10,Non
+C100208,34.0,Femme,19,21.92,399.53,Mensuel,Aucun,Chèque électronique,0,Auvergne-Rhône-Alpes,0,0,0,26,Oui
+C100939,50.0,Homme,72,61.03,4111.45,Mensuel,Aucun,Chèque électronique,1,Provence-Alpes-Côte d'Azur,1,0,1,24,Non
+C100111,67.0,Femme,62,96.74,6376.6,Mensuel,DSL,Virement,1,Provence-Alpes-Côte d'Azur,0,1,1,13,Non
+C101203,66.0,Femme,39,82.41,3046.05,Mensuel,Fibre,Carte bancaire,1,Île-de-France,0,1,0,42,Non
+C100917,68.0,Homme,34,126.08,3975.63,Annuel,DSL,Carte bancaire,0,Occitanie,0,1,1,35,Non
+C101063,63.0,Femme,36,59.44,1892.31,Mensuel,Aucun,Virement,4,Grand Est,0,0,0,65,Oui
+C100597,67.0,Femme,9,77.91,706.08,Mensuel,DSL,Chèque électronique,0,Île-de-France,0,1,0,13,Oui
+C101288,24.0,Autre,62,55.29,3555.74,Mensuel,Fibre,,1,Auvergne-Rhône-Alpes,0,0,1,68,Non
+C100855,72.0,Homme,65,53.92,3430.26,Mensuel,Fibre,Carte bancaire,3,Île-de-France,0,1,1,31,Non
+C100581,71.0,Femme,43,63.57,2512.55,Biennal,Aucun,Carte bancaire,1,Occitanie,0,1,1,4,Non
+C100535,27.0,Femme,31,84.99,2370.4,Mensuel,DSL,Carte bancaire,0,Grand Est,0,0,1,29,Oui
+C100175,47.0,Homme,43,116.99,4701.06,Annuel,Fibre,Carte bancaire,5,Hauts-de-France,0,0,1,19,Oui
+C100730,64.0,Homme,2,47.04,88.37,Mensuel,DSL,Prélèvement,0,Provence-Alpes-Côte d'Azur,0,0,0,46,Oui
+C100974,27.0,Homme,15,102.7,1489.15,Annuel,Fibre,Carte bancaire,2,Auvergne-Rhône-Alpes,0,0,1,27,Non
+C100522,30.0,Homme,69,18.5,1239.73,Annuel,Fibre,Carte bancaire,1,Nouvelle-Aquitaine,0,0,0,10,Non
+C100297,46.0,Femme,28,71.71,1787.78,Mensuel,DSL,Carte bancaire,2,Auvergne-Rhône-Alpes,1,0,0,9,Non
+C100439,43.0,Homme,67,43.77,3154.12,Mensuel,Fibre,Virement,3,Auvergne-Rhône-Alpes,0,0,1,36,Non
+C101313,,Femme,63,67.12,4436.83,Mensuel,Fibre,Carte bancaire,3,Provence-Alpes-Côte d'Azur,0,1,0,9,Non
+C100270,36.0,Femme,29,18.5,526.85,Mensuel,Aucun,Carte bancaire,0,Provence-Alpes-Côte d'Azur,0,0,0,15,Non
+C100899,57.0,Femme,22,39.88,789.32,Mensuel,Aucun,Prélèvement,1,Grand Est,1,0,0,37,Non
+C101252,22.0,Homme,61,110.45,6644.73,Mensuel,DSL,Prélèvement,3,Auvergne-Rhône-Alpes,0,0,0,19,Non
+C101036,75.0,Homme,41,72.57,2981.3,Annuel,Fibre,Carte bancaire,1,Nouvelle-Aquitaine,0,1,1,77,Non
+C100538,52.0,Femme,26,39.9,1103.72,Mensuel,Fibre,Carte bancaire,0,Île-de-France,1,0,0,7,Oui
+C101397,59.0,Homme,49,81.47,3965.76,Biennal,Fibre,Carte bancaire,1,Île-de-France,0,0,1,30,Non
+C100925,78.0,Homme,54,67.72,3642.81,Annuel,Fibre,Carte bancaire,1,Grand Est,0,1,1,8,Non
+C101196,63.0,Homme,68,47.87,2969.04,Mensuel,Fibre,Carte bancaire,0,Auvergne-Rhône-Alpes,1,0,0,29,Non
+C100984,55.0,Femme,57,58.99,3314.29,Mensuel,Fibre,Chèque électronique,1,Nouvelle-Aquitaine,1,0,0,43,Non
+C101035,65.0,Homme,62,89.23,4941.28,Mensuel,DSL,Chèque électronique,0,Auvergne-Rhône-Alpes,0,1,1,36,Non
+C101236,18.0,Femme,30,39.54,1173.95,Mensuel,Aucun,Prélèvement,1,Auvergne-Rhône-Alpes,0,0,0,20,Non
+C100394,64.0,Homme,45,38.96,1643.52,Annuel,Fibre,Carte bancaire,3,Auvergne-Rhône-Alpes,0,0,0,14,Oui
+C101398,19.0,Femme,55,51.6,2719.09,Mensuel,DSL,Carte bancaire,1,Île-de-France,1,0,1,19,Non
+C100781,58.0,Femme,70,74.75,5437.68,Annuel,Fibre,Carte bancaire,2,Nouvelle-Aquitaine,0,0,1,28,Non
+C100765,67.0,Homme,8,118.63,870.65,Annuel,Fibre,Carte bancaire,5,Île-de-France,0,1,0,1,Non
+C100678,51.0,Homme,49,53.59,2766.84,Biennal,Fibre,Carte bancaire,0,Hauts-de-France,0,0,1,18,Non
+C100682,79.0,Homme,36,50.03,1876.32,Biennal,DSL,Carte bancaire,2,Hauts-de-France,0,1,1,22,Non
+C101209,79.0,Homme,52,56.86,2824.35,Annuel,Aucun,Virement,3,Auvergne-Rhône-Alpes,0,1,1,9,Oui
+C100274,44.0,Femme,62,84.34,,Biennal,DSL,Prélèvement,0,Hauts-de-France,0,0,1,34,Non
+C100377,65.0,Femme,15,88.52,1376.07,Mensuel,Fibre,Carte bancaire,2,Hauts-de-France,0,1,0,20,Oui
+C101027,35.0,Homme,56,18.5,991.94,Mensuel,Fibre,Prélèvement,0,Nouvelle-Aquitaine,0,0,0,27,Non
+C100056,52.0,Femme,24,63.51,1564.52,Annuel,Fibre,Carte bancaire,2,Grand Est,1,0,1,1,Non
+C100720,26.0,Homme,71,116.0,8088.92,Mensuel,Fibre,Prélèvement,0,Hauts-de-France,0,0,0,28,Non
+C100594,38.0,Femme,29,72.35,1990.71,Annuel,Fibre,Prélèvement,3,Auvergne-Rhône-Alpes,0,0,1,26,Non
+C100624,56.0,Femme,36,58.62,1905.29,Mensuel,Fibre,Prélèvement,0,Île-de-France,0,0,1,37,Non
+C101299,19.0,Homme,3,66.67,,Biennal,Fibre,Carte bancaire,0,Occitanie,0,0,1,27,Non
+C100493,56.0,Autre,63,28.72,1634.73,Mensuel,Aucun,Virement,3,Occitanie,1,0,0,8,Non
+C100478,60.0,Femme,48,91.61,4727.08,Mensuel,Fibre,Prélèvement,0,Île-de-France,1,0,0,26,Non
+C100808,43.0,Femme,52,88.82,4679.13,Mensuel,DSL,Prélèvement,0,Auvergne-Rhône-Alpes,0,0,1,104,Oui
+C100993,45.0,Homme,7,95.16,713.23,Mensuel,DSL,Prélèvement,1,Auvergne-Rhône-Alpes,0,0,1,8,Oui
+C100086,24.0,Homme,52,63.16,,Mensuel,Aucun,Prélèvement,1,Grand Est,0,0,1,45,Non
+C100941,43.0,Femme,2,661.22,91.33,Mensuel,DSL,Carte bancaire,1,Provence-Alpes-Côte d'Azur,1,0,1,44,Oui
+C100123,48.0,Homme,20,72.77,,Annuel,Fibre,Carte bancaire,0,Grand Est,0,0,0,22,Non
+C101382,40.0,Homme,52,102.45,4940.82,Annuel,Fibre,Virement,1,Nouvelle-Aquitaine,0,0,1,6,Non
+C101393,65.0,Femme,46,31.74,1493.78,Biennal,Fibre,Virement,1,Grand Est,0,1,0,17,Non
+C100527,27.0,Femme,64,26.84,1618.92,Biennal,Fibre,Chèque électronique,0,Provence-Alpes-Côte d'Azur,0,0,0,40,Non
+C100432,70.0,Femme,20,69.44,,Mensuel,Fibre,Prélèvement,3,Provence-Alpes-Côte d'Azur,0,1,1,29,Oui
+C101085,71.0,Homme,42,64.47,2591.58,Mensuel,Fibre,Prélèvement,1,Nouvelle-Aquitaine,0,1,1,29,Oui
+C100221,47.0,Homme,72,42.91,2990.21,Annuel,Fibre,Carte bancaire,1,Auvergne-Rhône-Alpes,1,0,0,45,Non
+C100113,47.0,Homme,8,81.73,615.9,Annuel,Aucun,Chèque électronique,2,Île-de-France,0,0,0,7,Non
+C100707,54.0,Femme,57,74.84,4017.99,Annuel,Fibre,Carte bancaire,0,Grand Est,0,0,1,23,Non
+C101013,38.0,Homme,45,49.47,2006.77,Mensuel,Aucun,Carte bancaire,4,Occitanie,0,0,1,14,Oui
+C100174,62.0,Homme,22,87.37,1947.44,Mensuel,DSL,Carte bancaire,1,Provence-Alpes-Côte d'Azur,1,0,1,14,Non
+C100435,25.0,Femme,56,71.79,3927.94,Mensuel,Fibre,Chèque électronique,0,Grand Est,1,0,1,23,Non
+C100277,68.0,Femme,27,92.32,2284.18,Annuel,Fibre,Carte bancaire,0,Île-de-France,0,1,1,26,Non
+C101110,58.0,Femme,66,23.12,1638.96,Mensuel,Fibre,Prélèvement,2,Hauts-de-France,1,0,1,55,Non
+C100901,20.0,Femme,40,113.11,4420.11,Mensuel,Fibre,Carte bancaire,2,Hauts-de-France,0,0,0,35,Oui
+C100875,50.0,Femme,28,45.47,1348.87,Biennal,Fibre,Prélèvement,0,Auvergne-Rhône-Alpes,0,0,0,14,Non
+C101128,53.0,Homme,14,61.41,756.57,Mensuel,Fibre,Prélèvement,0,Occitanie,0,0,1,23,Non
+C100031,32.0,Femme,67,46.48,3240.78,Mensuel,Fibre,Prélèvement,1,Île-de-France,0,0,0,25,Non
+C100210,34.0,Homme,9,74.48,687.34,Mensuel,Fibre,Prélèvement,1,Hauts-de-France,1,0,1,19,Non
+C101201,48.0,Femme,50,42.49,,Mensuel,Fibre,Carte bancaire,0,Provence-Alpes-Côte d'Azur,0,0,0,22,Non
+C100807,25.0,Femme,60,64.66,3832.0,Mensuel,DSL,Virement,0,Île-de-France,0,0,0,17,Oui
+C100718,33.0,Homme,61,74.42,4611.92,Mensuel,Aucun,Carte bancaire,2,Provence-Alpes-Côte d'Azur,1,0,0,11,Non
+C101000,69.0,Homme,32,140.62,4406.13,Mensuel,Fibre,Chèque électronique,0,Provence-Alpes-Côte d'Azur,0,1,0,19,Oui
+C100610,71.0,Femme,15,125.45,,Annuel,DSL,Carte bancaire,3,Nouvelle-Aquitaine,0,1,1,14,Non
+C100188,33.0,Femme,25,18.5,432.12,Mensuel,DSL,Carte bancaire,2,Grand Est,0,0,1,28,Non
+C100289,48.0,Homme,28,62.73,1823.38,Biennal,DSL,Prélèvement,2,Nouvelle-Aquitaine,0,0,1,54,Non
+C100889,35.0,Femme,38,88.56,3257.75,Mensuel,Fibre,Carte bancaire,2,Grand Est,0,0,0,33,Oui
+C101335,81.0,Homme,49,85.12,4452.35,Mensuel,DSL,Prélèvement,0,Provence-Alpes-Côte d'Azur,0,1,0,29,Non
+C100579,24.0,Homme,6,53.06,334.83,Biennal,DSL,Carte bancaire,2,Provence-Alpes-Côte d'Azur,1,0,0,10,Non
+C101137,41.0,Femme,42,30.36,1275.84,Annuel,DSL,Virement,0,Provence-Alpes-Côte d'Azur,0,0,0,9,Non
+C100048,61.0,Homme,66,70.1,4242.28,Annuel,Fibre,Virement,3,Hauts-de-France,0,0,0,22,Non
+C100155,60.0,Femme,60,20.78,1287.5,Mensuel,DSL,Prélèvement,4,Occitanie,0,0,1,28,Non
+C100310,60.0,Homme,22,104.69,2033.83,Mensuel,DSL,Prélèvement,2,Hauts-de-France,0,0,0,11,Non
+C101077,28.0,Femme,60,66.89,4013.27,Biennal,DSL,Prélèvement,3,Auvergne-Rhône-Alpes,0,0,0,52,Non
+C101022,73.0,Homme,67,96.29,5768.48,Mensuel,Fibre,Carte bancaire,3,Grand Est,1,1,1,17,Oui
+C100968,76.0,Femme,26,93.22,2386.81,Annuel,Fibre,Prélèvement,1,Provence-Alpes-Côte d'Azur,1,1,1,29,Non
+C100716,51.0,Homme,8,96.27,771.87,Annuel,DSL,Carte bancaire,0,Hauts-de-France,1,0,1,36,Non
+C101284,42.0,Homme,39,45.65,1815.23,Mensuel,Aucun,Virement,3,Île-de-France,0,0,1,29,Oui
+C100989,68.0,Femme,22,75.43,,Annuel,DSL,Carte bancaire,0,Auvergne-Rhône-Alpes,0,1,0,34,Non
+C101031,29.0,Femme,36,130.43,4676.03,Annuel,Aucun,Prélèvement,1,Nouvelle-Aquitaine,0,0,1,22,Non
+C100306,37.0,Homme,21,139.08,3003.16,Mensuel,Fibre,Carte bancaire,2,Provence-Alpes-Côte d'Azur,0,0,1,14,Non
+C101174,18.0,Homme,54,52.12,2944.8,Mensuel,DSL,Prélèvement,0,Provence-Alpes-Côte d'Azur,0,0,1,28,Oui
+C100482,34.0,Femme,51,18.5,961.22,Mensuel,DSL,Virement,1,Occitanie,0,0,0,19,Non
+C101175,39.0,Homme,49,38.77,,Mensuel,DSL,Virement,3,Provence-Alpes-Côte d'Azur,0,0,1,32,Oui
+C100724,,Femme,24,30.86,701.4,Mensuel,DSL,Chèque électronique,1,Hauts-de-France,1,1,1,12,Oui
+C101111,32.0,Femme,67,81.71,5648.46,Mensuel,Fibre,Chèque électronique,2,Occitanie,0,0,0,5,Oui
+C101341,26.0,Homme,12,57.07,621.46,Mensuel,DSL,Prélèvement,0,Grand Est,0,0,1,1,Non
+C101390,37.0,Femme,6,130.71,708.51,Mensuel,Fibre,Virement,1,Provence-Alpes-Côte d'Azur,1,0,0,36,Oui
+C100382,78.0,Homme,12,96.26,1164.66,Mensuel,Aucun,Chèque électronique,4,Hauts-de-France,0,1,1,37,Oui
+C100526,77.0,Femme,8,40.95,293.53,Mensuel,Aucun,Prélèvement,1,Nouvelle-Aquitaine,0,1,1,27,Non
+C100506,51.0,Homme,34,104.53,,Mensuel,Fibre,Chèque électronique,2,Île-de-France,0,0,1,12,Oui
+C100561,20.0,Femme,62,18.5,1070.47,Mensuel,DSL,Chèque électronique,0,Auvergne-Rhône-Alpes,0,0,1,18,Non
+C100243,59.0,Femme,33,18.5,632.7,Mensuel,Aucun,Carte bancaire,3,Île-de-France,0,0,0,12,Oui
+C100973,48.0,Femme,25,72.69,1846.19,Annuel,Fibre,Virement,1,Provence-Alpes-Côte d'Azur,0,0,1,1,Non
+C101066,77.0,Autre,40,27.39,982.17,Annuel,Fibre,Carte bancaire,0,Provence-Alpes-Côte d'Azur,0,1,1,14,Non
+C100680,64.0,Femme,28,18.5,462.83,Mensuel,Fibre,Chèque électronique,2,Île-de-France,1,0,1,8,Non
+C100792,64.0,Homme,72,52.23,3981.12,Annuel,DSL,Carte bancaire,2,Provence-Alpes-Côte d'Azur,1,0,1,14,Non
+C100812,61.0,Homme,44,83.78,3885.75,Annuel,Fibre,Carte bancaire,1,Occitanie,1,0,1,45,Non
+C101336,58.0,Homme,4,86.79,342.09,Mensuel,Fibre,Prélèvement,1,Auvergne-Rhône-Alpes,0,0,0,7,Oui
+C101150,,Femme,17,98.92,1738.98,Mensuel,Aucun,Chèque électronique,3,Nouvelle-Aquitaine,0,0,1,22,Non
+C100411,32.0,Femme,24,100.43,2302.84,Annuel,Fibre,Prélèvement,1,Nouvelle-Aquitaine,0,0,1,57,Non
+C100785,55.0,Femme,4,52.0,190.49,Annuel,Fibre,Carte bancaire,0,Nouvelle-Aquitaine,0,0,1,18,Non
+C100054,49.0,Homme,25,45.43,1209.79,Annuel,Aucun,Carte bancaire,2,Occitanie,0,0,1,4,Non
+C100946,80.0,Femme,35,23.27,726.41,Mensuel,Aucun,Prélèvement,0,Auvergne-Rhône-Alpes,0,1,1,7,Oui
+C100312,25.0,Femme,9,60.21,554.47,Annuel,Aucun,Virement,2,Provence-Alpes-Côte d'Azur,0,0,0,6,Oui
+C100819,81.0,Femme,47,41.24,2078.47,Biennal,Fibre,Prélèvement,0,Grand Est,1,1,1,43,Non
+C100109,63.0,Autre,44,54.71,2325.9,Annuel,DSL,Prélèvement,3,Île-de-France,1,0,1,7,Non
+C100810,20.0,Femme,61,95.3,5697.89,Annuel,Fibre,Carte bancaire,0,Nouvelle-Aquitaine,0,0,1,18,Non
+C100985,59.0,Femme,47,77.29,3695.05,Biennal,Aucun,Prélèvement,2,Auvergne-Rhône-Alpes,0,0,1,10,Non
+C100986,57.0,Homme,63,67.39,4092.05,Biennal,Fibre,Prélèvement,1,Île-de-France,0,0,1,14,Non
+C100447,79.0,Homme,6,76.79,424.4,Annuel,Fibre,Chèque électronique,2,Auvergne-Rhône-Alpes,0,1,1,43,Non
+C101149,72.0,Homme,42,67.09,2794.44,Mensuel,Fibre,Chèque électronique,2,Grand Est,0,1,1,19,Oui
+C100296,72.0,Homme,24,58.27,1270.49,Mensuel,DSL,Prélèvement,0,Nouvelle-Aquitaine,0,1,1,34,Oui
+C100978,40.0,Homme,7,113.41,782.13,Annuel,DSL,Chèque électronique,2,Nouvelle-Aquitaine,0,0,1,18,Non
+C101084,30.0,Femme,72,60.77,4722.14,Biennal,Fibre,Prélèvement,0,Île-de-France,0,0,0,2,Non
+C100622,28.0,Femme,66,74.13,4861.19,Annuel,DSL,Virement,1,Grand Est,0,0,1,24,Non
+C100286,28.0,Femme,40,43.57,1706.66,Mensuel,DSL,Carte bancaire,2,Hauts-de-France,0,0,0,14,Non
+C101351,43.0,Femme,26,50.74,1161.74,Mensuel,Fibre,Prélèvement,1,Provence-Alpes-Côte d'Azur,0,0,1,16,Non
+C100649,72.0,Femme,65,36.41,2397.75,Annuel,DSL,Carte bancaire,0,Hauts-de-France,1,1,1,15,Non
+C100126,23.0,Homme,62,80.91,4965.06,Annuel,Fibre,Prélèvement,0,Nouvelle-Aquitaine,0,0,0,26,Non
+C100425,30.0,Homme,28,101.23,2551.68,Annuel,DSL,Prélèvement,1,Occitanie,1,0,1,14,Non
+C100745,41.0,Homme,53,73.84,4165.72,Mensuel,Aucun,Carte bancaire,1,Île-de-France,0,0,1,60,Non
+C101364,53.0,Femme,7,93.77,620.8,Annuel,Aucun,Chèque électronique,4,Auvergne-Rhône-Alpes,0,0,0,23,Oui
+C101054,22.0,Femme,25,98.01,2414.51,Annuel,DSL,Prélèvement,1,Auvergne-Rhône-Alpes,0,0,1,16,Non
+C100170,24.0,Homme,41,78.19,3417.53,Mensuel,Fibre,Virement,2,Nouvelle-Aquitaine,0,0,0,7,Oui
+C100665,62.0,Homme,43,26.83,1107.0,Annuel,Fibre,Prélèvement,3,Occitanie,0,0,1,30,Oui
+C100344,75.0,Femme,33,84.03,2497.12,Annuel,Fibre,Carte bancaire,1,Auvergne-Rhône-Alpes,0,1,0,14,Non
+C100643,48.0,Homme,15,62.0,987.56,Mensuel,Fibre,Prélèvement,2,Grand Est,0,0,1,10,Oui
+C100209,67.0,Femme,24,78.72,1939.02,Annuel,Fibre,Prélèvement,0,Provence-Alpes-Côte d'Azur,0,1,1,20,Oui
+C100988,33.0,Homme,59,71.61,3821.75,Mensuel,Aucun,Prélèvement,0,Occitanie,1,0,1,21,Non
+C100140,80.0,Femme,4,74.42,266.84,Biennal,Fibre,Carte bancaire,1,Occitanie,1,1,1,38,Non
+C101344,29.0,Autre,16,514.69,1060.13,Mensuel,DSL,Prélèvement,0,Hauts-de-France,0,0,1,42,Non
+C100964,78.0,Homme,26,62.32,1685.09,Mensuel,DSL,Chèque électronique,0,Nouvelle-Aquitaine,1,1,0,22,Non
+C100977,54.0,Femme,33,116.2,3991.64,Mensuel,Fibre,Carte bancaire,1,Hauts-de-France,0,0,0,15,Non
+C100380,18.0,Femme,14,83.95,1197.4,Biennal,DSL,Virement,1,Nouvelle-Aquitaine,0,0,0,16,Non
+C100711,51.0,Autre,39,37.62,1475.27,Annuel,DSL,Chèque électronique,1,Grand Est,0,0,1,74,Non
+C100199,,Homme,48,62.79,2723.7,Mensuel,DSL,Virement,0,Nouvelle-Aquitaine,1,1,1,30,Non
+C100497,41.0,Homme,7,102.2,710.75,Mensuel,DSL,Prélèvement,3,Provence-Alpes-Côte d'Azur,0,0,1,14,Oui
+C100881,72.0,Femme,37,68.25,2333.84,Mensuel,DSL,Carte bancaire,3,Grand Est,1,1,1,17,Oui
+C101370,74.0,Homme,55,106.73,5846.22,Biennal,Fibre,Carte bancaire,0,Auvergne-Rhône-Alpes,1,1,0,20,Oui
+C100846,28.0,Femme,56,117.31,6695.03,Mensuel,Fibre,Prélèvement,0,Auvergne-Rhône-Alpes,0,0,1,9,Non
+C100010,51.0,Autre,11,92.83,1020.87,Mensuel,DSL,Carte bancaire,1,Grand Est,1,0,1,5,Non
+C100147,,Homme,11,57.06,676.39,Annuel,Aucun,Carte bancaire,0,Grand Est,0,0,1,27,Non
+C100906,44.0,Homme,55,49.5,2405.32,Mensuel,Fibre,Prélèvement,0,Hauts-de-France,0,0,0,11,Oui
+C100282,,Homme,61,78.87,5186.48,Annuel,DSL,Chèque électronique,1,Grand Est,0,0,0,35,Non
+C100298,36.0,Autre,18,54.36,927.75,Mensuel,Aucun,Chèque électronique,2,Provence-Alpes-Côte d'Azur,1,0,0,4,Oui
+C100926,52.0,Femme,18,121.6,2344.52,Biennal,Fibre,Prélèvement,1,Occitanie,1,0,1,19,Non
+C100291,35.0,Homme,15,18.5,288.97,Biennal,Aucun,Chèque électronique,1,Auvergne-Rhône-Alpes,1,0,1,52,Non
+C100617,35.0,Femme,24,29.57,745.13,Annuel,DSL,Chèque électronique,0,Île-de-France,0,0,1,7,Non
+C100950,23.0,Femme,12,120.94,1434.58,Mensuel,DSL,Carte bancaire,0,Occitanie,1,0,0,25,Non
+C100762,78.0,Femme,71,68.29,4835.45,Biennal,DSL,Virement,3,Auvergne-Rhône-Alpes,0,1,0,37,Non
+C100573,21.0,Homme,72,66.27,,Mensuel,Fibre,Prélèvement,0,Nouvelle-Aquitaine,1,0,1,5,Non
+C100548,51.0,Homme,63,96.73,5427.42,Annuel,Aucun,Virement,1,Occitanie,0,0,0,17,Non
+C100331,41.0,Homme,10,79.49,757.1,Biennal,Fibre,Carte bancaire,1,Auvergne-Rhône-Alpes,0,0,1,22,Non
+C100323,,Homme,72,68.79,5185.65,Mensuel,Aucun,Virement,1,Occitanie,0,1,1,26,Oui
+C101349,56.0,Femme,55,66.46,,Mensuel,Fibre,Virement,2,Hauts-de-France,0,0,1,5,Non
+C100374,74.0,Homme,52,67.68,3602.76,Annuel,Aucun,Prélèvement,2,Grand Est,0,1,0,62,Non
+C101230,70.0,Homme,70,58.9,,Mensuel,Fibre,Carte bancaire,1,Auvergne-Rhône-Alpes,0,1,0,45,Non
+C100135,37.0,Homme,31,78.6,2145.35,Mensuel,Fibre,Carte bancaire,1,Île-de-France,1,0,0,6,Non
+C100903,74.0,Homme,36,127.37,4273.43,Annuel,DSL,Prélèvement,0,Provence-Alpes-Côte d'Azur,0,1,0,15,Non
+C100427,69.0,Homme,14,61.93,926.19,Mensuel,Fibre,Virement,3,Occitanie,0,1,1,55,Oui
+C101340,52.0,Femme,21,89.78,1839.72,Mensuel,Aucun,Carte bancaire,2,Occitanie,1,0,0,30,Non
+C101170,58.0,Femme,57,88.94,,Biennal,Fibre,Carte bancaire,3,Auvergne-Rhône-Alpes,1,0,1,34,Non
+C100584,43.0,Homme,61,34.48,,Mensuel,Aucun,Carte bancaire,3,Auvergne-Rhône-Alpes,0,0,1,11,Non
+C100554,81.0,Femme,16,63.89,1026.95,Mensuel,Aucun,Prélèvement,1,Grand Est,0,1,0,23,Oui
+C101308,44.0,Femme,41,46.44,1716.11,Biennal,DSL,Virement,1,Nouvelle-Aquitaine,0,0,1,11,Non
+C100158,50.0,Femme,49,79.26,3463.96,Mensuel,DSL,Carte bancaire,1,Grand Est,0,0,1,63,Non
+C101218,69.0,Homme,41,90.94,,Mensuel,Fibre,Virement,3,Hauts-de-France,0,1,1,93,Non
+C100513,70.0,Femme,36,109.96,3510.6,Annuel,Aucun,Carte bancaire,1,Occitanie,1,1,1,8,Non
+C101271,24.0,Homme,34,39.89,1230.99,Annuel,Fibre,Prélèvement,0,Occitanie,0,0,1,48,Non
+C101285,21.0,Homme,13,84.8,1125.32,Biennal,Aucun,Prélèvement,2,Île-de-France,0,0,1,28,Oui
+C101221,53.0,Femme,70,118.98,8057.6,Mensuel,DSL,Chèque électronique,1,Provence-Alpes-Côte d'Azur,0,0,1,61,Non
+C100438,23.0,Femme,45,69.47,2963.5,Mensuel,Fibre,Prélèvement,3,Provence-Alpes-Côte d'Azur,1,0,1,37,Non
+C100943,48.0,Femme,41,70.04,3064.23,Mensuel,Aucun,Chèque électronique,3,Occitanie,0,0,1,6,Non
+C100528,76.0,Homme,9,74.27,669.52,Mensuel,DSL,Carte bancaire,1,Grand Est,1,1,1,34,Oui
+C100874,62.0,Femme,11,85.42,951.35,Annuel,Aucun,Chèque électronique,0,Provence-Alpes-Côte d'Azur,0,0,1,39,Oui
+C100947,26.0,Homme,60,39.6,2161.66,Biennal,DSL,Chèque électronique,2,Nouvelle-Aquitaine,0,0,1,68,Non
+C101018,20.0,Homme,4,66.09,,Annuel,Fibre,Prélèvement,0,Auvergne-Rhône-Alpes,0,0,0,10,Non
+C100741,66.0,Femme,33,50.6,1530.25,Mensuel,Fibre,Chèque électronique,2,Provence-Alpes-Côte d'Azur,0,1,1,52,Oui
+C100096,33.0,Femme,33,46.35,1576.34,Biennal,Fibre,Prélèvement,1,Hauts-de-France,0,0,1,13,Oui
+C100567,33.0,Autre,1,50.2,51.09,Annuel,DSL,Virement,1,Provence-Alpes-Côte d'Azur,1,0,1,14,Oui
+C101310,51.0,Femme,30,33.43,981.36,Mensuel,Fibre,Prélèvement,1,Occitanie,0,0,1,45,Oui
+C101075,28.0,Homme,16,97.51,1645.42,Mensuel,DSL,Virement,0,Auvergne-Rhône-Alpes,1,0,1,28,Oui
+C100542,30.0,Femme,31,22.06,664.33,Mensuel,DSL,Carte bancaire,0,Provence-Alpes-Côte d'Azur,0,0,1,10,Oui
+C100156,26.0,Homme,70,54.42,4010.03,Mensuel,Aucun,Carte bancaire,2,Grand Est,0,0,1,15,Oui
+C100553,,Homme,63,20.17,1144.12,Mensuel,DSL,Virement,2,Occitanie,0,0,1,67,Oui
+C100575,41.0,Femme,4,30.35,122.25,Mensuel,Fibre,Chèque électronique,1,Hauts-de-France,0,0,1,10,Oui
+C100429,63.0,Autre,26,114.87,3092.55,Mensuel,Fibre,Prélèvement,2,Nouvelle-Aquitaine,1,0,0,7,Oui
+C100420,77.0,Homme,45,93.12,3931.15,Mensuel,Fibre,Chèque électronique,4,Auvergne-Rhône-Alpes,0,1,1,56,Oui
+C100390,65.0,Femme,50,99.83,5175.45,Mensuel,Fibre,Carte bancaire,2,Île-de-France,0,1,1,53,Non
+C101042,44.0,Femme,66,49.75,3479.89,Annuel,Fibre,Chèque électronique,3,Hauts-de-France,1,0,1,21,Non
+C100997,41.0,Homme,68,33.4,2290.16,Annuel,Fibre,Prélèvement,5,Île-de-France,0,0,1,28,Non
+C101387,38.0,Femme,72,68.32,,Mensuel,Fibre,Carte bancaire,0,Île-de-France,1,0,1,16,Non
+C100571,44.0,Femme,55,89.21,5237.33,Mensuel,Fibre,Virement,0,Hauts-de-France,0,0,0,32,Non
+C100410,29.0,Femme,7,103.87,744.04,Mensuel,Aucun,Chèque électronique,0,Île-de-France,1,0,1,58,Oui
+C100423,55.0,Femme,6,115.77,,Annuel,Aucun,Carte bancaire,1,Nouvelle-Aquitaine,0,0,1,21,Non
+C100308,38.0,Homme,20,71.27,1474.89,Mensuel,DSL,Chèque électronique,1,Nouvelle-Aquitaine,0,0,0,18,Oui
+C100615,58.0,Homme,22,37.16,791.67,Mensuel,Fibre,Prélèvement,0,Auvergne-Rhône-Alpes,0,0,1,23,Non
+C101117,55.0,Femme,8,57.76,414.35,Mensuel,Aucun,Prélèvement,0,Hauts-de-France,1,0,1,35,Oui
+C101164,51.0,Homme,20,55.29,1022.35,Mensuel,Aucun,Prélèvement,1,Hauts-de-France,0,0,0,18,Non
+C101391,51.0,Homme,42,81.39,3022.83,Annuel,DSL,Virement,2,Auvergne-Rhône-Alpes,1,0,1,52,Non
+C100714,76.0,Femme,56,18.5,1012.68,Biennal,Fibre,Carte bancaire,1,Île-de-France,0,1,0,43,Non
+C100700,51.0,Femme,25,66.13,,Mensuel,DSL,Virement,1,Auvergne-Rhône-Alpes,0,0,1,16,Non
+C100352,37.0,Femme,8,57.29,487.65,Mensuel,Fibre,Prélèvement,0,Auvergne-Rhône-Alpes,0,0,1,54,Non
+C100124,72.0,Homme,70,94.17,5938.33,Mensuel,Fibre,Prélèvement,0,Nouvelle-Aquitaine,0,1,1,38,Non
+C100178,75.0,Homme,12,25.58,326.07,Annuel,Aucun,Prélèvement,1,Hauts-de-France,0,1,1,21,Oui
+C100287,54.0,Femme,19,74.68,1520.36,Mensuel,Fibre,Chèque électronique,0,Île-de-France,0,0,0,1,Non
+C101356,40.0,Autre,8,75.65,561.75,Biennal,Fibre,Prélèvement,1,Hauts-de-France,0,0,0,7,Non
+C101169,76.0,Homme,21,73.57,1617.31,Mensuel,Fibre,Prélèvement,1,Île-de-France,0,1,1,36,Non
+C100294,52.0,Homme,23,51.32,1243.32,Mensuel,Fibre,Carte bancaire,0,Île-de-France,0,0,1,26,Oui
+C101151,50.0,Homme,37,51.48,2026.84,Biennal,DSL,Prélèvement,5,Provence-Alpes-Côte d'Azur,1,0,0,18,Non
+C100893,80.0,Femme,70,119.7,7553.47,Mensuel,Fibre,Carte bancaire,2,Auvergne-Rhône-Alpes,0,1,1,12,Oui
+C100774,72.0,Homme,58,54.43,3286.44,Mensuel,DSL,Chèque électronique,0,Auvergne-Rhône-Alpes,0,1,0,23,Non
+C101023,71.0,Homme,59,56.25,3242.73,Mensuel,Fibre,Prélèvement,1,Auvergne-Rhône-Alpes,0,1,1,60,Oui
+C101279,73.0,Femme,42,86.5,3378.01,Mensuel,Aucun,Chèque électronique,1,Hauts-de-France,1,1,0,32,Non
+C100236,60.0,Homme,48,40.14,1938.41,Annuel,Aucun,Virement,2,Auvergne-Rhône-Alpes,0,0,1,26,Non
+C100088,67.0,Homme,56,74.9,3869.29,Mensuel,Aucun,Carte bancaire,0,Occitanie,1,1,0,13,Non
+C100826,61.0,Femme,19,35.93,692.17,Biennal,Fibre,Carte bancaire,3,Nouvelle-Aquitaine,0,0,1,4,Non
+C100908,41.0,Femme,24,18.5,417.39,Mensuel,DSL,Chèque électronique,1,Provence-Alpes-Côte d'Azur,1,0,1,45,Non
+C100514,79.0,Femme,3,62.22,177.24,Mensuel,DSL,Chèque électronique,1,Occitanie,0,1,0,69,Oui
+C100857,21.0,Homme,60,139.81,,Mensuel,DSL,Prélèvement,0,Auvergne-Rhône-Alpes,0,0,0,22,Non
+C101304,57.0,Femme,39,68.83,2630.06,Biennal,Aucun,Carte bancaire,1,Hauts-de-France,1,0,1,46,Non
+C100838,18.0,Homme,72,18.67,1309.72,Annuel,Aucun,Carte bancaire,0,Grand Est,0,0,1,16,Oui
+C100620,45.0,Homme,39,118.74,4296.66,Biennal,DSL,Carte bancaire,0,Hauts-de-France,1,0,1,7,Non
+C101362,40.0,Homme,57,61.38,3566.45,Biennal,Fibre,Carte bancaire,1,Provence-Alpes-Côte d'Azur,0,0,1,13,Non
+C100783,,Femme,29,88.11,2546.27,Annuel,Fibre,Carte bancaire,0,Hauts-de-France,0,0,0,13,Non
+C100290,69.0,Homme,14,77.01,1008.94,Biennal,DSL,Prélèvement,2,Auvergne-Rhône-Alpes,0,1,0,51,Non
+C100285,78.0,Homme,27,100.16,2722.9,Mensuel,Fibre,Prélèvement,1,Île-de-France,0,1,0,39,Oui
+C101379,52.0,Femme,28,18.5,554.73,Biennal,DSL,Chèque électronique,1,Grand Est,1,0,0,37,Non
+C101334,52.0,Femme,7,64.55,448.52,Mensuel,Aucun,Prélèvement,0,Auvergne-Rhône-Alpes,0,0,1,19,Oui
+C101354,32.0,Femme,40,133.68,5731.8,Annuel,DSL,Chèque électronique,1,Provence-Alpes-Côte d'Azur,1,0,1,23,Non
+C100802,50.0,Femme,46,78.46,,Mensuel,DSL,Prélèvement,0,Grand Est,0,0,1,21,Non
+C100266,46.0,Homme,58,58.59,3206.67,Mensuel,Fibre,Prélèvement,3,Auvergne-Rhône-Alpes,1,0,1,58,Non
+C100327,20.0,Femme,7,78.98,542.53,Mensuel,DSL,Chèque électronique,2,Hauts-de-France,0,0,0,12,Oui
+C100348,29.0,Homme,38,75.63,2586.98,Biennal,DSL,Carte bancaire,1,Nouvelle-Aquitaine,1,0,1,31,Non
+C100453,19.0,Femme,16,115.81,1784.54,Mensuel,Fibre,Prélèvement,2,Auvergne-Rhône-Alpes,1,0,1,48,Oui
+C100059,61.0,Femme,2,74.07,144.24,Mensuel,Fibre,,1,Île-de-France,0,0,1,25,Oui
+C100405,50.0,Homme,34,68.63,2376.39,Mensuel,Fibre,Prélèvement,2,Hauts-de-France,0,0,0,9,Non
+C101026,22.0,Femme,23,71.3,1647.04,Mensuel,Fibre,Prélèvement,0,Hauts-de-France,0,0,1,30,Non
+C101328,61.0,Homme,2,58.24,113.95,Annuel,Aucun,Carte bancaire,1,Île-de-France,0,0,1,12,Oui
+C100578,75.0,Homme,8,92.55,738.8,Mensuel,Fibre,Carte bancaire,4,Occitanie,0,1,1,82,Oui
+C101399,37.0,Femme,56,72.11,3716.29,Mensuel,DSL,Prélèvement,2,Nouvelle-Aquitaine,0,0,1,6,Non
+C101099,45.0,Homme,61,39.69,2458.23,Mensuel,Fibre,Carte bancaire,1,Provence-Alpes-Côte d'Azur,0,0,0,36,Oui
+C101237,25.0,Homme,1,67.97,60.57,Biennal,Fibre,Prélèvement,0,Grand Est,0,0,1,23,Non
+C100534,54.0,Femme,60,92.19,5788.04,Mensuel,Aucun,Carte bancaire,1,Auvergne-Rhône-Alpes,0,0,0,9,Non
+C101127,58.0,Femme,18,53.32,849.07,Annuel,Aucun,Prélèvement,0,Auvergne-Rhône-Alpes,0,0,1,3,Non
+C100940,62.0,Homme,28,36.37,1099.2,Mensuel,DSL,Virement,2,Provence-Alpes-Côte d'Azur,0,0,0,4,Non
+C100755,46.0,Femme,14,89.24,1245.42,Annuel,Fibre,Carte bancaire,2,Nouvelle-Aquitaine,0,0,1,40,Non
+C100333,71.0,Homme,55,28.96,1573.13,Mensuel,DSL,Chèque électronique,0,Île-de-France,1,1,0,8,Non
+C100433,26.0,Homme,13,58.82,677.0,Mensuel,Fibre,Carte bancaire,2,Provence-Alpes-Côte d'Azur,1,0,1,9,Oui
+C100672,58.0,Femme,5,114.89,539.18,Mensuel,DSL,Prélèvement,2,Provence-Alpes-Côte d'Azur,1,0,0,15,Non
+C101070,61.0,Homme,14,61.44,790.56,Mensuel,Aucun,Carte bancaire,1,Provence-Alpes-Côte d'Azur,0,0,1,87,Non
+C101244,,Homme,19,73.16,1298.96,Mensuel,Aucun,Carte bancaire,1,Hauts-de-France,0,1,0,10,Oui
+C101195,58.0,Femme,3,65.27,188.88,Mensuel,Fibre,Carte bancaire,0,Occitanie,0,0,1,17,Non
+C100771,81.0,Femme,28,53.14,1438.31,Mensuel,Fibre,Carte bancaire,2,Occitanie,1,1,0,27,Oui
+C100631,38.0,Homme,8,66.77,563.35,Mensuel,Fibre,Prélèvement,0,Hauts-de-France,0,0,1,15,Oui
+C101030,49.0,Homme,10,80.63,824.84,Mensuel,Aucun,Chèque électronique,1,Hauts-de-France,1,0,0,10,Oui
+C101306,34.0,Femme,8,35.3,292.72,Annuel,Fibre,Chèque électronique,1,Hauts-de-France,0,0,1,6,Non
+C100613,42.0,Femme,41,18.5,797.3,Mensuel,Aucun,Virement,1,Hauts-de-France,0,0,1,7,Non
+C101046,33.0,Homme,43,18.5,740.09,Annuel,DSL,Carte bancaire,1,Grand Est,0,0,0,31,Non
+C100398,35.0,Homme,69,59.95,3810.06,Mensuel,Fibre,Virement,2,Grand Est,0,0,1,6,Non
+C100458,71.0,Femme,31,65.11,1860.0,Annuel,DSL,Carte bancaire,0,Provence-Alpes-Côte d'Azur,0,1,0,14,Non
+C100894,65.0,Homme,32,60.76,1850.25,Annuel,Aucun,Carte bancaire,1,Occitanie,1,1,1,5,Non
+C100570,78.0,Autre,22,45.4,,Biennal,DSL,Prélèvement,1,Grand Est,1,1,1,72,Non
+C100328,27.0,Homme,32,131.63,4408.06,Annuel,Fibre,Prélèvement,0,Île-de-France,1,0,1,16,Non
+C100100,71.0,Homme,20,64.52,1194.75,Mensuel,DSL,Chèque électronique,1,Hauts-de-France,0,1,1,31,Oui
+C100318,78.0,Femme,52,83.01,4587.69,Mensuel,DSL,Chèque électronique,0,Nouvelle-Aquitaine,0,1,1,18,Non
+C101088,59.0,Homme,20,85.59,1702.74,Biennal,Fibre,Virement,0,Auvergne-Rhône-Alpes,0,0,0,6,Non
+C100083,71.0,Homme,32,63.58,1949.46,Mensuel,Fibre,Prélèvement,3,Provence-Alpes-Côte d'Azur,0,1,1,14,Non
+C100129,58.0,Femme,64,47.95,3097.99,Annuel,Aucun,Prélèvement,0,Île-de-France,1,0,0,19,Non
+C101029,39.0,Femme,20,92.3,1753.62,Annuel,Fibre,Prélèvement,3,Auvergne-Rhône-Alpes,1,0,0,17,Non
+C100012,65.0,Homme,30,86.78,2392.29,Annuel,Fibre,Chèque électronique,2,Île-de-France,0,1,0,30,Oui
+C100585,77.0,Homme,26,123.7,3471.6,Annuel,Aucun,Virement,2,Hauts-de-France,0,1,1,11,Non
+C100171,23.0,Femme,13,84.38,1094.73,Annuel,Fibre,Carte bancaire,5,Hauts-de-France,1,0,1,8,Non
+C101254,59.0,Homme,23,51.61,1093.29,Annuel,Aucun,Carte bancaire,3,Occitanie,1,0,1,33,Non
+C101292,46.0,Femme,13,92.75,,Biennal,Fibre,Virement,0,Occitanie,0,0,1,10,Non
+C100260,68.0,Homme,8,100.13,,Annuel,Fibre,Prélèvement,2,Occitanie,1,1,1,34,Oui
+C100958,80.0,Femme,10,95.01,853.83,Biennal,Fibre,Carte bancaire,0,Occitanie,0,1,1,11,Non
+C100746,52.0,Homme,27,89.31,2248.17,Mensuel,DSL,Virement,0,Hauts-de-France,1,0,1,20,Non
+C100759,64.0,Femme,68,93.03,6266.33,Mensuel,DSL,Prélèvement,0,Grand Est,0,0,0,6,Oui
+C101158,42.0,Femme,5,82.27,414.7,Mensuel,Fibre,Carte bancaire,2,Nouvelle-Aquitaine,0,0,1,23,Non
+C100764,41.0,Homme,69,65.2,,Biennal,Fibre,Chèque électronique,0,Occitanie,0,0,1,15,Non
+C100490,77.0,Femme,1,27.45,25.63,Mensuel,DSL,Carte bancaire,1,Provence-Alpes-Côte d'Azur,1,1,0,45,Non
+C100332,37.0,Homme,51,54.84,2771.91,Mensuel,DSL,Carte bancaire,0,Grand Est,0,0,1,54,Non
+C100355,81.0,Homme,16,62.28,908.55,Mensuel,DSL,Virement,0,Hauts-de-France,1,1,1,27,Oui
+C100138,40.0,Femme,54,61.95,3133.63,Mensuel,DSL,Prélèvement,1,Nouvelle-Aquitaine,0,0,1,36,Non
+C100381,77.0,Homme,70,66.97,4735.93,Mensuel,DSL,Carte bancaire,0,Hauts-de-France,0,1,1,10,Non
+C100292,79.0,Homme,51,135.51,7253.41,Biennal,Aucun,Prélèvement,1,Grand Est,0,1,1,7,Non
+C101145,48.0,Homme,29,69.79,1785.67,Biennal,Fibre,Virement,3,Hauts-de-France,0,0,1,21,Non
+C101302,62.0,Homme,3,82.51,257.07,Mensuel,Fibre,Prélèvement,0,Grand Est,0,0,0,3,Non
+C100141,31.0,Homme,31,81.15,2534.71,Mensuel,Fibre,Prélèvement,2,Auvergne-Rhône-Alpes,0,0,1,3,Non
+C100858,60.0,Homme,19,64.6,1211.91,Biennal,DSL,Chèque électronique,3,Occitanie,0,0,1,61,Non
+C100691,68.0,Homme,42,95.67,3636.74,Mensuel,Fibre,Prélèvement,1,Provence-Alpes-Côte d'Azur,1,1,1,2,Non
+C100965,55.0,Homme,6,111.08,623.14,Annuel,DSL,Prélèvement,2,Nouvelle-Aquitaine,0,0,1,34,Oui
+C100139,45.0,Homme,37,70.84,2380.83,Mensuel,Aucun,Carte bancaire,2,Nouvelle-Aquitaine,0,0,0,21,Non
+C101234,58.0,Homme,38,30.9,1136.41,Mensuel,DSL,Chèque électronique,0,Provence-Alpes-Côte d'Azur,0,0,1,12,Non
+C101089,27.0,Femme,21,61.38,1235.22,Mensuel,DSL,Virement,2,Île-de-France,0,0,1,34,Non
+C100224,64.0,Femme,23,60.47,1498.83,Mensuel,DSL,Chèque électronique,1,Nouvelle-Aquitaine,0,0,1,11,Oui
+C100888,19.0,Femme,10,90.6,,Annuel,Aucun,Carte bancaire,2,Auvergne-Rhône-Alpes,0,0,0,25,Non
+C100409,18.0,Femme,32,49.88,1547.93,Mensuel,Aucun,Prélèvement,0,Hauts-de-France,0,0,0,12,Oui
+C100325,32.0,Femme,34,99.5,3250.65,Mensuel,DSL,Chèque électronique,1,Hauts-de-France,0,0,1,23,Oui
+C100299,19.0,Femme,25,114.26,2796.55,Mensuel,DSL,Carte bancaire,0,Occitanie,0,0,1,3,Oui
+C101160,55.0,Homme,48,53.03,2491.28,Mensuel,DSL,Carte bancaire,3,Grand Est,0,0,0,30,Non
+C100859,69.0,Homme,46,55.81,2565.08,Mensuel,Fibre,Prélèvement,0,Occitanie,0,1,0,28,Non
+C100596,55.0,Femme,37,114.0,4497.25,Mensuel,Fibre,Carte bancaire,2,Nouvelle-Aquitaine,0,0,1,32,Non
+C101307,33.0,Femme,6,98.31,552.41,Annuel,Fibre,Chèque électronique,0,Occitanie,0,0,1,40,Non
+C100843,20.0,Femme,41,102.2,3995.4,Mensuel,Fibre,Carte bancaire,1,Grand Est,0,0,0,21,Oui
+C101350,21.0,Autre,44,71.75,3274.96,Mensuel,Fibre,Carte bancaire,3,Provence-Alpes-Côte d'Azur,0,0,0,22,Non
+C100503,73.0,Homme,62,72.94,4085.15,Biennal,Fibre,Carte bancaire,0,Hauts-de-France,0,1,1,12,Non
+C100948,78.0,Homme,27,106.09,2724.2,Mensuel,Aucun,Carte bancaire,2,Hauts-de-France,1,1,1,17,Non
+C100003,46.0,Homme,10,54.61,489.67,Annuel,DSL,Carte bancaire,2,Grand Est,0,0,0,15,Non
+C100664,56.0,Femme,64,92.97,5608.66,Annuel,DSL,Carte bancaire,0,Nouvelle-Aquitaine,0,0,0,68,Non
+C100467,56.0,Homme,10,35.48,370.23,Annuel,Fibre,Prélèvement,1,Occitanie,0,0,1,4,Non
+C100321,24.0,Homme,51,106.49,4821.29,Mensuel,Fibre,Carte bancaire,1,Provence-Alpes-Côte d'Azur,1,0,1,55,Non
+C100005,72.0,Homme,59,57.18,3562.22,Mensuel,DSL,Carte bancaire,1,Grand Est,0,1,1,19,Non
+C100867,71.0,Femme,2,18.5,38.66,Mensuel,Fibre,Carte bancaire,1,Île-de-France,0,1,0,26,Non
+C100666,50.0,Femme,34,88.61,2705.27,Annuel,Fibre,Prélèvement,2,Nouvelle-Aquitaine,0,0,0,48,Non
+C100039,58.0,Femme,18,33.69,554.84,Mensuel,DSL,Carte bancaire,0,Provence-Alpes-Côte d'Azur,0,0,0,28,Oui
+C100242,24.0,Femme,50,92.28,4556.35,Annuel,Aucun,,1,Provence-Alpes-Côte d'Azur,0,0,1,33,Non
+C100136,56.0,Homme,55,65.54,3322.07,Mensuel,Fibre,Carte bancaire,1,Auvergne-Rhône-Alpes,0,0,1,28,Oui
+C101097,66.0,Femme,48,84.55,4321.76,Mensuel,Fibre,Carte bancaire,2,Île-de-France,0,1,0,19,Non
+C100712,64.0,Homme,2,69.02,128.88,Biennal,Fibre,Carte bancaire,1,Occitanie,0,0,1,22,Oui
+C100952,57.0,Femme,19,66.99,,Mensuel,DSL,Carte bancaire,2,Occitanie,0,0,1,14,Non
+C100999,50.0,Homme,69,72.09,5159.27,Mensuel,DSL,Prélèvement,3,Grand Est,0,0,1,1,Oui
+C101282,43.0,Homme,22,87.49,2015.74,Annuel,Fibre,Prélèvement,3,Auvergne-Rhône-Alpes,0,0,0,21,Non
+C100937,27.0,Homme,48,91.43,4413.27,Annuel,Fibre,Chèque électronique,1,Hauts-de-France,0,0,1,41,Non
+C100701,57.0,Femme,48,126.33,6095.98,Annuel,Fibre,Prélèvement,0,Auvergne-Rhône-Alpes,0,0,1,29,Oui
+C101134,57.0,Femme,44,85.97,3431.26,Mensuel,Fibre,Prélèvement,0,Occitanie,1,0,1,46,Non
+C100376,65.0,Homme,6,108.29,615.73,Biennal,Aucun,Carte bancaire,2,Auvergne-Rhône-Alpes,0,1,0,41,Non
+C100314,33.0,Femme,66,34.85,2389.0,Mensuel,Fibre,Carte bancaire,1,Île-de-France,0,0,0,24,Non
+C100442,26.0,Homme,69,113.49,,Biennal,DSL,Carte bancaire,2,Occitanie,1,0,1,17,Oui
+C100319,67.0,Femme,31,42.46,1258.14,Mensuel,Fibre,Virement,0,Auvergne-Rhône-Alpes,0,1,1,19,Non
+C100715,69.0,Homme,8,57.33,473.54,Annuel,Aucun,Prélèvement,0,Hauts-de-France,0,1,1,32,Non
+C100704,26.0,Femme,14,59.22,854.72,Annuel,DSL,Carte bancaire,0,Provence-Alpes-Côte d'Azur,0,0,1,42,Non
+C100424,44.0,Femme,29,123.95,3352.89,Mensuel,Fibre,Virement,1,Grand Est,1,0,0,40,Oui
+C100845,18.0,Femme,27,83.41,2232.21,Annuel,Aucun,Prélèvement,3,Île-de-France,1,0,0,3,Oui
+C101107,76.0,Femme,54,65.87,3677.32,Biennal,Fibre,Prélèvement,2,Auvergne-Rhône-Alpes,0,1,1,26,Non
+C101148,62.0,Femme,23,70.28,1513.4,Biennal,DSL,Carte bancaire,1,Hauts-de-France,0,0,0,5,Non
+C101037,18.0,Femme,60,95.26,5933.28,Mensuel,Fibre,,1,Occitanie,0,0,1,26,Non
+C100227,55.0,Homme,35,129.63,4864.23,Biennal,Fibre,Chèque électronique,3,Nouvelle-Aquitaine,0,0,0,35,Non
+C100844,18.0,Femme,59,70.19,3990.78,Mensuel,Fibre,Virement,2,Île-de-France,0,0,0,5,Non
+C101327,23.0,Femme,23,121.79,2579.05,Mensuel,Fibre,Prélèvement,1,Nouvelle-Aquitaine,0,0,1,64,Oui
+C100912,42.0,Homme,72,57.07,4342.19,Biennal,DSL,Carte bancaire,3,Provence-Alpes-Côte d'Azur,1,0,1,16,Non
+C100614,61.0,Femme,54,78.14,4065.44,Mensuel,Fibre,Carte bancaire,1,Nouvelle-Aquitaine,1,0,1,36,Non
+C100066,75.0,Femme,26,78.0,2161.03,Mensuel,Fibre,Chèque électronique,3,Grand Est,0,1,0,21,Oui
+C100934,46.0,Autre,53,68.67,,Mensuel,Aucun,Chèque électronique,3,Grand Est,0,0,1,25,Non
+C100909,23.0,Femme,21,87.18,1767.37,Annuel,Aucun,Carte bancaire,1,Hauts-de-France,0,0,1,80,Non
+C100211,63.0,Homme,43,91.79,3613.47,Biennal,Fibre,Carte bancaire,0,Occitanie,1,0,0,21,Non
+C100916,52.0,Femme,19,82.33,1511.85,Annuel,DSL,Carte bancaire,2,Provence-Alpes-Côte d'Azur,0,0,0,15,Non
+C100695,34.0,Femme,30,54.63,1663.53,Annuel,DSL,Prélèvement,1,Nouvelle-Aquitaine,0,0,0,17,Non
+C100536,47.0,Femme,5,18.5,85.7,Mensuel,DSL,Carte bancaire,2,Provence-Alpes-Côte d'Azur,0,0,1,14,Non
+C101053,79.0,Homme,41,89.08,3338.25,Mensuel,Aucun,Prélèvement,1,Occitanie,0,1,1,30,Non
+C100589,71.0,Homme,43,38.55,1732.97,Mensuel,DSL,Prélèvement,0,Nouvelle-Aquitaine,0,1,1,9,Non
+C100085,62.0,Femme,56,50.28,2775.35,Mensuel,Fibre,Carte bancaire,1,Occitanie,1,0,0,23,Non
+C101266,21.0,Homme,3,84.68,234.22,Mensuel,DSL,Chèque électronique,1,Grand Est,0,0,0,47,Oui
+C100910,67.0,Femme,40,77.06,3037.43,Biennal,Fibre,Virement,0,Provence-Alpes-Côte d'Azur,1,1,1,29,Non
+C100814,67.0,Homme,48,85.43,4060.68,Annuel,Fibre,Chèque électronique,1,Hauts-de-France,0,1,1,45,Oui
+C100588,71.0,Femme,23,52.97,1209.05,Mensuel,Fibre,Chèque électronique,2,Provence-Alpes-Côte d'Azur,1,1,1,43,Oui
+C101367,47.0,Autre,26,68.4,1688.18,Mensuel,Fibre,Prélèvement,1,Île-de-France,0,0,1,16,Non
+C100930,52.0,Femme,24,39.22,857.84,Biennal,Fibre,Virement,1,Hauts-de-France,0,0,0,30,Non
+C101315,37.0,Homme,51,111.01,5868.38,Mensuel,Aucun,Carte bancaire,0,Provence-Alpes-Côte d'Azur,0,0,0,18,Non
+C100886,21.0,Femme,60,111.57,5929.18,Mensuel,DSL,Carte bancaire,1,Occitanie,0,0,1,5,Oui
+C100273,79.0,Homme,10,99.7,1072.69,Annuel,Fibre,Chèque électronique,0,Provence-Alpes-Côte d'Azur,1,1,0,24,Non
+C101232,80.0,Homme,24,46.01,1091.91,Annuel,DSL,Prélèvement,0,Île-de-France,0,1,1,5,Non
+C100362,32.0,Femme,2,36.94,67.44,Mensuel,Fibre,Chèque électronique,3,Occitanie,0,0,1,49,Oui
+C100002,59.0,Femme,25,59.68,1504.15,Mensuel,Fibre,Prélèvement,0,Auvergne-Rhône-Alpes,0,0,1,10,Non
+C100006,23.0,Homme,66,75.54,5201.66,Mensuel,Fibre,Chèque électronique,0,Occitanie,0,0,1,17,Non
+C100311,61.0,Homme,38,51.22,2089.68,Mensuel,DSL,Prélèvement,3,Nouvelle-Aquitaine,1,0,1,64,Non
+C100590,69.0,Femme,15,61.45,822.34,Mensuel,DSL,Carte bancaire,1,Nouvelle-Aquitaine,0,1,1,42,Oui
+C101224,44.0,Femme,22,33.51,703.84,Annuel,Aucun,Virement,1,Nouvelle-Aquitaine,1,0,1,41,Non
+C101388,75.0,Homme,59,39.8,2431.51,Mensuel,DSL,Chèque électronique,0,Île-de-France,0,1,0,15,Non
+C100215,35.0,Homme,32,43.5,1424.02,Annuel,DSL,Carte bancaire,0,Grand Est,1,0,1,13,Non
+C100710,61.0,Homme,69,18.5,1276.73,Biennal,Fibre,Prélèvement,1,Auvergne-Rhône-Alpes,0,0,0,22,Non
+C100027,70.0,Femme,45,77.87,3460.51,Mensuel,Fibre,Carte bancaire,1,Hauts-de-France,0,1,1,20,Non
+C101024,70.0,Homme,39,37.35,1427.47,Annuel,DSL,Carte bancaire,0,Hauts-de-France,1,1,1,10,Non
+C100770,59.0,Homme,62,38.97,2286.4,Annuel,DSL,Prélèvement,0,Auvergne-Rhône-Alpes,0,0,1,61,Non
+C100602,65.0,Homme,16,37.65,567.09,Mensuel,Fibre,Carte bancaire,1,Hauts-de-France,0,1,1,17,Non
+C100668,76.0,Femme,67,38.36,2327.84,Mensuel,Fibre,Prélèvement,3,Provence-Alpes-Côte d'Azur,0,1,1,1,Non
+C100862,25.0,Homme,45,108.3,4442.08,Biennal,Fibre,Prélèvement,2,Provence-Alpes-Côte d'Azur,0,0,1,7,Oui
+C100754,53.0,Femme,28,68.57,2049.87,Mensuel,Fibre,Carte bancaire,2,Occitanie,1,0,1,1,Oui
+C100256,61.0,Homme,43,72.24,3319.33,Annuel,Fibre,Prélèvement,1,Provence-Alpes-Côte d'Azur,0,0,1,36,Non
+C100025,59.0,Femme,13,52.75,662.86,Annuel,Aucun,Virement,1,Grand Est,0,0,1,18,Non
+C100336,,Femme,6,59.29,320.2,Biennal,DSL,Carte bancaire,1,Grand Est,1,1,1,33,Non
+C100572,36.0,Femme,13,127.73,1772.54,Biennal,Fibre,Carte bancaire,0,Provence-Alpes-Côte d'Azur,0,0,1,38,Non
+C100047,75.0,Femme,14,56.71,852.43,Mensuel,Fibre,Prélèvement,2,Île-de-France,0,1,1,32,Non
+C100106,67.0,Homme,54,99.49,5725.77,Biennal,DSL,Prélèvement,0,Île-de-France,0,1,0,14,Non
+C100349,28.0,Femme,63,60.47,3362.56,Mensuel,Fibre,Virement,2,Île-de-France,0,0,0,22,Oui
+C100055,20.0,Femme,24,91.77,2270.24,Biennal,Fibre,Carte bancaire,4,Hauts-de-France,0,0,1,22,Oui
+C101274,66.0,Femme,5,46.21,235.53,Mensuel,DSL,Carte bancaire,0,Auvergne-Rhône-Alpes,0,1,1,33,Non
+C100213,46.0,Autre,52,121.07,6706.34,Annuel,Fibre,Chèque électronique,1,Provence-Alpes-Côte d'Azur,1,0,1,25,Non
+C100120,,Femme,48,62.75,3184.99,Biennal,Aucun,Chèque électronique,1,Auvergne-Rhône-Alpes,1,0,0,84,Non
+C101317,55.0,Femme,49,37.05,1694.21,Biennal,Fibre,Chèque électronique,4,Grand Est,0,0,1,34,Non
+C100654,53.0,Homme,5,94.44,506.2,Biennal,Fibre,Carte bancaire,1,Île-de-France,0,0,0,26,Non
+C100072,47.0,Homme,68,71.71,5185.34,Mensuel,Aucun,Prélèvement,1,Grand Est,1,0,0,3,Oui
+C100693,78.0,Femme,4,50.18,189.63,Annuel,Fibre,Prélèvement,3,Provence-Alpes-Côte d'Azur,0,1,1,17,Oui
+C101228,27.0,Femme,3,59.9,166.39,Mensuel,Aucun,Chèque électronique,1,Auvergne-Rhône-Alpes,1,0,1,46,Oui
+C100045,80.0,Femme,21,50.64,1040.52,Annuel,Fibre,Carte bancaire,2,Grand Est,0,1,1,23,Non
+C101190,44.0,Femme,13,98.01,,Biennal,DSL,Chèque électronique,3,Auvergne-Rhône-Alpes,0,0,1,18,Non
+C100523,70.0,Homme,4,93.82,399.91,Annuel,DSL,Prélèvement,2,Hauts-de-France,0,1,1,40,Oui
+C100772,18.0,Femme,61,99.8,5629.5,Mensuel,Fibre,Prélèvement,1,Grand Est,0,0,1,6,Oui
+C100767,48.0,Femme,25,61.34,1354.17,Mensuel,Fibre,Prélèvement,1,Île-de-France,1,0,0,18,Oui
+C100705,54.0,Femme,47,34.36,1553.83,Annuel,DSL,Virement,2,Nouvelle-Aquitaine,0,0,1,14,Non
+C100533,36.0,Homme,19,66.51,1315.3,Mensuel,Fibre,Carte bancaire,0,Île-de-France,0,0,0,7,Non
+C100603,26.0,Femme,58,30.7,1862.13,Biennal,DSL,Prélèvement,1,Île-de-France,0,0,1,68,Non
+C100465,79.0,Homme,60,67.44,4276.71,Mensuel,Fibre,Prélèvement,0,Grand Est,1,1,0,10,Non
+C100737,39.0,Homme,43,22.34,927.98,Annuel,DSL,Carte bancaire,1,Provence-Alpes-Côte d'Azur,0,0,1,38,Non
+C101204,59.0,Homme,2,34.86,,Mensuel,DSL,Prélèvement,2,Provence-Alpes-Côte d'Azur,0,0,1,12,Non
+C100979,54.0,Homme,29,67.77,1806.67,Biennal,DSL,Prélèvement,0,Grand Est,1,0,1,13,Non
+C100060,77.0,Homme,17,61.63,1009.46,Mensuel,Aucun,Carte bancaire,1,Nouvelle-Aquitaine,0,1,0,16,Oui
+C100092,71.0,Femme,36,113.49,4033.28,Annuel,Fibre,Carte bancaire,1,Auvergne-Rhône-Alpes,1,1,0,12,Oui
+C100626,39.0,Femme,15,81.0,1158.85,Mensuel,Fibre,Chèque électronique,2,Grand Est,0,0,1,47,Oui
+C100194,79.0,Homme,37,60.6,,Annuel,Fibre,Prélèvement,1,Occitanie,0,1,1,37,Non
+C100280,35.0,Autre,34,47.39,1474.38,Mensuel,Fibre,Virement,0,Île-de-France,0,0,0,15,Non
+C100359,65.0,Homme,47,138.79,6900.09,Mensuel,DSL,Prélèvement,1,Hauts-de-France,0,1,1,21,Non
+C100519,56.0,Femme,11,54.52,530.28,Mensuel,Fibre,Prélèvement,0,Nouvelle-Aquitaine,1,0,0,20,Oui
+C100721,77.0,Femme,63,61.56,3915.95,Biennal,Fibre,Carte bancaire,0,Auvergne-Rhône-Alpes,1,1,0,22,Non
+C101243,49.0,Femme,59,56.66,2962.52,Biennal,DSL,Chèque électronique,0,Île-de-France,1,0,1,43,Non
+C100182,49.0,Homme,26,79.02,2066.14,Mensuel,Fibre,Carte bancaire,0,Auvergne-Rhône-Alpes,0,0,1,16,Non
+C100110,,Femme,38,44.32,1736.89,Annuel,DSL,Virement,0,Provence-Alpes-Côte d'Azur,0,0,0,55,Non
+C100970,37.0,Femme,44,89.94,3917.53,Biennal,DSL,Carte bancaire,1,Occitanie,0,0,1,32,Non
+C100813,36.0,Homme,68,140.01,9519.17,Biennal,DSL,Carte bancaire,0,Île-de-France,0,0,1,25,Non
+C100204,47.0,Homme,19,68.79,1364.72,Mensuel,DSL,Virement,0,Grand Est,0,0,1,45,Oui
+C100727,23.0,Femme,43,64.11,2553.41,Mensuel,DSL,Carte bancaire,2,Île-de-France,0,0,1,23,Non
+C100052,,Femme,71,87.0,6242.08,Annuel,Fibre,Prélèvement,1,Provence-Alpes-Côte d'Azur,0,0,1,14,Non
+C100545,21.0,Femme,22,69.32,1569.22,Annuel,Fibre,Prélèvement,1,Hauts-de-France,0,0,1,17,Non
+C101061,62.0,Femme,6,18.5,105.77,Mensuel,DSL,Carte bancaire,1,Occitanie,0,0,1,41,Non
+C100892,51.0,Homme,4,98.12,372.6,Mensuel,Fibre,Carte bancaire,0,Auvergne-Rhône-Alpes,0,0,0,36,Oui
+C100936,28.0,Femme,34,62.93,2276.96,Mensuel,Fibre,Prélèvement,1,Occitanie,0,0,1,14,Non
+C100670,78.0,Femme,14,64.18,862.83,Mensuel,Fibre,Carte bancaire,0,Grand Est,0,1,1,21,Non
+C100183,62.0,Femme,41,27.95,1207.69,Annuel,DSL,Carte bancaire,0,Grand Est,1,0,1,4,Non
+C100137,19.0,Autre,24,32.69,796.03,Mensuel,Fibre,Prélèvement,2,Auvergne-Rhône-Alpes,0,0,0,12,Non
+C100865,62.0,Femme,50,18.5,987.63,Mensuel,DSL,Carte bancaire,2,Provence-Alpes-Côte d'Azur,0,0,1,12,Non
+C100080,78.0,Femme,35,77.45,2653.43,Mensuel,Fibre,Carte bancaire,1,Nouvelle-Aquitaine,0,1,1,11,Oui
+C101172,43.0,Autre,26,83.48,1995.97,Mensuel,Fibre,Chèque électronique,2,Auvergne-Rhône-Alpes,0,0,1,50,Non
+C100105,68.0,Femme,56,85.39,4692.62,Annuel,Fibre,Prélèvement,2,Nouvelle-Aquitaine,0,1,0,42,Non
+C100541,,Femme,34,79.51,2637.39,Annuel,Fibre,Carte bancaire,1,Grand Est,0,0,1,2,Non
+C100777,25.0,Autre,8,103.15,843.58,Mensuel,Fibre,Prélèvement,0,Occitanie,0,0,0,7,Non
+C100480,36.0,Homme,24,97.37,2278.48,Annuel,Aucun,Carte bancaire,0,Hauts-de-France,0,0,1,9,Non
+C100165,,Homme,61,94.26,6083.07,Mensuel,Fibre,Prélèvement,0,Hauts-de-France,0,1,1,18,Non
+C100248,68.0,Homme,40,67.78,2592.31,Biennal,DSL,Virement,3,Auvergne-Rhône-Alpes,1,1,1,15,Non
+C100307,53.0,Femme,43,76.89,3563.33,Annuel,Fibre,Carte bancaire,2,Grand Est,0,0,1,4,Oui
+C100446,38.0,Homme,54,82.78,4049.17,Mensuel,Aucun,Chèque électronique,2,Hauts-de-France,0,0,1,35,Non
+C100924,33.0,Femme,9,78.79,669.28,Annuel,DSL,Carte bancaire,0,Île-de-France,0,0,1,5,Non
+C100334,47.0,Femme,3,87.63,275.02,Annuel,DSL,Prélèvement,0,Île-de-France,0,0,1,69,Non
+C100097,61.0,Femme,56,82.26,4135.67,Mensuel,DSL,Virement,1,Occitanie,1,0,1,23,Non
+C101213,73.0,Homme,65,25.49,,Mensuel,Fibre,Carte bancaire,1,Île-de-France,0,1,1,10,Non
+C100839,76.0,Femme,16,58.31,911.91,Mensuel,DSL,Virement,1,Provence-Alpes-Côte d'Azur,0,1,0,31,Oui
+C100102,69.0,Homme,10,92.21,984.54,Mensuel,Aucun,Carte bancaire,2,Occitanie,0,1,1,37,Oui
+C100434,45.0,Autre,8,63.46,534.58,Mensuel,DSL,Prélèvement,2,Île-de-France,1,0,1,7,Oui
+C100942,76.0,Femme,48,117.23,5349.54,Biennal,Fibre,Chèque électronique,0,Nouvelle-Aquitaine,0,1,1,24,Oui
+C101258,52.0,Homme,38,99.08,3679.17,Mensuel,Fibre,Carte bancaire,0,Hauts-de-France,0,0,1,22,Oui
+C100780,74.0,Femme,65,118.78,8013.09,Annuel,Aucun,Chèque électronique,1,Occitanie,0,1,1,26,Non
+C101276,60.0,Femme,19,82.7,,Annuel,Fibre,Carte bancaire,2,Provence-Alpes-Côte d'Azur,1,0,1,16,Non
+C100302,18.0,Femme,72,101.71,7502.45,Biennal,DSL,Carte bancaire,1,Provence-Alpes-Côte d'Azur,0,0,1,23,Non
+C101189,18.0,Femme,63,61.96,,Biennal,Aucun,Prélèvement,1,Grand Est,0,0,0,30,Non
+C101176,38.0,Femme,13,51.39,689.34,Mensuel,Fibre,Carte bancaire,2,Grand Est,0,0,1,50,Non
+C100388,75.0,Femme,44,89.83,3845.07,Mensuel,DSL,Virement,0,Île-de-France,0,1,1,21,Oui
+C100235,64.0,Femme,67,68.57,4736.0,Annuel,DSL,Virement,1,Provence-Alpes-Côte d'Azur,0,0,0,24,Non
+C101173,29.0,Autre,18,61.26,973.28,Mensuel,DSL,Prélèvement,3,Nouvelle-Aquitaine,0,0,1,12,Non
+C100976,24.0,Homme,15,68.93,1073.58,Annuel,Fibre,Carte bancaire,1,Grand Est,1,0,1,18,Non
+C100305,26.0,Femme,28,99.09,2877.58,Annuel,Fibre,Carte bancaire,3,Auvergne-Rhône-Alpes,0,0,1,18,Oui
+C100117,26.0,Homme,30,72.42,2026.19,Biennal,DSL,Prélèvement,1,Grand Est,0,0,0,16,Non
+C101142,77.0,Femme,41,18.5,736.83,Mensuel,Aucun,Carte bancaire,2,Hauts-de-France,0,1,1,76,Non
+C100673,24.0,Homme,43,77.95,3374.35,Mensuel,DSL,Virement,1,Grand Est,0,0,0,34,Non
+C100249,20.0,Femme,65,55.05,3297.81,Mensuel,Fibre,Carte bancaire,2,Auvergne-Rhône-Alpes,1,0,1,32,Non
+C101034,22.0,Homme,28,146.4,4250.0,Mensuel,DSL,Chèque électronique,1,Nouvelle-Aquitaine,0,0,1,30,Oui
+C101343,54.0,Homme,58,55.06,,Mensuel,DSL,Prélèvement,1,Grand Est,0,0,0,19,Non
+C100071,30.0,Homme,39,34.06,1271.85,Mensuel,DSL,Chèque électronique,0,Nouvelle-Aquitaine,1,0,1,9,Non
+C100094,75.0,Femme,67,80.53,,Biennal,Aucun,Virement,1,Provence-Alpes-Côte d'Azur,0,1,1,31,Non
+C100752,23.0,Homme,57,109.58,6390.15,Mensuel,Fibre,Carte bancaire,2,Hauts-de-France,0,0,1,5,Non
+C100033,53.0,Femme,20,18.5,388.48,Annuel,DSL,Chèque électronique,1,Hauts-de-France,1,0,1,57,Non
+C101041,72.0,Femme,64,79.14,5204.59,Annuel,Fibre,Virement,2,Auvergne-Rhône-Alpes,0,1,1,23,Non
+C100448,51.0,Homme,22,69.63,1501.38,Biennal,Fibre,Virement,3,Île-de-France,1,0,1,41,Oui
+C100445,60.0,Femme,30,63.7,1961.43,Mensuel,Aucun,Carte bancaire,1,Hauts-de-France,0,0,1,29,Oui
+C100788,52.0,Homme,68,35.51,2266.87,Annuel,Aucun,Carte bancaire,0,Provence-Alpes-Côte d'Azur,0,0,1,13,Non
+C101079,71.0,Femme,15,115.26,,Mensuel,DSL,Carte bancaire,0,Auvergne-Rhône-Alpes,1,1,0,28,Oui
+C101009,51.0,Femme,3,18.5,57.49,Annuel,Fibre,Virement,2,Auvergne-Rhône-Alpes,0,0,1,3,Non
+C100932,34.0,Homme,35,98.34,3032.83,Annuel,Fibre,Virement,0,Nouvelle-Aquitaine,0,0,1,40,Non
+C100077,32.0,Femme,56,114.77,5762.95,Mensuel,Aucun,Carte bancaire,2,Occitanie,1,0,0,27,Non
+C100084,58.0,Autre,9,83.69,778.47,Mensuel,Aucun,Chèque électronique,1,Hauts-de-France,0,0,0,9,Non
+C101272,77.0,Homme,58,29.68,1611.51,Mensuel,Aucun,Chèque électronique,2,Occitanie,0,1,0,1,Oui
+C100082,28.0,Femme,13,88.12,1156.32,Mensuel,DSL,Carte bancaire,0,Provence-Alpes-Côte d'Azur,0,0,1,31,Non
+C100457,58.0,Femme,42,41.2,,Mensuel,Fibre,Virement,3,Grand Est,1,0,1,22,Non
+C100676,55.0,Homme,30,94.69,3016.31,Annuel,Fibre,Carte bancaire,1,Occitanie,0,0,0,29,Non
+C101309,72.0,Homme,64,65.35,4264.47,Mensuel,DSL,Carte bancaire,0,Grand Est,0,1,1,14,Non
+C101015,71.0,Homme,17,116.27,1897.64,Mensuel,Fibre,Chèque électronique,1,Île-de-France,0,1,1,29,Oui
+C100436,,Femme,60,116.11,6619.84,Biennal,Fibre,Prélèvement,2,Occitanie,0,0,0,10,Non
+C100644,67.0,Autre,55,72.08,3928.88,Biennal,Fibre,Carte bancaire,1,Auvergne-Rhône-Alpes,0,1,1,19,Non
+C101291,72.0,Homme,57,111.31,,Annuel,DSL,Prélèvement,1,Grand Est,0,1,0,16,Non
+C101125,71.0,Femme,29,102.01,2850.02,Annuel,Fibre,Prélèvement,2,Nouvelle-Aquitaine,0,1,1,14,Non
+C100404,49.0,Femme,16,72.97,1199.84,Biennal,DSL,Prélèvement,0,Nouvelle-Aquitaine,1,0,0,32,Non
+C101229,,Femme,62,54.96,3571.54,Biennal,DSL,Virement,0,Provence-Alpes-Côte d'Azur,0,0,1,11,Non
+C101050,50.0,Homme,11,79.6,914.55,Mensuel,DSL,Carte bancaire,5,Nouvelle-Aquitaine,0,0,1,4,Oui
+C100882,46.0,Femme,1,78.72,80.16,Mensuel,Fibre,Carte bancaire,2,Île-de-France,0,0,1,28,Oui
+C100104,68.0,Femme,49,24.21,1188.39,Mensuel,Fibre,Virement,3,Nouvelle-Aquitaine,0,1,1,13,Non
+C100609,72.0,Homme,59,42.96,2626.56,Mensuel,DSL,Carte bancaire,0,Nouvelle-Aquitaine,0,1,1,30,Non
+C100736,64.0,Femme,70,66.24,4368.29,Mensuel,Fibre,Virement,4,Hauts-de-France,1,0,0,15,Oui
+C101214,22.0,Femme,23,29.24,660.64,Annuel,DSL,Virement,0,Île-de-France,0,0,1,14,Oui
+C100828,73.0,Femme,51,32.96,1650.82,Annuel,DSL,Carte bancaire,0,Grand Est,0,1,0,8,Non
+C100062,41.0,Femme,21,47.87,963.86,Mensuel,Fibre,Prélèvement,0,Auvergne-Rhône-Alpes,0,0,1,56,Oui
+C100281,49.0,Homme,22,64.37,1332.1,Mensuel,DSL,Carte bancaire,5,Occitanie,1,0,1,9,Non
+C100900,18.0,Homme,40,41.62,1679.19,Biennal,DSL,Prélèvement,2,Hauts-de-France,1,0,0,18,Non
+C100238,37.0,Homme,25,96.36,2311.61,Mensuel,Fibre,Carte bancaire,1,Hauts-de-France,1,0,0,5,Oui
+C100223,30.0,Homme,33,58.15,,Annuel,Fibre,Prélèvement,3,Hauts-de-France,0,0,1,20,Non
+C100145,72.0,Homme,37,108.62,3646.56,Mensuel,Aucun,Prélèvement,0,Grand Est,0,1,1,15,Non
+C101314,75.0,Femme,37,35.68,,Annuel,Fibre,Chèque électronique,1,Nouvelle-Aquitaine,0,1,1,24,Non
+C100373,41.0,Homme,64,60.17,3400.16,Biennal,Fibre,Chèque électronique,2,Nouvelle-Aquitaine,0,0,1,12,Non
+C100118,33.0,Homme,62,52.2,3415.96,Mensuel,Aucun,Prélèvement,0,Grand Est,0,0,0,10,Non
+C101065,42.0,Femme,64,112.0,7639.07,Mensuel,Fibre,Prélèvement,2,Hauts-de-France,0,0,1,23,Oui
+C100250,29.0,Homme,62,97.02,6077.37,Biennal,Aucun,Prélèvement,2,Occitanie,0,0,1,37,Non
+C101355,,Femme,38,97.66,3829.21,Mensuel,Aucun,Virement,1,Occitanie,0,0,1,31,Non
+C100009,24.0,Femme,44,85.79,4011.31,Mensuel,Fibre,Prélèvement,1,Occitanie,0,0,1,78,Oui
+C100449,36.0,Homme,19,71.86,1405.18,Mensuel,DSL,Carte bancaire,1,Grand Est,0,0,0,101,Oui
+C100708,48.0,Homme,58,46.5,2376.77,Annuel,DSL,Chèque électronique,0,Île-de-France,0,0,1,38,Non
+C100255,27.0,Homme,5,157.04,804.76,Mensuel,Fibre,Prélèvement,4,Occitanie,0,0,0,28,Oui
+C100593,80.0,Femme,19,43.63,800.57,Mensuel,Aucun,Chèque électronique,1,Auvergne-Rhône-Alpes,1,1,1,13,Non
+C100389,27.0,Femme,22,67.4,1357.87,Mensuel,Aucun,Carte bancaire,1,Occitanie,0,0,0,50,Oui
+C101080,76.0,Femme,52,18.5,977.75,Annuel,Aucun,Chèque électronique,4,Occitanie,0,1,1,23,Non
+C101131,60.0,Homme,59,103.45,5458.17,Annuel,DSL,Chèque électronique,1,Grand Est,0,0,1,30,Non
+C100557,74.0,Homme,10,81.96,882.65,Mensuel,Aucun,Chèque électronique,3,Provence-Alpes-Côte d'Azur,0,1,1,30,Oui
+C100744,68.0,Femme,3,95.83,273.98,Mensuel,DSL,Prélèvement,1,Grand Est,0,1,0,10,Oui
+C100460,64.0,Femme,60,84.56,5167.42,Mensuel,DSL,Prélèvement,1,Provence-Alpes-Côte d'Azur,0,0,1,24,Non
+C100723,25.0,Femme,49,91.94,4784.61,Mensuel,Aucun,Carte bancaire,1,Auvergne-Rhône-Alpes,0,0,1,7,Non
+C101298,51.0,Homme,72,120.42,8736.04,Annuel,Fibre,Prélèvement,0,Île-de-France,0,0,0,12,Non
+C100144,81.0,Femme,27,48.87,1244.24,Mensuel,DSL,Carte bancaire,2,Hauts-de-France,0,1,1,95,Oui
+C100501,59.0,Homme,5,110.74,489.5,Mensuel,Fibre,Carte bancaire,1,Grand Est,0,0,1,51,Oui
+C101039,70.0,Homme,65,71.02,4894.8,Mensuel,DSL,Prélèvement,0,Île-de-France,0,1,0,32,Oui
+C100739,75.0,Autre,25,46.32,1033.57,Mensuel,Fibre,Carte bancaire,1,Nouvelle-Aquitaine,1,1,0,21,Non
+C101301,43.0,Femme,17,28.85,497.43,Annuel,DSL,Prélèvement,2,Grand Est,0,0,1,49,Oui
+C100731,44.0,Homme,53,71.83,3397.41,Mensuel,DSL,Prélèvement,1,Hauts-de-France,1,0,0,51,Non
+C100539,19.0,Femme,38,28.19,1017.9,Mensuel,DSL,Virement,2,Grand Est,0,0,1,11,Non
+C100177,28.0,Femme,19,18.5,325.44,Annuel,Fibre,Carte bancaire,1,Nouvelle-Aquitaine,1,0,1,14,Non
+C101357,26.0,Femme,19,100.82,,Mensuel,Fibre,Carte bancaire,1,Île-de-France,0,0,0,13,Oui
+C100697,,Homme,42,83.31,3192.28,Annuel,DSL,Prélèvement,0,Grand Est,0,0,1,7,Non
+C100233,66.0,Homme,9,100.05,868.01,Mensuel,Fibre,Prélèvement,2,Occitanie,0,1,0,64,Oui
+C101113,,Femme,29,55.49,1586.13,Mensuel,DSL,Carte bancaire,1,Île-de-France,0,0,1,52,Non
+C100931,62.0,Homme,29,88.21,,Biennal,Fibre,Chèque électronique,1,Île-de-France,1,0,1,65,Oui
+C100799,46.0,Homme,36,99.68,3790.95,Mensuel,DSL,Prélèvement,4,Occitanie,0,0,1,60,Non
+C100624,56.0,Femme,36,58.62,1905.29,Mensuel,Fibre,Prélèvement,0,Île-de-France,0,0,1,37,Non
+C100007,62.0,Homme,68,38.29,2295.89,Annuel,Fibre,Carte bancaire,3,Occitanie,1,0,1,36,Non
+C101219,46.0,Homme,47,37.58,1609.58,Annuel,Fibre,Chèque électronique,2,Nouvelle-Aquitaine,0,0,1,28,Non
+C100667,73.0,Femme,24,67.43,1723.1,Mensuel,Fibre,Virement,0,Grand Est,0,1,0,18,Non
+C100478,60.0,Femme,48,91.61,4727.08,Mensuel,Fibre,Prélèvement,0,Île-de-France,1,0,0,26,Non
+C100357,75.0,Femme,62,82.21,4694.24,Mensuel,DSL,Carte bancaire,4,Auvergne-Rhône-Alpes,0,1,1,16,Non
+C100953,45.0,Femme,51,85.95,4594.83,Annuel,Fibre,Prélèvement,2,Auvergne-Rhône-Alpes,0,0,0,50,Non
+C100329,,Femme,41,73.75,3045.82,Biennal,DSL,Virement,1,Nouvelle-Aquitaine,0,0,1,4,Non
+C100966,56.0,Homme,52,77.54,4058.28,Mensuel,Fibre,Chèque électronique,2,Grand Est,0,0,0,10,Non
+C101083,53.0,Femme,55,37.6,1927.75,Mensuel,Fibre,Prélèvement,2,Grand Est,1,0,1,34,Non
+C101312,67.0,Femme,66,100.34,6465.47,Annuel,DSL,Prélèvement,1,Hauts-de-France,1,1,1,6,Non
+C100258,29.0,Homme,9,20.11,171.91,Mensuel,Fibre,Chèque électronique,0,Provence-Alpes-Côte d'Azur,0,0,1,30,Non
+C101259,69.0,Homme,65,62.02,3627.04,Annuel,Fibre,Prélèvement,1,Occitanie,1,1,1,56,Non
+C100372,44.0,Femme,36,51.69,1771.74,Annuel,Fibre,Carte bancaire,2,Auvergne-Rhône-Alpes,0,0,1,17,Non
+C100115,54.0,Homme,20,38.46,801.39,Mensuel,DSL,Carte bancaire,0,Provence-Alpes-Côte d'Azur,1,0,0,8,Non
+C101058,45.0,Homme,49,93.74,,Annuel,Fibre,Virement,2,Nouvelle-Aquitaine,0,0,0,10,Non
+C100142,35.0,Homme,34,93.8,3185.92,Annuel,DSL,Carte bancaire,3,Hauts-de-France,0,0,0,13,Oui
+C100525,37.0,Homme,35,59.21,1881.26,Biennal,Fibre,Chèque électronique,1,Auvergne-Rhône-Alpes,1,0,1,17,Non
+C101074,47.0,Homme,45,87.02,3732.96,Biennal,Fibre,,1,Nouvelle-Aquitaine,0,0,1,10,Non
+C101040,63.0,Femme,26,49.86,1248.34,Annuel,Fibre,Carte bancaire,1,Nouvelle-Aquitaine,1,0,1,82,Non
+C101395,55.0,Femme,26,70.14,1761.38,Mensuel,DSL,Carte bancaire,0,Île-de-France,1,0,0,11,Non
+C101339,44.0,Homme,72,46.75,3595.05,Annuel,Fibre,Carte bancaire,1,Nouvelle-Aquitaine,0,0,1,10,Non
+C100440,80.0,Femme,61,88.07,5733.67,Biennal,Fibre,Carte bancaire,0,Occitanie,1,1,1,2,Non
+C100531,28.0,Homme,50,29.28,1566.8,Mensuel,Aucun,Chèque électronique,3,Provence-Alpes-Côte d'Azur,1,0,1,29,Oui
+C101004,26.0,Femme,38,72.58,2870.44,Mensuel,Fibre,Prélèvement,0,Auvergne-Rhône-Alpes,0,0,0,59,Non
+C100226,69.0,Femme,19,86.45,,Mensuel,Fibre,Chèque électronique,0,Auvergne-Rhône-Alpes,0,1,1,35,Oui
+C101057,67.0,Autre,21,98.78,2234.62,Mensuel,Fibre,Carte bancaire,3,Grand Est,0,1,1,47,Oui
+C100228,53.0,Homme,56,74.96,4270.8,Annuel,Fibre,Carte bancaire,0,Provence-Alpes-Côte d'Azur,0,0,1,24,Non
+C101206,50.0,Femme,53,123.8,,Mensuel,Fibre,Prélèvement,1,Provence-Alpes-Côte d'Azur,0,0,0,48,Non
+C101223,,Femme,18,80.29,1292.85,Biennal,Fibre,Carte bancaire,1,Île-de-France,1,0,1,22,Non
+C100212,68.0,Homme,25,53.12,1305.53,Annuel,DSL,Prélèvement,2,Auvergne-Rhône-Alpes,0,1,1,8,Non
+C100079,60.0,Homme,61,95.65,5400.5,Mensuel,DSL,Chèque électronique,3,Nouvelle-Aquitaine,0,0,1,36,Non
+C100148,70.0,Femme,56,65.0,3465.56,Biennal,DSL,Prélèvement,1,Hauts-de-France,0,1,0,9,Non
+C100811,74.0,Femme,4,18.5,69.45,Mensuel,DSL,Virement,0,Hauts-de-France,0,1,1,41,Oui
+C100671,57.0,Homme,69,108.54,6791.6,Mensuel,Fibre,Carte bancaire,2,Hauts-de-France,0,0,1,16,Non
+C101090,50.0,Homme,60,55.31,3470.38,Mensuel,Fibre,Carte bancaire,0,Grand Est,0,0,0,5,Non
+C100969,20.0,Homme,1,98.6,90.6,Annuel,Fibre,Carte bancaire,0,Nouvelle-Aquitaine,0,0,0,68,Non
+C100806,52.0,Homme,36,64.57,2091.64,Mensuel,DSL,Prélèvement,0,Provence-Alpes-Côte d'Azur,1,0,0,23,Oui
+C100133,53.0,Homme,65,105.58,6980.49,Biennal,DSL,Chèque électronique,4,Grand Est,0,0,1,13,Non
+C101048,60.0,Femme,65,35.88,2449.17,Mensuel,Fibre,Carte bancaire,0,Hauts-de-France,0,0,0,35,Non
+C100408,77.0,Autre,63,53.94,3303.19,Mensuel,Fibre,Prélèvement,2,Auvergne-Rhône-Alpes,0,1,1,29,Non
+C100918,34.0,Autre,63,109.59,6828.0,Biennal,Fibre,Prélèvement,1,Grand Est,1,0,1,22,Non
+C100507,33.0,Femme,40,68.1,2421.51,Mensuel,Fibre,Prélèvement,0,Île-de-France,0,0,1,31,Non
+C101115,,Homme,41,79.64,3164.95,Mensuel,Fibre,Carte bancaire,1,Hauts-de-France,1,0,1,4,Non
+C100504,35.0,Femme,53,62.4,2989.44,Annuel,Fibre,Carte bancaire,0,Nouvelle-Aquitaine,1,0,1,78,Non
+C100922,46.0,Homme,45,66.03,2777.09,Biennal,Fibre,Prélèvement,0,Nouvelle-Aquitaine,1,0,0,24,Non
+C100347,77.0,Homme,61,56.43,3242.05,Annuel,Fibre,Carte bancaire,0,Grand Est,0,1,1,19,Non
+C100386,22.0,Homme,16,44.44,632.18,Annuel,DSL,Virement,2,Provence-Alpes-Côte d'Azur,0,0,1,24,Non
+C100000,23.0,Femme,49,78.41,3605.24,Biennal,Fibre,Chèque électronique,1,Grand Est,1,0,0,14,Oui
+C100360,72.0,Homme,36,57.05,2166.74,Biennal,Aucun,Prélèvement,4,Occitanie,0,1,0,47,Non
+C101331,63.0,Homme,69,110.56,8227.72,Annuel,Aucun,Prélèvement,0,Occitanie,0,0,0,9,Non
+C100475,68.0,Homme,27,18.5,447.77,Annuel,Fibre,Carte bancaire,0,Île-de-France,0,1,1,27,Non
+C101222,79.0,Femme,6,61.05,,Mensuel,DSL,Chèque électronique,1,Auvergne-Rhône-Alpes,1,1,1,29,Oui
+C100057,27.0,Homme,7,28.52,185.82,Mensuel,DSL,Carte bancaire,0,Occitanie,0,0,0,32,Non
+C100637,37.0,Homme,5,72.89,321.56,Mensuel,Fibre,Prélèvement,3,Île-de-France,0,0,1,33,Non
+C101231,64.0,Homme,17,94.59,1607.6,Mensuel,Fibre,Carte bancaire,0,Occitanie,0,0,1,24,Non
+C101287,33.0,Homme,56,81.69,4266.75,Annuel,Fibre,Prélèvement,2,Nouvelle-Aquitaine,0,0,1,45,Non
+C100849,56.0,Femme,66,53.09,3156.17,Biennal,Aucun,Carte bancaire,0,Auvergne-Rhône-Alpes,0,0,1,9,Non
+C100172,67.0,Autre,17,56.47,878.57,Mensuel,DSL,Prélèvement,2,Provence-Alpes-Côte d'Azur,0,1,1,13,Non
+C100450,79.0,Femme,29,80.65,2404.07,Biennal,Aucun,Chèque électronique,1,Auvergne-Rhône-Alpes,0,1,0,20,Non
+C100125,54.0,Femme,29,79.01,2465.93,Annuel,DSL,Carte bancaire,1,Hauts-de-France,0,0,0,36,Oui
+C100873,25.0,Homme,57,44.37,2473.79,Mensuel,DSL,Carte bancaire,1,Auvergne-Rhône-Alpes,1,0,0,26,Oui
+C100530,56.0,Femme,67,73.69,4613.0,Biennal,Fibre,Carte bancaire,2,Auvergne-Rhône-Alpes,1,0,0,33,Non
+C100713,66.0,Homme,44,91.68,,Biennal,Aucun,Carte bancaire,0,Hauts-de-France,0,1,1,40,Non
+C100090,45.0,Femme,5,51.78,270.73,Mensuel,Fibre,Carte bancaire,1,Provence-Alpes-Côte d'Azur,0,0,1,12,Oui
+C101361,22.0,Femme,9,29.4,281.45,Mensuel,Fibre,Virement,0,Grand Est,0,0,1,24,Non
+C100181,27.0,Homme,9,69.24,616.09,Mensuel,Fibre,Carte bancaire,1,Provence-Alpes-Côte d'Azur,1,0,0,11,Non
+C100963,31.0,Femme,61,73.52,4497.25,Mensuel,Fibre,Virement,4,Nouvelle-Aquitaine,0,0,0,49,Non
+C100786,20.0,Autre,70,74.14,4642.11,Mensuel,DSL,Chèque électronique,0,Nouvelle-Aquitaine,0,0,0,19,Oui
+C100414,19.0,Autre,41,66.57,2772.84,Mensuel,Fibre,Carte bancaire,2,Nouvelle-Aquitaine,0,0,0,36,Oui
+C100251,49.0,Femme,19,81.23,1392.85,Mensuel,Aucun,Chèque électronique,1,Provence-Alpes-Côte d'Azur,0,0,0,11,Non
+C100069,48.0,Homme,37,18.5,734.08,Mensuel,DSL,Prélèvement,0,Nouvelle-Aquitaine,0,0,0,8,Non
+C100803,76.0,Femme,50,18.5,880.03,Mensuel,Fibre,Carte bancaire,1,Auvergne-Rhône-Alpes,0,1,1,7,Non
+C100131,53.0,Homme,20,58.67,1038.94,Mensuel,Aucun,Carte bancaire,1,Île-de-France,0,0,0,14,Non
+C100300,41.0,Femme,50,65.06,3059.53,Biennal,Fibre,Carte bancaire,0,Occitanie,0,0,1,42,Non
+C100914,55.0,Homme,18,88.38,1676.84,Biennal,Fibre,Carte bancaire,0,Provence-Alpes-Côte d'Azur,0,0,1,25,Non
+C100326,33.0,Homme,2,40.19,75.58,Mensuel,DSL,Carte bancaire,2,Hauts-de-France,1,0,1,36,Oui
+C101375,79.0,Homme,39,66.33,2646.28,Mensuel,Fibre,Carte bancaire,1,Hauts-de-France,0,1,1,2,Non
+C101052,50.0,Homme,52,97.83,4698.76,Mensuel,Fibre,Carte bancaire,2,Hauts-de-France,0,0,0,36,Oui
+C100499,45.0,Homme,2,65.62,123.86,Mensuel,DSL,Chèque électronique,2,Occitanie,0,0,1,12,Oui
+C100904,47.0,Femme,8,55.39,409.86,Mensuel,Aucun,Carte bancaire,3,Hauts-de-France,0,0,0,11,Non
+C100832,47.0,Homme,26,111.98,2981.29,Annuel,Fibre,Prélèvement,0,Hauts-de-France,0,0,1,20,Oui
+C100364,,Femme,65,73.66,4439.51,Annuel,Fibre,Prélèvement,1,Occitanie,0,0,1,70,Non
+C100495,44.0,Femme,61,66.11,3876.49,Biennal,DSL,Carte bancaire,0,Grand Est,0,0,1,31,Non
+C101311,40.0,Femme,58,111.59,,Annuel,DSL,Virement,0,Auvergne-Rhône-Alpes,1,0,0,18,Non
+C100338,30.0,Femme,61,41.08,2401.71,Annuel,Fibre,Chèque électronique,3,Auvergne-Rhône-Alpes,0,0,1,17,Non
+C100421,62.0,Femme,72,61.43,4177.44,Annuel,Aucun,Carte bancaire,0,Provence-Alpes-Côte d'Azur,0,0,1,7,Non
+C100164,44.0,Femme,42,18.5,767.99,Mensuel,DSL,Carte bancaire,1,Auvergne-Rhône-Alpes,0,0,1,12,Non
+C100028,52.0,Femme,26,51.18,1171.74,Annuel,DSL,Carte bancaire,2,Nouvelle-Aquitaine,0,0,1,10,Non
+C100516,74.0,Femme,65,18.5,1112.22,Annuel,Fibre,Chèque électronique,1,Grand Est,0,1,0,22,Oui
+C100193,41.0,Femme,5,74.84,376.06,Mensuel,DSL,Prélèvement,0,Auvergne-Rhône-Alpes,0,0,1,21,Non
+C101163,52.0,Homme,62,57.97,3293.4,Mensuel,Aucun,Carte bancaire,1,Nouvelle-Aquitaine,0,0,1,12,Non
+C101278,18.0,Homme,7,59.41,410.14,Mensuel,DSL,Carte bancaire,1,Île-de-France,0,0,0,6,Oui
+C101277,67.0,Homme,51,77.24,4055.39,Annuel,Fibre,Prélèvement,1,Hauts-de-France,0,1,0,14,Non
+C100169,19.0,Femme,38,100.22,3996.88,Mensuel,Fibre,Prélèvement,0,Provence-Alpes-Côte d'Azur,0,0,1,31,Non
+C101247,47.0,Homme,30,35.9,1081.6,Mensuel,Fibre,Chèque électronique,0,Nouvelle-Aquitaine,0,0,0,17,Oui
+C100652,30.0,Femme,8,123.96,935.41,Mensuel,Aucun,Carte bancaire,1,Grand Est,0,0,0,35,Oui
+C100173,64.0,Femme,59,18.5,1082.38,Biennal,Fibre,Virement,4,Île-de-France,0,0,1,9,Non
+C100518,48.0,Homme,29,63.48,1776.6,Mensuel,DSL,Carte bancaire,1,Hauts-de-France,0,0,0,6,Non
+C101144,39.0,Femme,21,66.29,1396.97,Mensuel,Fibre,Prélèvement,0,Provence-Alpes-Côte d'Azur,0,0,1,18,Non
+C100962,71.0,Homme,21,42.68,806.04,Mensuel,Fibre,Prélèvement,0,Hauts-de-France,0,1,0,5,Non
+C100491,73.0,Femme,5,102.77,519.57,Annuel,Fibre,Chèque électronique,0,Île-de-France,1,1,0,21,Non
+C100073,26.0,Homme,23,78.39,1814.84,Mensuel,Aucun,Prélèvement,0,Hauts-de-France,0,0,0,13,Oui
+C101316,63.0,Femme,38,57.75,2247.5,Annuel,Fibre,Carte bancaire,1,Auvergne-Rhône-Alpes,0,0,0,18,Non
+C100587,24.0,Femme,1,86.05,77.45,Biennal,DSL,Virement,2,Nouvelle-Aquitaine,1,0,1,53,Non
+C100750,79.0,Homme,24,93.31,1991.87,Biennal,Fibre,Prélèvement,1,Provence-Alpes-Côte d'Azur,1,1,1,29,Non
+C100657,58.0,Femme,46,27.35,1355.44,Biennal,DSL,Prélèvement,2,Grand Est,0,0,1,60,Non
+C100842,76.0,Femme,29,83.87,2467.53,Annuel,Fibre,Carte bancaire,4,Auvergne-Rhône-Alpes,0,1,1,16,Oui
+C100234,49.0,Homme,43,84.77,3478.28,Biennal,DSL,Prélèvement,0,Provence-Alpes-Côte d'Azur,1,0,1,6,Non
+C100732,76.0,Femme,65,109.73,6336.19,Mensuel,DSL,Carte bancaire,0,Île-de-France,0,1,1,22,Non
+C100214,65.0,Autre,36,57.37,,Mensuel,Fibre,Virement,2,Nouvelle-Aquitaine,0,1,1,11,Oui
+C100162,44.0,Homme,36,18.5,639.3,Mensuel,DSL,Prélèvement,3,Occitanie,0,0,1,66,Oui
+C100132,23.0,Femme,62,115.32,6687.58,Annuel,Fibre,Carte bancaire,2,Grand Est,0,0,0,38,Non
+C101210,57.0,Femme,2,83.35,170.01,Mensuel,Fibre,Prélèvement,1,Nouvelle-Aquitaine,1,0,0,7,Non
+C101007,50.0,Femme,55,43.57,2552.83,Annuel,Aucun,Virement,2,Grand Est,0,0,1,21,Non
+C101156,25.0,Femme,51,48.19,2492.68,Biennal,DSL,Carte bancaire,0,Île-de-France,1,0,1,22,Non
+C100185,46.0,Femme,52,84.83,3964.86,Mensuel,Aucun,Chèque électronique,4,Hauts-de-France,0,0,1,17,Oui
+C100041,66.0,Femme,20,79.92,1710.26,Mensuel,Aucun,Virement,0,Provence-Alpes-Côte d'Azur,0,1,1,54,Oui
+C100692,77.0,Femme,5,76.02,396.08,Biennal,Fibre,Virement,2,Île-de-France,0,1,1,55,Oui
+C100108,,Homme,58,79.35,4879.61,Biennal,Aucun,Chèque électronique,1,Hauts-de-France,0,0,1,14,Non
+C100038,35.0,Femme,55,53.62,2721.62,Mensuel,DSL,Virement,2,Île-de-France,0,0,1,31,Oui
+C100568,59.0,Homme,9,59.52,512.59,Mensuel,Fibre,Prélèvement,1,Île-de-France,1,0,1,34,Non
+C100884,70.0,Homme,38,125.97,4270.92,Mensuel,Aucun,Carte bancaire,1,Île-de-France,1,1,1,21,Non
+C101193,62.0,Femme,60,136.43,,Mensuel,DSL,Prélèvement,2,Grand Est,0,0,0,19,Non
+C101353,76.0,Homme,47,39.84,1762.59,Mensuel,Fibre,Virement,0,Auvergne-Rhône-Alpes,0,1,1,16,Oui
+C100483,68.0,Femme,5,87.47,455.58,Mensuel,DSL,Virement,0,Nouvelle-Aquitaine,0,1,0,15,Oui
+C100468,29.0,Homme,53,36.6,1875.8,Biennal,Aucun,Carte bancaire,2,Hauts-de-France,0,0,1,30,Non
+C100024,68.0,Femme,57,62.19,3461.4,Biennal,Fibre,Prélèvement,0,Grand Est,0,1,1,20,Non
+C100898,22.0,Homme,68,115.92,,Mensuel,Aucun,Prélèvement,3,Nouvelle-Aquitaine,0,0,1,12,Non
+C101112,30.0,Homme,16,18.5,292.87,Biennal,Fibre,Chèque électronique,1,Grand Est,0,0,1,11,Oui
+C100068,22.0,Femme,4,42.96,,Biennal,DSL,Prélèvement,0,Hauts-de-France,1,0,0,8,Non
+C101191,35.0,Homme,12,18.5,220.96,Mensuel,Fibre,Carte bancaire,1,Hauts-de-France,0,0,0,31,Oui
+C100366,48.0,Femme,51,63.1,3333.91,Mensuel,DSL,Virement,1,Hauts-de-France,0,0,1,1,Non
+C100505,47.0,Femme,17,66.58,1132.48,Mensuel,Fibre,Carte bancaire,1,Provence-Alpes-Côte d'Azur,0,0,1,20,Non
+C100850,80.0,Femme,32,42.24,1305.4,Mensuel,Fibre,Prélèvement,1,Occitanie,0,1,1,67,Oui
+C101239,20.0,Femme,41,58.38,2193.69,Annuel,Fibre,Prélèvement,0,Hauts-de-France,0,0,1,46,Non
+C100383,33.0,Homme,51,98.04,4749.69,Mensuel,Aucun,Carte bancaire,1,Auvergne-Rhône-Alpes,0,0,1,15,Non
+C100734,31.0,Femme,28,72.06,1777.59,Annuel,DSL,Carte bancaire,3,Nouvelle-Aquitaine,1,0,1,54,Non
+C100717,49.0,Homme,20,27.36,527.07,Mensuel,DSL,Chèque électronique,1,Occitanie,1,0,1,14,Non
+C101253,68.0,Autre,57,99.41,5930.89,Mensuel,Fibre,Carte bancaire,1,Occitanie,0,1,0,87,Non
+C100454,56.0,Homme,9,143.9,1203.46,Mensuel,Fibre,Prélèvement,0,Auvergne-Rhône-Alpes,1,0,0,4,Non
+C100264,81.0,Homme,33,106.38,3582.56,Mensuel,Fibre,Carte bancaire,2,Grand Est,1,1,0,34,Oui
+C100075,48.0,Homme,56,34.29,1848.32,Mensuel,Fibre,Prélèvement,2,Provence-Alpes-Côte d'Azur,0,0,1,7,Non
+C100232,19.0,Femme,65,60.2,4136.18,Mensuel,Aucun,Prélèvement,3,Provence-Alpes-Côte d'Azur,0,0,1,18,Non
+C100444,50.0,Femme,2,84.08,154.56,Mensuel,Fibre,,2,Occitanie,0,0,1,32,Oui
+C100395,73.0,Femme,4,81.51,304.0,Mensuel,Aucun,Chèque électronique,1,Grand Est,1,1,1,19,Oui
+C101269,21.0,Homme,20,96.23,1742.63,Mensuel,Fibre,Carte bancaire,0,Occitanie,0,0,1,45,Oui
+C100176,63.0,Femme,23,99.63,2462.44,Annuel,DSL,Carte bancaire,1,Hauts-de-France,1,0,1,8,Non
+C100018,71.0,Homme,38,121.45,4618.68,Mensuel,Aucun,Carte bancaire,3,Grand Est,0,1,1,65,Oui
+C101235,40.0,Femme,72,113.23,8553.62,Mensuel,Fibre,Carte bancaire,1,Provence-Alpes-Côte d'Azur,0,0,0,13,Oui
+C100967,38.0,Femme,15,73.76,1159.6,Mensuel,DSL,Virement,2,Grand Est,0,0,1,28,Oui
+C100341,36.0,Homme,46,39.69,1621.52,Mensuel,Fibre,Virement,2,Hauts-de-France,1,0,1,4,Non
+C100938,47.0,Femme,6,55.82,361.3,Annuel,Fibre,Chèque électronique,2,Auvergne-Rhône-Alpes,1,0,1,10,Non
+C100879,58.0,Homme,37,61.42,2419.62,Mensuel,DSL,,0,Hauts-de-France,0,0,1,37,Non
+C100595,69.0,Femme,14,81.97,1041.34,Biennal,Fibre,Carte bancaire,2,Provence-Alpes-Côte d'Azur,0,1,1,10,Non
+C100061,65.0,Femme,15,66.95,984.54,Mensuel,Aucun,Carte bancaire,1,Provence-Alpes-Côte d'Azur,1,1,1,53,Oui
+C101187,56.0,Femme,72,106.5,7851.63,Mensuel,Fibre,Carte bancaire,1,Île-de-France,1,0,1,41,Non
+C100272,27.0,Femme,36,89.44,3000.55,Annuel,DSL,Chèque électronique,0,Provence-Alpes-Côte d'Azur,0,0,1,36,Non
+C101139,52.0,Homme,34,66.37,2172.08,Mensuel,Fibre,Carte bancaire,4,Nouvelle-Aquitaine,1,0,0,30,Non
+C100872,25.0,Homme,13,61.16,735.42,Mensuel,Fibre,Chèque électronique,2,Occitanie,1,0,1,28,Oui
+C101262,46.0,Homme,51,93.71,4489.56,Mensuel,Fibre,Prélèvement,1,Île-de-France,1,0,1,41,Non
+C101322,53.0,Femme,55,88.84,4441.67,Biennal,Fibre,Carte bancaire,1,Provence-Alpes-Côte d'Azur,1,0,1,29,Non
+C100278,22.0,Homme,63,18.5,1108.77,Annuel,Aucun,Prélèvement,0,Occitanie,0,0,0,45,Non
+C101094,39.0,Homme,67,80.92,5624.99,Biennal,DSL,Virement,2,Nouvelle-Aquitaine,0,0,1,7,Non
+C100694,23.0,Homme,35,70.03,2502.54,Mensuel,DSL,Carte bancaire,2,Île-de-France,1,0,1,6,Non
+C100368,19.0,Femme,23,93.94,2289.37,Mensuel,DSL,Carte bancaire,1,Grand Est,1,0,1,6,Oui
+C101360,23.0,Homme,35,56.82,2111.81,Mensuel,Aucun,Chèque électronique,1,Grand Est,0,0,1,57,Oui
+C100036,72.0,Femme,69,70.08,4643.12,Annuel,Fibre,Virement,1,Grand Est,1,1,0,9,Non
+C100735,60.0,Autre,43,62.59,2544.47,Annuel,Fibre,Virement,1,Auvergne-Rhône-Alpes,1,0,1,12,Non
+C101251,44.0,Femme,54,66.7,3646.11,Annuel,DSL,Prélèvement,3,Occitanie,0,0,1,11,Non
+C100662,20.0,Homme,65,64.03,4467.19,Mensuel,Fibre,Carte bancaire,0,Hauts-de-France,0,0,0,19,Non
+C101068,39.0,Femme,51,35.2,1649.62,Annuel,Aucun,Chèque électronique,0,Hauts-de-France,0,0,1,44,Non
+C101268,79.0,Femme,40,117.98,4168.06,Biennal,DSL,Carte bancaire,0,Provence-Alpes-Côte d'Azur,0,1,1,13,Non
+C100547,55.0,Femme,19,40.58,,Annuel,DSL,Chèque électronique,2,Hauts-de-France,0,0,1,22,Non
+C101124,71.0,Homme,66,90.02,6066.84,Mensuel,Fibre,Carte bancaire,4,Provence-Alpes-Côte d'Azur,0,1,0,42,Oui
+C100688,46.0,Homme,25,21.5,531.12,Mensuel,Fibre,Carte bancaire,3,Provence-Alpes-Côte d'Azur,0,0,1,4,Oui
+C100738,65.0,Homme,22,107.5,2191.37,Mensuel,DSL,Prélèvement,1,Provence-Alpes-Côte d'Azur,1,1,1,15,Oui
+C100191,58.0,Homme,59,72.72,3859.27,Annuel,DSL,Virement,0,Nouvelle-Aquitaine,1,0,0,68,Non
+C100919,58.0,Femme,3,25.86,77.47,Mensuel,DSL,Virement,0,Occitanie,0,0,0,19,Non
+C100456,27.0,Femme,10,32.73,309.18,Mensuel,Aucun,Prélèvement,0,Nouvelle-Aquitaine,0,0,0,13,Oui
+C100868,46.0,Femme,3,78.62,,Mensuel,Fibre,Prélèvement,0,Hauts-de-France,0,0,1,8,Non
+C100393,56.0,Femme,53,101.76,5744.82,Annuel,Fibre,Carte bancaire,1,Occitanie,0,0,1,34,Non
+C100675,64.0,Femme,48,66.8,3441.1,Mensuel,DSL,Prélèvement,2,Hauts-de-France,1,0,1,21,Non
+C100760,29.0,Homme,28,49.44,1308.34,Annuel,Fibre,Carte bancaire,2,Occitanie,0,0,0,13,Non
+C101385,33.0,Femme,54,31.81,1756.31,Annuel,Aucun,Prélèvement,0,Provence-Alpes-Côte d'Azur,0,0,1,29,Non
+C100728,49.0,Homme,14,91.76,1386.32,Biennal,DSL,Carte bancaire,1,Provence-Alpes-Côte d'Azur,0,0,1,18,Non
+C100419,50.0,Homme,65,123.3,7433.9,Mensuel,DSL,Chèque électronique,2,Occitanie,0,0,0,12,Non
+C100375,24.0,Femme,56,81.43,4085.33,Mensuel,Fibre,Carte bancaire,2,Auvergne-Rhône-Alpes,0,0,1,2,Non
+C100412,35.0,Homme,57,99.7,,Annuel,DSL,Virement,2,Occitanie,0,0,1,28,Non
+C100074,61.0,Femme,3,84.87,262.89,Mensuel,Fibre,Carte bancaire,0,Grand Est,0,0,1,14,Non
+C101318,46.0,Homme,41,18.66,720.59,Mensuel,Fibre,,4,Provence-Alpes-Côte d'Azur,1,0,1,30,Non
+C101106,33.0,Femme,29,55.17,1458.21,Annuel,Aucun,Prélèvement,1,Provence-Alpes-Côte d'Azur,0,0,1,1,Non
+C100500,25.0,Homme,64,71.39,4024.4,Biennal,Aucun,Prélèvement,0,Nouvelle-Aquitaine,0,0,1,5,Non
+C100825,23.0,Femme,9,52.34,502.81,Annuel,DSL,Prélèvement,0,Hauts-de-France,0,0,1,26,Non
+C100195,23.0,Homme,37,76.01,2997.42,Mensuel,Fibre,Chèque électronique,1,Auvergne-Rhône-Alpes,0,0,0,30,Non
+C101092,71.0,Femme,25,67.79,1563.73,Mensuel,Aucun,Prélèvement,0,Nouvelle-Aquitaine,1,1,0,40,Non
+C100616,33.0,Homme,63,37.96,2469.79,Annuel,Fibre,Prélèvement,0,Nouvelle-Aquitaine,0,0,0,31,Non
+C100114,50.0,Femme,55,110.06,5388.63,Mensuel,Fibre,Carte bancaire,0,Nouvelle-Aquitaine,1,0,0,20,Non
+C100417,25.0,Homme,44,111.5,4458.32,Mensuel,DSL,Prélèvement,0,Auvergne-Rhône-Alpes,0,0,1,9,Non
+C100601,67.0,Homme,43,41.03,1816.55,Biennal,Fibre,Carte bancaire,1,Grand Est,0,1,1,10,Non
+C100921,54.0,Homme,45,79.8,3264.49,Mensuel,Fibre,Virement,1,Grand Est,1,0,0,9,Non
+C100604,70.0,Homme,50,90.27,4441.45,Biennal,Aucun,Carte bancaire,0,Hauts-de-France,0,1,0,15,Non
+C101348,65.0,Femme,16,52.88,851.08,Mensuel,DSL,,3,Hauts-de-France,1,1,0,27,Non
+C100089,71.0,Homme,23,81.82,1928.66,Mensuel,DSL,,0,Provence-Alpes-Côte d'Azur,0,1,1,10,Non
+C100848,70.0,Femme,22,66.26,1361.22,Mensuel,Fibre,Carte bancaire,1,Île-de-France,0,1,1,16,Non
+C101081,81.0,Homme,52,41.21,1936.73,Biennal,Fibre,Carte bancaire,1,Provence-Alpes-Côte d'Azur,1,1,1,18,Non
+C101347,62.0,Homme,4,69.24,260.42,Annuel,DSL,Prélèvement,0,Occitanie,0,0,0,36,Oui
+C100753,,Homme,11,59.16,699.87,Mensuel,Aucun,Chèque électronique,1,Nouvelle-Aquitaine,0,1,1,49,Non
+C100498,77.0,Femme,22,45.65,974.08,Mensuel,DSL,Prélèvement,1,Grand Est,0,1,1,49,Non
+C101114,30.0,Homme,30,72.54,1987.88,Mensuel,Fibre,Carte bancaire,0,Hauts-de-France,0,0,1,40,Non
+C101352,49.0,Femme,48,64.39,3225.59,Mensuel,Fibre,Prélèvement,1,Île-de-France,0,0,1,20,Non
+C101120,18.0,Homme,23,49.88,1053.98,Mensuel,Fibre,Prélèvement,1,Auvergne-Rhône-Alpes,1,0,1,53,Oui
+C101118,64.0,Homme,55,91.65,4545.89,Annuel,Fibre,Carte bancaire,2,Grand Est,0,0,1,30,Non
+C100011,80.0,Homme,52,40.4,1970.69,Biennal,Fibre,Prélèvement,1,Île-de-France,0,1,1,31,Non
+C100396,20.0,Femme,65,50.99,3038.22,Mensuel,Fibre,Chèque électronique,1,Grand Est,1,0,1,3,Non
+C100284,46.0,Femme,34,99.28,3185.42,Annuel,Aucun,Carte bancaire,1,Occitanie,1,0,1,37,Non
+C100555,50.0,Homme,44,85.18,3900.42,Mensuel,DSL,Prélèvement,1,Occitanie,0,0,1,38,Non
+C100042,62.0,Homme,60,79.27,4327.42,Mensuel,DSL,Virement,0,Nouvelle-Aquitaine,0,0,0,19,Non
+C100841,60.0,Femme,12,27.49,308.66,Mensuel,Fibre,Carte bancaire,1,Île-de-France,1,0,0,15,Non
+C100167,28.0,Homme,11,18.5,187.19,Mensuel,DSL,Virement,0,Île-de-France,0,0,1,5,Non
+C100416,80.0,Femme,22,89.91,2132.51,Mensuel,Fibre,Prélèvement,3,Nouvelle-Aquitaine,1,1,1,39,Oui
+C100576,77.0,Femme,25,89.74,2234.56,Mensuel,Fibre,Carte bancaire,0,Grand Est,0,1,1,50,Non
+C100834,72.0,Femme,2,61.34,109.13,Annuel,DSL,Chèque électronique,1,Grand Est,0,1,0,6,Oui
+C100267,40.0,Femme,69,18.5,1253.15,Mensuel,DSL,Carte bancaire,0,Grand Est,0,0,1,12,Oui
+C100867,71.0,Femme,2,18.5,38.66,Mensuel,Fibre,Carte bancaire,1,Île-de-France,0,1,0,26,Non
+C100426,73.0,Homme,1,68.72,65.03,Annuel,Aucun,Carte bancaire,2,Provence-Alpes-Côte d'Azur,0,1,0,6,Non
+C100690,81.0,Homme,61,39.04,2401.14,Annuel,Fibre,Virement,0,Provence-Alpes-Côte d'Azur,0,1,1,11,Non
+C101159,39.0,Femme,25,60.98,1399.26,Mensuel,Aucun,Prélèvement,1,Hauts-de-France,1,0,1,79,Oui
+C101199,57.0,Femme,63,90.73,,Mensuel,Fibre,Carte bancaire,0,Auvergne-Rhône-Alpes,0,0,0,5,Oui
+C100544,71.0,Femme,51,89.37,4412.84,Mensuel,Fibre,Prélèvement,0,Auvergne-Rhône-Alpes,0,1,1,24,Oui
+C101319,43.0,Femme,38,49.91,2010.07,Mensuel,DSL,Carte bancaire,1,Occitanie,0,0,1,19,Non
+C100674,57.0,Autre,14,122.94,1525.38,Mensuel,DSL,Virement,0,Nouvelle-Aquitaine,0,0,0,33,Non
+C100689,68.0,Femme,35,58.08,2121.81,Mensuel,Aucun,Carte bancaire,2,Nouvelle-Aquitaine,0,1,0,2,Oui
+C100907,29.0,Femme,69,72.01,5106.7,Annuel,Fibre,Prélèvement,2,Grand Est,0,0,1,15,Non
+C101242,79.0,Femme,67,101.33,6634.98,Mensuel,Aucun,Prélèvement,0,Île-de-France,0,1,0,16,Non
+C100851,69.0,Femme,11,95.35,,Mensuel,Fibre,Prélèvement,3,Hauts-de-France,0,1,1,16,Oui
+C101377,66.0,Femme,68,85.7,5791.19,Biennal,DSL,Chèque électronique,2,Île-de-France,0,1,1,29,Non
+C100159,68.0,Homme,70,18.5,1156.88,Biennal,DSL,Chèque électronique,1,Hauts-de-France,0,1,1,28,Non
+C100895,57.0,Homme,13,68.97,849.45,Mensuel,DSL,Prélèvement,0,Provence-Alpes-Côte d'Azur,0,0,1,24,Non
+C100987,38.0,Homme,9,49.4,428.32,Mensuel,DSL,Carte bancaire,3,Nouvelle-Aquitaine,1,0,1,23,Oui
+C101121,23.0,Homme,61,69.06,,Biennal,DSL,Prélèvement,2,Nouvelle-Aquitaine,0,0,1,13,Non
+C100257,24.0,Homme,3,73.47,223.93,Mensuel,DSL,Prélèvement,1,Auvergne-Rhône-Alpes,0,0,0,29,Oui
+C101098,20.0,Homme,13,100.76,1162.12,Mensuel,Fibre,Carte bancaire,1,Occitanie,0,0,1,20,Oui
+C100335,69.0,Homme,37,99.3,3918.19,Annuel,Fibre,Carte bancaire,0,Nouvelle-Aquitaine,0,1,1,34,Oui
+C101323,74.0,Femme,67,57.49,3971.36,Mensuel,DSL,Virement,1,Île-de-France,0,1,1,16,Oui
+C100015,68.0,Femme,72,107.67,8236.89,Mensuel,Fibre,Prélèvement,2,Île-de-France,1,1,1,38,Oui
+C100515,24.0,Homme,37,87.72,3291.66,Mensuel,Fibre,Chèque électronique,1,Île-de-France,0,0,0,15,Oui
+C100324,80.0,Homme,58,55.61,3385.11,Mensuel,DSL,Chèque électronique,0,Occitanie,0,1,1,23,Oui
+C100768,26.0,Homme,3,63.21,189.15,Biennal,Fibre,Virement,1,Occitanie,0,0,0,9,Oui
+C100607,50.0,Homme,65,18.5,1130.64,Mensuel,DSL,Carte bancaire,2,Occitanie,0,0,0,22,Non
+C101240,50.0,Femme,38,90.44,3358.41,Mensuel,Fibre,Carte bancaire,0,Hauts-de-France,0,0,0,45,Non
+C101132,68.0,Femme,29,92.73,2551.19,Mensuel,Fibre,Prélèvement,0,Île-de-France,0,1,1,15,Oui
+C101181,77.0,Homme,69,21.49,1379.69,Mensuel,DSL,Carte bancaire,1,Provence-Alpes-Côte d'Azur,0,1,1,74,Non
+C100905,63.0,Femme,47,71.54,3312.25,Mensuel,Fibre,Chèque électronique,1,Nouvelle-Aquitaine,0,0,0,27,Non
+C100222,63.0,Homme,56,118.72,6497.07,Mensuel,DSL,Carte bancaire,1,Île-de-France,1,0,1,25,Non
+C100179,50.0,Homme,67,44.31,2864.97,Biennal,Fibre,Carte bancaire,0,Auvergne-Rhône-Alpes,0,0,1,11,Non
+C101043,41.0,Homme,70,48.77,3679.94,Annuel,Fibre,Carte bancaire,1,Provence-Alpes-Côte d'Azur,1,0,0,46,Non
+C100099,26.0,Homme,7,34.04,256.89,Mensuel,DSL,Carte bancaire,1,Provence-Alpes-Côte d'Azur,0,0,1,6,Non
+C100836,69.0,Homme,66,95.74,5973.51,Annuel,Aucun,Carte bancaire,0,Provence-Alpes-Côte d'Azur,0,1,1,39,Non
+C100757,42.0,Femme,27,59.66,1549.45,Biennal,Fibre,Virement,0,Nouvelle-Aquitaine,1,0,1,6,Non
+C100521,27.0,Femme,60,54.12,3296.68,Mensuel,DSL,Chèque électronique,2,Hauts-de-France,0,0,1,18,Oui
+C100761,53.0,Homme,37,64.47,2103.67,Mensuel,Fibre,Prélèvement,0,Nouvelle-Aquitaine,0,0,1,44,Non
+C100022,29.0,Femme,60,60.87,,Mensuel,Fibre,Virement,1,Hauts-de-France,0,0,1,11,Non
+C100356,27.0,Homme,12,18.5,229.38,Mensuel,DSL,Prélèvement,0,Auvergne-Rhône-Alpes,0,0,1,6,Non
+C100733,67.0,Femme,60,44.72,2412.27,Mensuel,Fibre,Chèque électronique,1,Nouvelle-Aquitaine,0,1,1,19,Non
+C101168,81.0,Homme,48,58.99,2783.32,Mensuel,Aucun,Prélèvement,0,Hauts-de-France,0,1,0,45,Oui
+C101305,60.0,Homme,61,60.61,3646.86,Mensuel,Fibre,Carte bancaire,0,Occitanie,0,0,1,43,Non
+C100611,47.0,Homme,18,27.42,460.77,Mensuel,DSL,Virement,2,Occitanie,0,0,1,32,Non
+C101198,69.0,Femme,68,56.29,3895.94,Mensuel,DSL,Chèque électronique,1,Nouvelle-Aquitaine,0,1,1,37,Non
+C100340,58.0,Femme,44,52.25,2210.85,Mensuel,Fibre,Carte bancaire,1,Occitanie,0,0,1,48,Non
+C100431,65.0,Homme,21,80.73,1644.33,Mensuel,Fibre,Prélèvement,2,Provence-Alpes-Côte d'Azur,0,1,0,18,Oui
+C100473,47.0,Homme,63,26.46,1559.57,Annuel,Fibre,Prélèvement,0,Nouvelle-Aquitaine,0,0,1,34,Oui
+C100217,24.0,Femme,12,19.45,222.23,Mensuel,Fibre,Virement,1,Île-de-France,0,0,1,109,Oui
+C100911,29.0,Homme,50,66.39,3061.48,Annuel,DSL,Prélèvement,0,Grand Est,1,0,0,46,Oui
+C101167,43.0,Femme,42,62.93,2675.34,Mensuel,DSL,Chèque électronique,1,Nouvelle-Aquitaine,0,0,1,30,Non
+C101011,,Femme,11,61.07,609.92,Mensuel,Fibre,Prélèvement,3,Provence-Alpes-Côte d'Azur,0,1,0,15,Oui
+C101369,58.0,Homme,16,53.45,804.81,Mensuel,Aucun,Carte bancaire,1,Provence-Alpes-Côte d'Azur,1,0,1,9,Non
+C100093,42.0,Femme,7,137.7,894.5,Annuel,DSL,Carte bancaire,0,Île-de-France,0,0,1,59,Non
+C101008,64.0,Homme,36,66.66,2522.32,Biennal,Fibre,Chèque électronique,0,Grand Est,0,0,0,17,Non
+C100696,64.0,Homme,62,113.2,6647.71,Annuel,Fibre,Prélèvement,1,Provence-Alpes-Côte d'Azur,0,0,0,3,Non
+C100996,51.0,Femme,68,70.18,4641.4,Annuel,Fibre,Carte bancaire,1,Occitanie,0,0,1,45,Non
+C100153,36.0,Homme,30,73.31,1979.94,Biennal,Fibre,Chèque électronique,0,Grand Est,0,0,1,26,Non
+C101225,80.0,Femme,18,633.31,1532.58,Biennal,DSL,Carte bancaire,3,Occitanie,1,1,1,27,Non
+C100208,34.0,Femme,19,21.92,399.53,Mensuel,Aucun,Chèque électronique,0,Auvergne-Rhône-Alpes,0,0,0,26,Oui
+C100789,18.0,Femme,64,68.35,4381.6,Mensuel,Fibre,Prélèvement,2,Provence-Alpes-Côte d'Azur,0,0,0,24,Non
+C100580,23.0,Femme,62,91.26,5670.64,Mensuel,Fibre,Prélèvement,0,Occitanie,0,0,1,19,Non
+C100703,28.0,Femme,52,18.5,907.4,Annuel,Aucun,Prélèvement,2,Île-de-France,1,0,1,23,Oui
+C101185,37.0,Femme,64,37.37,2373.3,Mensuel,DSL,Prélèvement,0,Nouvelle-Aquitaine,1,0,0,4,Non
+C100487,51.0,Autre,21,71.63,1381.32,Mensuel,Fibre,Carte bancaire,0,Hauts-de-France,0,0,1,54,Oui
+C100559,72.0,Autre,50,49.97,2206.51,Annuel,Aucun,Prélèvement,2,Occitanie,1,1,0,14,Non
+C100801,37.0,Homme,3,62.33,195.34,Mensuel,DSL,Carte bancaire,1,Grand Est,0,0,1,10,Non
+C100512,71.0,Homme,64,46.99,2960.45,Mensuel,DSL,Carte bancaire,1,Auvergne-Rhône-Alpes,0,1,1,39,Non
+C100633,42.0,Homme,18,48.16,860.45,Mensuel,DSL,Chèque électronique,2,Hauts-de-France,1,0,1,15,Oui
+C101255,23.0,Autre,10,28.89,261.19,Biennal,DSL,Carte bancaire,0,Nouvelle-Aquitaine,1,0,1,21,Non
+C100790,24.0,Femme,47,36.8,1657.55,Annuel,Fibre,Prélèvement,0,Île-de-France,0,0,1,14,Non
+C100116,20.0,Homme,71,52.54,3746.76,Mensuel,Aucun,Prélèvement,2,Île-de-France,0,0,1,53,Non
+C100740,70.0,Femme,53,96.73,4584.45,Biennal,Aucun,Carte bancaire,1,Provence-Alpes-Côte d'Azur,0,1,1,2,Non
+C100830,33.0,Femme,23,95.45,2033.91,Mensuel,Fibre,Prélèvement,1,Nouvelle-Aquitaine,0,0,0,25,Non
+C100119,,Femme,4,89.93,382.76,Annuel,Fibre,Virement,0,Île-de-France,0,0,1,22,Non
+C100656,67.0,Homme,61,59.98,3591.83,Biennal,DSL,Carte bancaire,1,Provence-Alpes-Côte d'Azur,0,1,1,6,Non
+C100635,61.0,Homme,38,116.78,4161.84,Annuel,Aucun,Chèque électronique,2,Hauts-de-France,0,0,1,13,Non
+C100369,67.0,Femme,15,46.42,677.2,Annuel,DSL,Prélèvement,1,Nouvelle-Aquitaine,0,1,1,10,Oui
+C100268,57.0,Homme,64,80.66,4766.58,Annuel,Aucun,Prélèvement,1,Provence-Alpes-Côte d'Azur,0,0,1,8,Non
+C100655,52.0,Femme,50,60.6,3013.91,Annuel,Aucun,Prélèvement,1,Hauts-de-France,0,0,1,20,Oui
+C100935,78.0,Femme,8,29.32,229.43,Biennal,DSL,Prélèvement,1,Provence-Alpes-Côte d'Azur,0,1,1,23,Non
+C100822,,Homme,50,52.7,2401.45,Mensuel,Aucun,Carte bancaire,1,Auvergne-Rhône-Alpes,0,0,0,22,Non
+C100866,70.0,Femme,38,22.65,893.99,Mensuel,DSL,Chèque électronique,0,Nouvelle-Aquitaine,0,1,1,6,Oui
+C100046,46.0,Femme,20,56.6,1109.06,Mensuel,Aucun,Prélèvement,2,Provence-Alpes-Côte d'Azur,1,0,1,37,Non
+C101216,50.0,Homme,26,60.49,1680.54,Mensuel,Fibre,Carte bancaire,1,Provence-Alpes-Côte d'Azur,0,0,1,32,Non
+C100991,53.0,Homme,66,93.31,6483.09,Mensuel,DSL,Chèque électronique,1,Grand Est,1,0,0,65,Oui
+C100876,52.0,Homme,24,40.41,874.88,Mensuel,DSL,Prélèvement,0,Nouvelle-Aquitaine,1,0,0,22,Non
+C100773,63.0,Homme,56,67.07,3443.0,Mensuel,Aucun,Prélèvement,0,Provence-Alpes-Côte d'Azur,0,0,1,50,Non
+C100004,45.0,Femme,22,81.26,1827.45,Mensuel,DSL,Prélèvement,0,Occitanie,1,0,0,52,Oui
+C101003,74.0,Homme,49,74.98,3409.51,Mensuel,Fibre,Chèque électronique,1,Nouvelle-Aquitaine,1,1,1,18,Oui
+C100263,77.0,Femme,48,68.9,3154.56,Biennal,Aucun,Virement,3,Hauts-de-France,0,1,0,29,Non
+C101116,81.0,Homme,39,64.03,2269.88,Mensuel,Fibre,Prélèvement,0,Nouvelle-Aquitaine,0,1,1,5,Oui
+C101286,76.0,Femme,16,66.21,,Mensuel,Aucun,Carte bancaire,1,Grand Est,0,1,0,2,Oui
+C100443,49.0,Homme,5,73.69,384.08,Mensuel,Fibre,Carte bancaire,1,Hauts-de-France,0,0,1,8,Oui
+C101002,53.0,Femme,61,87.91,5749.22,Mensuel,Fibre,Virement,1,Provence-Alpes-Côte d'Azur,0,0,1,20,Non
+C100837,30.0,Homme,40,126.73,5138.0,Mensuel,Fibre,Carte bancaire,0,Occitanie,0,0,1,21,Non
+C101257,53.0,Femme,29,18.5,540.48,Biennal,DSL,Prélèvement,2,Occitanie,0,0,1,14,Non
+C100304,52.0,Homme,2,66.48,127.66,Annuel,Fibre,Carte bancaire,1,Hauts-de-France,0,0,1,14,Oui
+C101108,78.0,Femme,5,84.4,387.18,Mensuel,Fibre,Prélèvement,2,Occitanie,1,1,0,41,Oui
+C100313,35.0,Homme,66,24.95,1716.72,Annuel,Fibre,Carte bancaire,1,Hauts-de-France,1,0,1,18,Non
+C100149,21.0,Homme,26,65.12,1782.97,Biennal,Aucun,Prélèvement,1,Île-de-France,1,0,1,41,Non
+C100574,18.0,Femme,20,30.36,596.22,Mensuel,Fibre,Virement,0,Occitanie,0,0,0,7,Non
+C100050,66.0,Femme,31,90.74,2478.58,Mensuel,Fibre,Prélèvement,1,Grand Est,0,1,1,25,Oui
+C101105,29.0,Homme,59,35.85,1925.55,Annuel,DSL,Carte bancaire,3,Auvergne-Rhône-Alpes,1,0,1,21,Oui
+C100726,64.0,Femme,29,55.24,1657.0,Mensuel,Fibre,Carte bancaire,1,Île-de-France,0,0,1,24,Non
+C100833,27.0,Homme,11,47.91,516.73,Mensuel,DSL,Virement,1,Provence-Alpes-Côte d'Azur,0,0,0,17,Oui
+C100470,65.0,Femme,7,74.87,529.87,Biennal,Fibre,Virement,2,Grand Est,1,1,0,48,Non
+C100971,44.0,Homme,33,107.74,3546.89,Biennal,DSL,Carte bancaire,4,Île-de-France,0,0,1,39,Non
+C100653,69.0,Femme,5,96.05,461.16,Mensuel,Fibre,Virement,1,Auvergne-Rhône-Alpes,0,1,1,21,Non
+C100399,37.0,Femme,53,105.09,5869.31,Biennal,Fibre,Carte bancaire,1,Hauts-de-France,0,0,1,11,Non
+C100511,65.0,Homme,58,28.74,1796.83,Biennal,Fibre,Chèque électronique,1,Hauts-de-France,0,1,1,23,Non
+C100320,38.0,Homme,72,47.62,,Mensuel,Fibre,Carte bancaire,2,Provence-Alpes-Côte d'Azur,0,0,1,32,Oui
+C100019,,Homme,12,48.29,521.71,Biennal,DSL,Carte bancaire,1,Auvergne-Rhône-Alpes,0,0,1,28,Non
+C100684,28.0,Homme,1,34.96,32.43,Annuel,Aucun,Prélèvement,2,Grand Est,1,0,0,17,Non
+C100035,22.0,Homme,3,47.21,128.63,Annuel,Fibre,Chèque électronique,4,Auvergne-Rhône-Alpes,0,0,1,24,Oui
+C100902,32.0,Homme,18,85.49,1445.53,Annuel,Fibre,Chèque électronique,2,Grand Est,0,0,1,17,Non
+C100827,75.0,Femme,7,18.5,114.41,Annuel,Fibre,Carte bancaire,3,Hauts-de-France,1,1,1,74,Non
+C101261,77.0,Femme,1,19.64,19.95,Annuel,Fibre,Carte bancaire,2,Île-de-France,0,1,1,45,Oui
+C100407,27.0,Femme,35,99.1,3472.61,Mensuel,Fibre,Carte bancaire,2,Nouvelle-Aquitaine,0,0,0,9,Oui
+C100920,73.0,Femme,59,52.97,,Annuel,DSL,Carte bancaire,1,Nouvelle-Aquitaine,0,1,1,19,Non
+C100537,25.0,Femme,27,83.27,2075.26,Biennal,Fibre,Chèque électronique,4,Provence-Alpes-Côte d'Azur,0,0,1,29,Non
+C100758,26.0,Homme,67,67.16,4759.32,Annuel,Fibre,Carte bancaire,4,Grand Est,0,0,1,15,Non
+C101062,27.0,Femme,43,59.87,2615.9,Annuel,Fibre,Carte bancaire,1,Occitanie,1,0,1,64,Non
+C100245,23.0,Femme,30,139.97,4017.16,Biennal,Fibre,Carte bancaire,0,Auvergne-Rhône-Alpes,1,0,1,12,Non
+C100784,48.0,Homme,14,96.2,1452.76,Biennal,Fibre,Virement,2,Grand Est,0,0,1,4,Non
+C100489,56.0,Homme,53,89.86,4889.86,Mensuel,DSL,Carte bancaire,1,Île-de-France,0,0,1,14,Non
+C100154,45.0,Femme,35,86.55,2737.45,Mensuel,Aucun,Virement,0,Hauts-de-France,0,0,0,42,Non
+C100961,44.0,Homme,2,60.66,124.21,Mensuel,Aucun,Virement,2,Nouvelle-Aquitaine,0,0,0,10,Non
+C100853,33.0,Femme,66,60.93,,Mensuel,Fibre,Carte bancaire,0,Grand Est,1,0,1,49,Non
+C100625,32.0,Homme,31,53.47,1669.81,Mensuel,Fibre,Prélèvement,2,Provence-Alpes-Côte d'Azur,0,0,1,35,Oui
+C100685,69.0,Femme,15,62.28,956.47,Annuel,Aucun,Carte bancaire,1,Grand Est,0,1,1,28,Non
+C100569,54.0,Homme,4,83.23,337.41,Mensuel,DSL,Prélèvement,1,Île-de-France,0,0,1,58,Oui
+C101342,25.0,Homme,22,77.79,1714.25,Mensuel,DSL,Chèque électronique,2,Île-de-France,1,0,1,6,Oui
+C100017,26.0,Femme,25,90.28,2139.31,Annuel,Fibre,Carte bancaire,0,Île-de-France,0,0,1,28,Non
+C100127,66.0,Femme,31,76.97,2538.8,Annuel,DSL,Prélèvement,2,Hauts-de-France,0,1,0,43,Non
+C100927,37.0,Femme,38,60.91,2119.18,Mensuel,Fibre,Carte bancaire,1,Grand Est,0,0,0,33,Non
+C100980,55.0,Homme,62,55.3,3513.92,Mensuel,DSL,Carte bancaire,2,Île-de-France,0,0,0,36,Non
+C101380,80.0,Femme,39,18.5,,Annuel,DSL,,0,Île-de-France,0,1,1,39,Non
+C100190,61.0,Femme,14,68.21,863.44,Annuel,Fibre,Prélèvement,0,Île-de-France,0,0,1,13,Non
+C100992,30.0,Femme,36,104.09,3970.56,Mensuel,Fibre,Prélèvement,3,Grand Est,0,0,0,10,Oui
+C101374,74.0,Femme,52,88.8,4159.84,Annuel,Fibre,Carte bancaire,0,Hauts-de-France,1,1,1,27,Non
+C100606,38.0,Homme,34,70.23,2285.51,Mensuel,Fibre,Virement,1,Grand Est,0,0,1,22,Non
+C100180,78.0,Femme,68,23.4,1400.43,Annuel,DSL,Prélèvement,2,Occitanie,0,1,1,7,Non
+C100301,70.0,Femme,39,72.19,2895.48,Mensuel,Fibre,Prélèvement,1,Auvergne-Rhône-Alpes,0,1,0,7,Oui
+C100496,25.0,Femme,6,121.41,754.1,Annuel,Fibre,Chèque électronique,1,Grand Est,0,0,1,17,Non
+C101217,64.0,Homme,13,19.79,274.44,Mensuel,Aucun,Carte bancaire,2,Provence-Alpes-Côte d'Azur,0,0,0,11,Oui
+C101182,62.0,Femme,28,90.94,2292.4,Annuel,DSL,Prélèvement,3,Provence-Alpes-Côte d'Azur,1,0,1,19,Non
+C101165,24.0,Homme,12,30.59,386.02,Mensuel,Aucun,Chèque électronique,0,Hauts-de-France,0,0,0,18,Non
+C100517,22.0,Homme,72,83.91,6481.89,Mensuel,DSL,Carte bancaire,0,Île-de-France,0,0,1,15,Non
+C101069,18.0,Homme,38,36.05,1257.32,Mensuel,DSL,Virement,0,Occitanie,0,0,1,35,Non
+C100476,72.0,Femme,41,102.29,4346.02,Mensuel,Fibre,Carte bancaire,1,Grand Est,0,1,1,7,Oui
+C100157,53.0,Homme,19,102.41,1890.15,Mensuel,Fibre,Carte bancaire,0,Hauts-de-France,0,0,1,7,Oui
+C100016,50.0,Homme,36,90.61,3461.41,Mensuel,DSL,Carte bancaire,1,Occitanie,0,0,1,54,Oui
+C101072,66.0,Homme,18,24.36,438.81,Mensuel,Aucun,Prélèvement,1,Auvergne-Rhône-Alpes,0,1,1,67,Oui
+C100546,45.0,Homme,56,43.71,2361.78,Annuel,Fibre,Carte bancaire,1,Île-de-France,0,0,0,25,Non
+C100658,22.0,Homme,19,89.89,1581.37,Mensuel,Fibre,Prélèvement,0,Occitanie,1,0,1,10,Non
+C101155,55.0,Autre,59,78.99,4187.92,Annuel,Aucun,Carte bancaire,1,Île-de-France,1,0,1,14,Oui
+C101019,25.0,Homme,26,67.21,1565.09,Biennal,Fibre,Virement,1,Île-de-France,0,0,1,44,Non
+C101260,35.0,Homme,65,119.28,6933.36,Biennal,DSL,Virement,0,Hauts-de-France,0,0,0,25,Non
+C100959,44.0,Femme,67,36.26,2415.58,Mensuel,Fibre,Carte bancaire,0,Île-de-France,0,0,1,33,Non
+C101325,30.0,Femme,8,47.75,381.55,Mensuel,Aucun,Carte bancaire,0,Provence-Alpes-Côte d'Azur,1,0,0,17,Oui
+C100283,49.0,Femme,5,77.09,,Annuel,Fibre,Prélèvement,3,Île-de-France,0,0,1,4,Oui
+C100797,47.0,Homme,60,35.89,2253.41,Biennal,DSL,Carte bancaire,1,Hauts-de-France,0,0,0,39,Non
+C100225,37.0,Femme,63,108.24,7217.84,Mensuel,Fibre,Carte bancaire,0,Nouvelle-Aquitaine,1,0,0,25,Non
+C100026,43.0,Femme,33,89.95,2804.95,Mensuel,DSL,Prélèvement,2,Nouvelle-Aquitaine,0,0,0,53,Non
+C100437,77.0,Femme,36,61.29,2341.84,Mensuel,DSL,Chèque électronique,1,Grand Est,0,1,0,56,Non
+C101368,79.0,Femme,23,77.73,1788.73,Mensuel,Fibre,Prélèvement,1,Nouvelle-Aquitaine,0,1,0,49,Non
+C100229,29.0,Homme,67,56.88,4084.67,Mensuel,Fibre,Carte bancaire,2,Grand Est,0,0,0,24,Non
+C100037,70.0,Femme,8,41.53,356.36,Mensuel,Aucun,Virement,0,Nouvelle-Aquitaine,0,1,0,45,Non
+C100749,28.0,Femme,27,49.47,1306.54,Biennal,DSL,Prélèvement,2,Provence-Alpes-Côte d'Azur,0,0,1,37,Non
+C101045,27.0,Homme,17,64.14,1113.12,Mensuel,DSL,Carte bancaire,2,Hauts-de-France,0,0,0,18,Non
+C100469,77.0,Femme,31,89.4,2635.15,Mensuel,Fibre,Prélèvement,3,Grand Est,0,1,1,10,Oui
+C101205,75.0,Femme,28,21.91,594.5,Mensuel,DSL,Carte bancaire,1,Hauts-de-France,0,1,1,34,Non
+C101383,75.0,Femme,6,120.85,697.28,Mensuel,DSL,Carte bancaire,0,Île-de-France,0,1,1,60,Oui
+C100687,55.0,Femme,39,126.63,5079.68,Annuel,DSL,Prélèvement,0,Provence-Alpes-Côte d'Azur,1,0,1,31,Non
+C101295,50.0,Homme,14,106.71,,Mensuel,Fibre,Virement,1,Hauts-de-France,0,0,0,28,Oui
+C100639,78.0,Femme,68,136.49,8777.16,Annuel,Fibre,Chèque électronique,3,Hauts-de-France,1,1,1,9,Non
+C101220,59.0,Homme,58,109.81,5609.25,Mensuel,Fibre,Prélèvement,1,Auvergne-Rhône-Alpes,1,0,1,88,Non
+C101178,34.0,Homme,35,45.98,1681.55,Mensuel,Fibre,Carte bancaire,0,Auvergne-Rhône-Alpes,1,0,1,17,Non
+C101280,65.0,Homme,72,67.57,,Mensuel,Fibre,Chèque électronique,0,Île-de-France,0,1,1,15,Non
+C100800,18.0,Homme,15,65.78,,Mensuel,Fibre,Carte bancaire,1,Grand Est,0,0,1,59,Oui
+C100160,,Homme,1,86.87,86.85,Annuel,Fibre,Prélèvement,1,Hauts-de-France,0,1,1,72,Non
+C100956,43.0,Femme,67,66.63,4604.37,Mensuel,Fibre,Prélèvement,0,Occitanie,1,0,1,51,Non
+C100821,60.0,Homme,34,43.98,1503.27,Mensuel,Aucun,Prélèvement,1,Île-de-France,0,0,0,32,Oui
+C101197,80.0,Femme,29,60.59,1760.79,Mensuel,Fibre,Chèque électronique,1,Nouvelle-Aquitaine,0,1,0,32,Oui
+C100877,65.0,Homme,1,101.27,107.19,Annuel,Fibre,Prélèvement,2,Grand Est,1,1,1,32,Non
+C100913,80.0,Femme,2,42.95,87.31,Annuel,Aucun,,1,Grand Est,0,1,1,18,Non
+C100152,76.0,Homme,40,138.98,5363.93,Mensuel,DSL,Carte bancaire,3,Hauts-de-France,1,1,0,12,Oui
+C101290,32.0,Femme,35,116.58,4307.76,Mensuel,Fibre,Carte bancaire,1,Hauts-de-France,1,0,0,10,Non
+C100509,33.0,Femme,31,52.19,1470.93,Mensuel,Fibre,Carte bancaire,2,Nouvelle-Aquitaine,0,0,0,9,Non
+C101135,21.0,Femme,6,74.24,440.66,Mensuel,DSL,Prélèvement,1,Occitanie,1,0,1,29,Non
+C101384,42.0,Homme,34,67.51,2305.97,Biennal,DSL,Chèque électronique,2,Île-de-France,1,0,1,44,Non
+C100103,18.0,Homme,3,58.38,181.21,Biennal,Fibre,Virement,1,Auvergne-Rhône-Alpes,1,0,1,26,Non
+C100586,62.0,Femme,41,65.3,2470.3,Mensuel,Fibre,Prélèvement,0,Grand Est,0,0,0,13,Non
+C101250,33.0,Homme,19,18.5,317.68,Biennal,Fibre,Prélèvement,3,Hauts-de-France,0,0,1,12,Non
+C101143,72.0,Homme,33,37.71,1258.29,Annuel,DSL,Prélèvement,1,Grand Est,0,1,0,4,Non
+C100053,47.0,Femme,25,85.93,2214.29,Mensuel,DSL,Carte bancaire,1,Auvergne-Rhône-Alpes,1,0,1,39,Non
+C100151,36.0,Femme,41,81.24,3538.41,Annuel,Fibre,,1,Occitanie,0,0,1,10,Non
+C100403,80.0,Homme,55,136.54,7070.6,Annuel,DSL,Carte bancaire,1,Nouvelle-Aquitaine,0,1,1,9,Non
+C101365,19.0,Homme,46,36.13,1539.77,Mensuel,Fibre,Prélèvement,3,Nouvelle-Aquitaine,0,0,1,11,Oui
+C100207,80.0,Femme,14,53.77,792.78,Mensuel,Fibre,Prélèvement,1,Grand Est,0,1,1,31,Oui
+C101333,69.0,Femme,33,97.41,3242.47,Mensuel,Fibre,Virement,1,Grand Est,1,1,1,63,Oui
+C101122,35.0,Homme,50,78.73,4146.81,Mensuel,Aucun,Prélèvement,1,Nouvelle-Aquitaine,1,0,1,2,Non
+C100008,30.0,Femme,17,43.31,727.39,Mensuel,Fibre,Carte bancaire,4,Hauts-de-France,0,0,1,42,Oui
+C101014,51.0,Femme,58,58.44,3059.59,Mensuel,Fibre,Virement,1,Île-de-France,1,0,0,17,Non
+C101060,67.0,Femme,72,103.59,,Mensuel,DSL,Prélèvement,0,Provence-Alpes-Côte d'Azur,0,1,1,10,Non
+C100452,49.0,Femme,24,61.21,1372.7,Mensuel,Fibre,Carte bancaire,2,Hauts-de-France,1,0,1,31,Non
+C100253,39.0,Femme,51,90.32,4602.8,Annuel,DSL,Carte bancaire,0,Hauts-de-France,0,0,1,35,Non
+C100896,50.0,Femme,45,53.34,2518.66,Mensuel,DSL,Carte bancaire,0,Grand Est,1,0,0,62,Non
+C101233,,Homme,37,116.58,4051.59,Mensuel,Fibre,Virement,5,Hauts-de-France,0,1,0,48,Oui
+C100880,23.0,Homme,23,85.96,,Annuel,Fibre,Chèque électronique,3,Provence-Alpes-Côte d'Azur,0,0,1,42,Oui
+C101329,39.0,Homme,6,78.76,,Biennal,Aucun,Prélèvement,2,Auvergne-Rhône-Alpes,0,0,0,11,Non
+C100623,44.0,Homme,71,31.9,2319.08,Mensuel,DSL,Carte bancaire,2,Occitanie,0,0,0,20,Oui
+C100345,34.0,Femme,55,92.74,5329.29,Annuel,Fibre,Carte bancaire,1,Provence-Alpes-Côte d'Azur,0,0,1,10,Non
+C101212,47.0,Homme,37,84.24,3218.05,Biennal,Fibre,Virement,1,Grand Est,1,0,0,22,Non
+C100262,37.0,Femme,43,18.5,721.81,Mensuel,Fibre,Carte bancaire,1,Grand Est,0,0,0,10,Oui
+C100150,72.0,Femme,44,68.88,3129.25,Mensuel,Fibre,Virement,0,Occitanie,0,1,0,46,Non
+C100472,45.0,Femme,16,18.5,293.41,Annuel,Fibre,Chèque électronique,1,Provence-Alpes-Côte d'Azur,0,0,0,21,Non
+C100640,60.0,Femme,55,104.54,5859.86,Mensuel,Aucun,Carte bancaire,0,Hauts-de-France,1,0,1,47,Non
+C101394,31.0,Homme,62,111.3,6222.78,Mensuel,DSL,Chèque électronique,0,Auvergne-Rhône-Alpes,0,0,0,25,Oui
+C101326,61.0,Homme,43,69.82,,Mensuel,Fibre,Prélèvement,1,Île-de-France,0,0,1,19,Non
+C100550,,Femme,3,97.81,300.61,Mensuel,Fibre,Prélèvement,0,Grand Est,1,1,0,22,Non
+C100928,,Femme,49,100.7,4396.92,Annuel,Aucun,Prélèvement,3,Auvergne-Rhône-Alpes,0,0,1,39,Non
+C100488,66.0,Femme,1,42.47,42.47,Mensuel,Aucun,Prélèvement,2,Provence-Alpes-Côte d'Azur,0,1,0,12,Oui
+C101273,61.0,Femme,14,109.25,1426.35,Mensuel,Fibre,Chèque électronique,0,Hauts-de-France,1,0,0,17,Oui
+C101171,58.0,Femme,54,87.64,4252.99,Mensuel,Aucun,Carte bancaire,0,Île-de-France,0,0,0,11,Non
+C100146,,Femme,4,89.59,372.63,Mensuel,DSL,Prélèvement,0,Provence-Alpes-Côte d'Azur,0,0,1,5,Non
+C100402,38.0,Homme,23,72.96,1654.42,Biennal,Aucun,Prélèvement,2,Occitanie,0,0,1,38,Non
+C100954,68.0,Homme,58,18.5,1068.12,Mensuel,Fibre,Carte bancaire,3,Occitanie,0,1,0,18,Non
+C101321,35.0,Femme,48,50.56,2474.2,Annuel,Fibre,Chèque électronique,0,Hauts-de-France,0,0,1,34,Non
+C100659,36.0,Femme,55,81.75,4314.54,Annuel,Fibre,Prélèvement,1,Nouvelle-Aquitaine,1,0,0,16,Non
+C100463,44.0,Femme,28,48.62,1293.37,Mensuel,Fibre,Chèque électronique,1,Grand Est,0,0,1,3,Non
+C100186,28.0,Femme,19,52.65,1065.74,Mensuel,Fibre,Carte bancaire,0,Occitanie,0,0,0,11,Oui
+C101147,67.0,Homme,34,84.32,3063.37,Mensuel,DSL,Chèque électronique,2,Île-de-France,0,1,1,14,Oui
+C100608,79.0,Femme,29,125.55,3543.52,Mensuel,Fibre,Prélèvement,0,Auvergne-Rhône-Alpes,0,1,1,22,Non
+C100143,44.0,Femme,19,48.62,971.56,Mensuel,Fibre,Carte bancaire,1,Grand Est,1,0,0,10,Non
+C100751,,Homme,4,48.58,,Mensuel,DSL,Virement,0,Hauts-de-France,0,0,1,15,Non
+C100981,62.0,Homme,56,108.97,5454.16,Biennal,Fibre,Prélèvement,2,Île-de-France,0,0,0,9,Non
+C100197,25.0,Femme,19,65.33,1338.15,Mensuel,DSL,Carte bancaire,0,Nouvelle-Aquitaine,1,0,1,13,Non
+C100883,27.0,Femme,32,45.13,1363.79,Mensuel,Fibre,Prélèvement,1,Occitanie,0,0,1,52,Non
+C100279,23.0,Femme,39,25.97,1086.97,Mensuel,Aucun,,2,Hauts-de-France,0,0,1,51,Non
+C100293,39.0,Femme,19,83.86,1672.76,Biennal,Fibre,Prélèvement,0,Grand Est,1,0,1,22,Non
+C101281,65.0,Femme,7,57.66,425.09,Mensuel,Fibre,Carte bancaire,0,Île-de-France,1,1,0,17,Non
+C100400,81.0,Femme,72,80.9,5480.33,Annuel,DSL,Carte bancaire,1,Hauts-de-France,0,1,1,25,Non
+C100122,59.0,Femme,34,69.84,2553.4,Mensuel,DSL,Virement,1,Provence-Alpes-Côte d'Azur,0,0,0,18,Non
+C101207,64.0,Femme,59,50.01,2873.3,Mensuel,Fibre,Carte bancaire,0,Hauts-de-France,1,0,1,19,Non
+C100202,49.0,Femme,29,52.45,1471.83,Mensuel,Fibre,Chèque électronique,0,Auvergne-Rhône-Alpes,0,0,0,31,Non
+C100835,67.0,Femme,17,37.77,600.99,Mensuel,Fibre,Chèque électronique,1,Occitanie,1,1,1,30,Non
+C100246,66.0,Homme,23,25.77,598.7,Mensuel,Fibre,Carte bancaire,0,Grand Est,1,1,1,25,Oui
+C101338,67.0,Homme,59,98.57,6088.38,Annuel,Fibre,Carte bancaire,1,Grand Est,0,1,1,68,Non
+C101324,73.0,Femme,45,77.96,3243.89,Biennal,Fibre,Carte bancaire,0,Hauts-de-France,1,1,0,48,Non
+C101153,76.0,Homme,34,37.5,,Annuel,DSL,Carte bancaire,2,Île-de-France,0,1,1,27,Non
+C100384,20.0,Autre,43,86.16,3281.16,Mensuel,DSL,Prélèvement,2,Occitanie,0,0,1,33,Non
+C100854,36.0,Femme,4,70.88,294.8,Mensuel,Aucun,Chèque électronique,2,Provence-Alpes-Côte d'Azur,0,0,1,24,Oui
+C100219,75.0,Homme,8,106.39,826.02,Mensuel,DSL,Carte bancaire,1,Occitanie,0,1,1,6,Oui
+C100641,76.0,Homme,9,47.81,386.55,Mensuel,Fibre,Virement,0,Occitanie,1,1,0,30,Non
+C100001,67.0,Femme,54,93.89,5199.14,Mensuel,Aucun,Chèque électronique,1,Occitanie,0,1,1,43,Oui
+C100112,53.0,Autre,26,78.85,2029.86,Mensuel,Fibre,Chèque électronique,0,Hauts-de-France,0,0,0,14,Non
+C100698,21.0,Homme,55,86.76,4862.42,Mensuel,Aucun,Virement,1,Auvergne-Rhône-Alpes,1,0,1,16,Non
+C101345,81.0,Femme,64,37.91,2498.0,Mensuel,Fibre,Prélèvement,1,Grand Est,1,1,1,23,Non
+C100951,37.0,Femme,45,65.33,3065.43,Mensuel,Fibre,Carte bancaire,2,Auvergne-Rhône-Alpes,0,0,0,8,Non
+C101283,69.0,Femme,61,63.97,3474.27,Mensuel,Fibre,Prélèvement,1,Occitanie,0,1,1,35,Non
+C101270,,Femme,43,51.37,2313.3,Mensuel,DSL,Carte bancaire,2,Provence-Alpes-Côte d'Azur,0,0,0,47,Non
+C100441,37.0,Homme,3,106.27,297.64,Annuel,Fibre,Virement,1,Auvergne-Rhône-Alpes,0,0,1,14,Non
+C101136,64.0,Femme,54,88.16,4692.8,Mensuel,DSL,Carte bancaire,0,Grand Est,1,0,0,41,Non
+C100663,30.0,Femme,52,72.76,3824.61,Mensuel,DSL,Prélèvement,1,Auvergne-Rhône-Alpes,0,0,1,51,Oui
+C101289,57.0,Femme,26,34.14,903.46,Mensuel,DSL,Prélèvement,1,Nouvelle-Aquitaine,0,0,1,27,Oui
+C100317,64.0,Homme,5,117.53,626.37,Annuel,Fibre,Virement,2,Occitanie,0,0,1,50,Non
+C100648,,Femme,12,31.22,338.5,Mensuel,Fibre,Prélèvement,0,Provence-Alpes-Côte d'Azur,0,1,0,34,Oui
+C100709,47.0,Homme,45,491.5,3105.37,Mensuel,Fibre,Chèque électronique,4,Occitanie,1,0,1,14,Oui
+C100972,48.0,Homme,63,85.04,5146.28,Annuel,Aucun,Virement,0,Nouvelle-Aquitaine,1,0,1,24,Non
+C100627,41.0,Homme,39,96.48,3649.89,Biennal,Fibre,Carte bancaire,1,Île-de-France,0,0,1,8,Oui
+C100632,45.0,Homme,29,58.91,1578.21,Biennal,DSL,Carte bancaire,2,Île-de-France,0,0,1,24,Non
+C101248,38.0,Femme,31,55.75,1746.94,Mensuel,DSL,Prélèvement,0,Grand Est,0,0,1,7,Non
+C101372,46.0,Femme,18,117.68,2014.06,Biennal,DSL,Chèque électronique,4,Nouvelle-Aquitaine,1,0,0,6,Non
+C101300,66.0,Homme,69,117.52,8587.33,Mensuel,Fibre,Virement,0,Occitanie,1,1,0,17,Non
+C100795,36.0,Homme,16,49.84,808.26,Biennal,Fibre,Carte bancaire,1,Occitanie,1,0,1,21,Non
+C100645,39.0,Homme,56,48.37,2579.85,Mensuel,Fibre,Carte bancaire,0,Auvergne-Rhône-Alpes,0,0,0,22,Non
+C101012,33.0,Autre,34,61.97,2142.04,Annuel,Aucun,Prélèvement,3,Île-de-France,1,0,0,12,Non
+C100556,65.0,Homme,42,30.58,1290.7,Annuel,Fibre,Chèque électronique,5,Auvergne-Rhône-Alpes,1,1,1,27,Non
+C100681,26.0,Femme,72,104.04,7050.59,Annuel,DSL,Prélèvement,0,Nouvelle-Aquitaine,0,0,0,27,Non
+C100577,51.0,Femme,54,66.33,3541.38,Biennal,Fibre,Virement,0,Hauts-de-France,1,0,1,49,Non
+C101109,20.0,Femme,33,18.73,603.76,Annuel,Fibre,Chèque électronique,1,Nouvelle-Aquitaine,0,0,1,17,Non
+C101183,46.0,Homme,28,54.72,1529.02,Mensuel,Fibre,Carte bancaire,1,Occitanie,1,0,0,11,Non
+C100524,38.0,Femme,21,74.8,1665.66,Annuel,Fibre,Chèque électronique,1,Île-de-France,0,0,1,41,Oui
+C101059,37.0,Homme,18,78.53,1458.94,Mensuel,Fibre,Virement,0,Île-de-France,0,0,1,43,Non
+C100540,63.0,Homme,20,62.72,1313.73,Mensuel,Fibre,Prélèvement,2,Île-de-France,0,0,0,18,Oui
+C101194,51.0,Femme,40,18.5,735.81,Mensuel,Fibre,Prélèvement,1,Île-de-France,0,0,1,29,Non
+C100748,38.0,Homme,20,67.77,1372.96,Mensuel,DSL,Carte bancaire,4,Auvergne-Rhône-Alpes,1,0,0,28,Oui
+C101303,75.0,Homme,53,125.99,6031.73,Mensuel,DSL,Carte bancaire,1,Île-de-France,0,1,1,19,Non
+C100484,47.0,Femme,38,18.5,687.11,Mensuel,Aucun,Prélèvement,1,Grand Est,1,0,1,69,Oui
+C100095,36.0,Femme,72,30.93,2389.62,Mensuel,Fibre,Carte bancaire,1,Auvergne-Rhône-Alpes,0,0,1,21,Non
+C101020,21.0,Femme,22,46.5,1011.46,Annuel,Fibre,Chèque électronique,2,Provence-Alpes-Côte d'Azur,0,0,0,26,Oui
+C100563,29.0,Homme,18,113.34,2118.95,Annuel,DSL,Carte bancaire,0,Occitanie,1,0,1,18,Non
+C101264,33.0,Homme,15,58.73,827.2,Mensuel,Fibre,Carte bancaire,0,Nouvelle-Aquitaine,0,0,1,40,Non
+C100742,58.0,Femme,61,50.49,2905.32,Biennal,DSL,Prélèvement,0,Île-de-France,0,0,0,36,Non
+C100863,67.0,Homme,47,72.61,3126.04,Annuel,Fibre,Virement,2,Occitanie,0,1,0,45,Non
+C100891,63.0,Femme,28,44.46,1197.33,Annuel,DSL,Carte bancaire,1,Provence-Alpes-Côte d'Azur,0,0,1,3,Non
+C101038,45.0,Homme,66,52.34,3119.12,Annuel,Fibre,Carte bancaire,3,Occitanie,0,0,1,48,Oui
+C100206,66.0,Homme,19,58.81,984.96,Annuel,Aucun,Prélèvement,3,Auvergne-Rhône-Alpes,0,1,1,23,Non
+C100392,41.0,Femme,6,101.58,604.55,Mensuel,DSL,Carte bancaire,0,Provence-Alpes-Côte d'Azur,0,0,0,43,Oui
+C100794,45.0,Femme,47,58.98,2544.19,Mensuel,DSL,Virement,1,Grand Est,0,0,0,9,Non
+C100870,47.0,Femme,66,103.16,6947.7,Mensuel,Fibre,Chèque électronique,3,Occitanie,0,0,1,13,Non
+C100397,30.0,Homme,1,21.83,21.59,Mensuel,Fibre,Virement,1,Hauts-de-France,0,0,1,9,Non
+C100766,57.0,Femme,17,63.62,1128.13,Biennal,Fibre,Carte bancaire,1,Grand Est,1,0,0,7,Non
+C101293,18.0,Femme,15,57.14,,Mensuel,Fibre,Carte bancaire,1,Auvergne-Rhône-Alpes,0,0,0,63,Non
+C101241,67.0,Femme,37,110.0,3962.99,Annuel,Aucun,Carte bancaire,1,Auvergne-Rhône-Alpes,0,1,1,15,Non
+C101028,54.0,Femme,7,66.86,466.8,Biennal,Fibre,Carte bancaire,1,Auvergne-Rhône-Alpes,0,0,1,29,Oui
+C100642,72.0,Femme,8,60.34,486.7,Mensuel,Fibre,Prélèvement,1,Île-de-France,0,1,0,10,Oui
+C100612,68.0,Homme,38,45.25,1543.22,Mensuel,DSL,Virement,2,Provence-Alpes-Côte d'Azur,1,1,0,20,Oui
+C100960,27.0,Femme,28,102.78,3055.71,Biennal,Aucun,Virement,3,Grand Est,0,0,1,7,Non
+C100725,25.0,Femme,7,61.82,400.26,Mensuel,Fibre,Prélèvement,0,Île-de-France,0,0,1,39,Oui
+C100683,79.0,Autre,12,45.56,553.92,Annuel,Fibre,Carte bancaire,2,Auvergne-Rhône-Alpes,0,1,1,15,Non
+C100098,58.0,Homme,3,105.55,306.33,Annuel,DSL,Virement,0,Nouvelle-Aquitaine,0,0,0,8,Non
+C100804,65.0,Homme,56,83.03,4579.81,Biennal,Fibre,Carte bancaire,1,Provence-Alpes-Côte d'Azur,0,1,0,30,Non
+C100406,45.0,Femme,18,32.18,,Mensuel,Aucun,Carte bancaire,1,Nouvelle-Aquitaine,0,0,1,47,Non
+C100502,79.0,Homme,40,80.25,2979.17,Mensuel,Fibre,Prélèvement,1,Auvergne-Rhône-Alpes,1,1,1,51,Oui
+C101071,,Homme,31,59.09,1953.15,Mensuel,Aucun,Chèque électronique,0,Île-de-France,0,0,0,15,Oui
+C101056,46.0,Femme,5,73.87,350.43,Annuel,DSL,Carte bancaire,0,Occitanie,0,0,1,10,Non
+C100929,54.0,Femme,44,32.52,1343.97,Annuel,Aucun,Carte bancaire,2,Hauts-de-France,0,0,1,6,Non
+C100779,72.0,Femme,44,54.13,2515.61,Mensuel,Aucun,Carte bancaire,0,Auvergne-Rhône-Alpes,0,1,0,20,Non
+C100200,41.0,Femme,28,49.89,1281.16,Annuel,DSL,Prélèvement,2,Hauts-de-France,0,0,0,68,Non
+C100134,68.0,Homme,67,85.72,6045.47,Annuel,Aucun,Chèque électronique,0,Île-de-France,0,1,0,3,Non
+C101051,41.0,Femme,31,74.13,2045.52,Mensuel,Fibre,Chèque électronique,1,Grand Est,0,0,1,35,Oui
+C100040,28.0,Femme,25,72.79,1945.07,Annuel,DSL,Prélèvement,1,Provence-Alpes-Côte d'Azur,0,0,1,19,Non
+C101017,49.0,Homme,48,52.31,2571.89,Mensuel,Fibre,Carte bancaire,2,Auvergne-Rhône-Alpes,0,0,1,50,Oui
+C100230,47.0,Femme,67,50.87,3109.41,Annuel,Fibre,Virement,0,Provence-Alpes-Côte d'Azur,0,0,1,50,Non
+C100378,,Homme,20,94.94,1955.37,Mensuel,DSL,Carte bancaire,3,Provence-Alpes-Côte d'Azur,1,0,1,11,Oui
+C100288,52.0,Femme,48,44.26,1904.89,Mensuel,Fibre,Carte bancaire,1,Auvergne-Rhône-Alpes,1,0,1,41,Non
+C100418,36.0,Femme,46,78.31,,Mensuel,Fibre,Carte bancaire,1,Occitanie,0,0,0,21,Non
+C100391,29.0,Homme,3,104.83,321.04,Mensuel,DSL,Prélèvement,1,Occitanie,0,0,1,35,Non
+C100592,33.0,Homme,70,53.42,3341.9,Biennal,Fibre,Prélèvement,2,Provence-Alpes-Côte d'Azur,0,0,1,5,Non
+C101162,72.0,Autre,42,77.49,3059.5,Annuel,Fibre,Prélèvement,1,Hauts-de-France,0,1,1,12,Non
+C101086,69.0,Femme,21,49.58,941.23,Biennal,DSL,Prélèvement,2,Hauts-de-France,0,1,1,5,Non
+C100647,52.0,Femme,7,108.66,777.77,Annuel,DSL,Prélèvement,0,Grand Est,0,0,0,20,Non
+C101152,45.0,Homme,9,64.07,575.0,Biennal,DSL,Prélèvement,0,Occitanie,0,0,0,22,Non
+C100520,40.0,Femme,42,73.07,3032.46,Mensuel,Fibre,Carte bancaire,3,Provence-Alpes-Côte d'Azur,0,0,0,34,Oui
+C100064,44.0,Homme,44,66.78,2791.18,Mensuel,DSL,Carte bancaire,2,Nouvelle-Aquitaine,1,0,1,61,Oui
+C100014,63.0,Homme,50,68.46,,Mensuel,DSL,Prélèvement,0,Auvergne-Rhône-Alpes,1,0,0,33,Oui
+C101180,56.0,Homme,12,40.97,496.9,Mensuel,Fibre,Carte bancaire,1,Grand Est,1,0,1,48,Non
+C101064,66.0,Femme,60,100.28,5817.01,Biennal,Fibre,Prélèvement,1,Occitanie,0,1,0,56,Non
+C100492,66.0,Homme,72,56.54,4180.98,Annuel,DSL,Prélèvement,1,Hauts-de-France,0,1,0,22,Non
+C100379,34.0,Femme,22,108.49,2406.01,Mensuel,Fibre,Prélèvement,0,Occitanie,1,0,1,13,Non
+C100187,42.0,Femme,5,63.17,313.66,Mensuel,Fibre,Carte bancaire,0,Grand Est,0,0,0,5,Oui
+C100763,77.0,Femme,17,92.21,1544.19,Mensuel,Fibre,Carte bancaire,1,Auvergne-Rhône-Alpes,0,1,0,33,Oui
+C100216,23.0,Femme,34,40.18,1463.95,Biennal,DSL,Chèque électronique,1,Grand Est,0,0,0,8,Non
+C100791,47.0,Homme,38,40.46,1455.54,Mensuel,Aucun,Carte bancaire,1,Grand Est,1,0,0,23,Non
+C101076,63.0,Homme,18,55.86,1001.85,Mensuel,DSL,Carte bancaire,0,Occitanie,0,0,1,34,Oui
+C100878,53.0,Autre,59,77.93,4894.35,Mensuel,Fibre,Virement,2,Auvergne-Rhône-Alpes,1,0,0,57,Non
+C100337,38.0,Femme,53,57.44,2815.64,Mensuel,Aucun,Carte bancaire,0,Nouvelle-Aquitaine,0,0,0,13,Non
+C100719,56.0,Autre,38,69.85,2641.02,Annuel,Fibre,Carte bancaire,0,Nouvelle-Aquitaine,0,0,1,9,Non
+C100295,51.0,Femme,46,121.97,5743.17,Mensuel,Fibre,Chèque électronique,0,Provence-Alpes-Côte d'Azur,0,0,1,23,Non
+C101016,42.0,Femme,57,86.54,,Mensuel,Fibre,Prélèvement,0,Provence-Alpes-Côte d'Azur,0,0,1,13,Non
+C101275,63.0,Femme,39,109.45,4107.37,Mensuel,Fibre,Prélèvement,0,Hauts-de-France,0,0,0,18,Non
+C100455,53.0,Femme,15,34.28,480.98,Annuel,Aucun,Carte bancaire,0,Occitanie,1,0,1,11,Non
+C100724,,Femme,24,30.86,701.4,Mensuel,DSL,Chèque électronique,1,Hauts-de-France,1,1,1,12,Oui
+C100815,71.0,Femme,68,35.67,2592.61,Annuel,Fibre,Virement,1,Nouvelle-Aquitaine,1,1,1,93,Non
+C100269,55.0,Femme,54,86.52,4581.42,Mensuel,Fibre,Prélèvement,2,Île-de-France,0,0,1,39,Non
+C100995,58.0,Homme,30,89.16,2512.28,Annuel,Aucun,Virement,2,Auvergne-Rhône-Alpes,1,0,1,18,Non
+C100201,76.0,Femme,9,82.64,666.35,Annuel,DSL,Chèque électronique,3,Grand Est,0,1,0,27,Oui
+C100161,60.0,Homme,57,121.71,7379.56,Biennal,DSL,Prélèvement,2,Occitanie,0,0,0,31,Non
+C100729,60.0,Femme,16,83.52,1288.34,Mensuel,Fibre,Chèque électronique,0,Auvergne-Rhône-Alpes,0,0,0,11,Non
+C100401,67.0,Femme,69,124.5,8403.11,Biennal,Aucun,Prélèvement,0,Provence-Alpes-Côte d'Azur,1,1,0,14,Non
+C100702,28.0,Homme,45,105.13,4378.31,Mensuel,Fibre,Prélèvement,2,Provence-Alpes-Côte d'Azur,0,0,1,40,Oui
+C101129,59.0,Homme,36,63.98,2403.36,Biennal,Fibre,Prélèvement,2,Hauts-de-France,0,0,0,29,Non
+C100565,33.0,Homme,11,78.91,923.1,Mensuel,Fibre,Chèque électronique,2,Grand Est,0,0,1,16,Non
+C101021,22.0,Femme,64,46.46,2648.79,Annuel,DSL,Carte bancaire,1,Nouvelle-Aquitaine,0,0,1,7,Non
+C101025,21.0,Femme,36,66.79,2278.93,Mensuel,Fibre,Chèque électronique,0,Provence-Alpes-Côte d'Azur,0,0,1,61,Oui
+C101104,37.0,Homme,17,109.65,1768.08,Mensuel,Fibre,Virement,0,Provence-Alpes-Côte d'Azur,0,0,0,20,Non
+C100205,35.0,Homme,65,59.49,3978.8,Annuel,DSL,Prélèvement,2,Hauts-de-France,0,0,1,2,Non
+C100034,74.0,Femme,19,37.46,679.9,Annuel,Fibre,Carte bancaire,2,Hauts-de-France,1,1,0,4,Oui
+C100775,78.0,Homme,58,102.34,5493.82,Mensuel,Fibre,Prélèvement,0,Auvergne-Rhône-Alpes,0,1,1,21,Oui
+C100508,35.0,Femme,56,56.94,3184.77,Annuel,Fibre,Carte bancaire,0,Île-de-France,0,0,1,7,Non
+C101386,53.0,Femme,17,56.25,1002.19,Mensuel,DSL,Carte bancaire,0,Île-de-France,1,0,0,10,Non
+C100091,69.0,Femme,67,30.39,1930.79,Biennal,Fibre,Prélèvement,1,Hauts-de-France,0,1,1,42,Non
+C100897,21.0,Femme,24,58.3,1488.73,Mensuel,DSL,Carte bancaire,0,Grand Est,0,0,1,10,Non
+C100564,74.0,Homme,32,108.32,3121.3,Mensuel,Fibre,Carte bancaire,0,Hauts-de-France,0,1,1,40,Non
+C100776,45.0,Femme,42,111.43,4808.27,Annuel,DSL,Prélèvement,0,Nouvelle-Aquitaine,1,0,1,31,Non
+C100241,55.0,Homme,26,45.69,1099.93,Biennal,Fibre,Chèque électronique,0,Auvergne-Rhône-Alpes,0,0,1,40,Oui
+C100013,66.0,Homme,52,53.08,2807.05,Mensuel,Fibre,Carte bancaire,0,Île-de-France,0,1,0,27,Non
+C100315,60.0,Femme,58,53.5,3187.25,Annuel,Fibre,Prélèvement,1,Grand Est,0,0,1,64,Non
+C100600,57.0,Femme,45,35.72,1713.55,Mensuel,Fibre,Prélèvement,0,Île-de-France,0,0,1,21,Non
+C100387,71.0,Homme,23,60.3,1350.53,Biennal,Aucun,Prélèvement,0,Grand Est,1,1,1,24,Non
+C101297,61.0,Femme,36,50.29,1640.86,Annuel,Fibre,Prélèvement,2,Occitanie,0,0,0,34,Non
+C100166,38.0,Homme,12,67.76,850.91,Mensuel,DSL,Prélèvement,1,Occitanie,0,0,1,10,Non
+C100840,,Homme,26,103.41,2799.76,Mensuel,Fibre,Carte bancaire,1,Grand Est,0,0,1,1,Oui
+C100020,50.0,Homme,9,40.4,326.84,Mensuel,Fibre,Carte bancaire,2,Provence-Alpes-Côte d'Azur,0,0,1,16,Oui
+C100646,47.0,Femme,61,80.29,5087.31,Annuel,Fibre,Carte bancaire,1,Nouvelle-Aquitaine,0,0,0,32,Non
+C101154,37.0,Homme,57,107.73,6239.69,Mensuel,Aucun,Prélèvement,5,Hauts-de-France,0,0,0,20,Oui
+C100831,33.0,Femme,61,52.31,2860.9,Biennal,Aucun,,1,Hauts-de-France,1,0,0,4,Non
+C101267,41.0,Homme,25,86.93,2340.03,Annuel,Fibre,Carte bancaire,1,Auvergne-Rhône-Alpes,1,0,1,29,Non
+C100562,49.0,Femme,8,77.71,632.44,Annuel,Aucun,Virement,1,Hauts-de-France,0,0,0,32,Non
+C101371,39.0,Femme,50,65.1,,Annuel,Fibre,Virement,0,Grand Est,0,0,1,17,Non
+C100686,44.0,Homme,50,117.38,5995.56,Annuel,Fibre,Prélèvement,0,Nouvelle-Aquitaine,0,0,0,34,Non
+C100957,58.0,Homme,9,109.61,1046.31,Mensuel,DSL,Chèque électronique,3,Hauts-de-France,1,0,1,17,Oui
+C100189,37.0,Homme,44,58.7,,Annuel,DSL,Carte bancaire,2,Nouvelle-Aquitaine,1,0,1,46,Non
+C100975,32.0,Homme,12,65.45,828.97,Mensuel,Fibre,Prélèvement,1,Grand Est,0,0,1,19,Oui
+C100699,24.0,Femme,43,18.5,835.12,Biennal,DSL,Chèque électronique,0,Hauts-de-France,0,0,1,14,Non
+C100510,81.0,Homme,21,52.49,1053.18,Biennal,DSL,Prélèvement,0,Nouvelle-Aquitaine,0,1,0,26,Non
+C101082,79.0,Femme,60,68.16,4307.76,Annuel,Aucun,Prélèvement,0,Île-de-France,0,1,1,63,Non
+C100474,58.0,Homme,60,86.57,4916.46,Annuel,DSL,Carte bancaire,0,Île-de-France,0,0,1,27,Non
+C100856,33.0,Homme,69,75.83,5075.37,Mensuel,DSL,Carte bancaire,1,Hauts-de-France,0,0,1,11,Non
+C100747,38.0,Homme,38,59.92,2080.41,Biennal,DSL,Prélèvement,1,Provence-Alpes-Côte d'Azur,0,0,1,47,Oui
+C100252,30.0,Femme,35,72.26,2452.13,Annuel,DSL,Prélèvement,2,Grand Est,0,0,1,22,Non
+C100021,41.0,Femme,38,47.78,,Annuel,Fibre,Virement,3,Grand Est,0,0,1,26,Oui
+C101337,36.0,Femme,61,55.33,3241.93,Biennal,DSL,Prélèvement,0,Nouvelle-Aquitaine,0,0,0,11,Non
+C100459,24.0,Homme,36,93.08,2977.3,Mensuel,Fibre,Prélèvement,0,Grand Est,0,0,1,43,Oui
+C101184,44.0,Femme,5,44.56,230.41,Mensuel,Fibre,Chèque électronique,3,Nouvelle-Aquitaine,1,0,0,7,Oui
+C100276,47.0,Femme,68,82.58,4950.34,Mensuel,DSL,Carte bancaire,0,Grand Est,0,0,1,26,Non
+C100955,57.0,Femme,62,73.74,4714.96,Mensuel,Fibre,Chèque électronique,0,Auvergne-Rhône-Alpes,0,0,0,29,Non
+C101215,25.0,Femme,17,56.83,,Mensuel,DSL,Prélèvement,1,Nouvelle-Aquitaine,0,0,1,72,Non
+C100385,25.0,Homme,44,27.27,1161.92,Mensuel,DSL,Chèque électronique,0,Provence-Alpes-Côte d'Azur,0,0,1,13,Oui
+C100805,68.0,Homme,69,154.85,,Mensuel,Fibre,Virement,3,Auvergne-Rhône-Alpes,1,1,1,14,Non
+C100343,,Homme,45,81.06,3821.59,Mensuel,DSL,Carte bancaire,1,Provence-Alpes-Côte d'Azur,0,0,1,20,Non
+C100769,42.0,Femme,59,31.13,1762.05,Mensuel,DSL,Carte bancaire,1,Auvergne-Rhône-Alpes,0,0,1,40,Non
+C101332,45.0,Femme,37,54.64,2096.3,Mensuel,DSL,Virement,4,Île-de-France,0,0,1,10,Non
+C100130,54.0,Homme,14,76.09,1007.03,Annuel,Fibre,Carte bancaire,0,Auvergne-Rhône-Alpes,0,0,0,22,Non
+C100871,30.0,Homme,43,68.85,3022.33,Annuel,Fibre,Chèque électronique,2,Nouvelle-Aquitaine,0,0,0,23,Non
+C101123,33.0,Homme,29,116.11,3045.3,Biennal,Fibre,Chèque électronique,1,Occitanie,1,0,1,36,Non
+C101396,57.0,Femme,39,59.9,2175.46,Mensuel,Aucun,Virement,1,Nouvelle-Aquitaine,0,0,1,45,Non
+C100087,37.0,Femme,59,72.6,3778.59,Biennal,Fibre,Prélèvement,1,Auvergne-Rhône-Alpes,0,0,0,42,Non
+C100330,52.0,Homme,3,46.28,126.06,Mensuel,DSL,Prélèvement,3,Auvergne-Rhône-Alpes,0,0,0,31,Oui
+C101238,37.0,Femme,31,54.27,1720.4,Mensuel,Aucun,Prélèvement,1,Île-de-France,0,0,1,29,Non
+C100466,28.0,Homme,23,23.64,543.7,Mensuel,Aucun,Prélèvement,2,Provence-Alpes-Côte d'Azur,0,0,1,38,Non
+C100121,60.0,Homme,33,40.21,1327.33,Mensuel,DSL,Prélèvement,1,Grand Est,1,0,1,23,Non
+C101044,63.0,Homme,26,79.58,2062.43,Biennal,DSL,Prélèvement,1,Provence-Alpes-Côte d'Azur,0,0,0,46,Non
+C101095,23.0,Femme,58,55.37,3398.52,Annuel,DSL,Carte bancaire,0,Occitanie,0,0,1,60,Non
+C101130,44.0,Femme,41,39.78,1590.35,Mensuel,DSL,Carte bancaire,1,Occitanie,0,0,1,44,Non
+C101294,,Femme,56,59.59,3041.79,Mensuel,Aucun,Prélèvement,0,Provence-Alpes-Côte d'Azur,0,1,1,17,Non
+C100860,79.0,Autre,39,96.43,3980.12,Mensuel,Fibre,Chèque électronique,2,Hauts-de-France,0,1,0,25,Oui
+C101126,72.0,Homme,41,50.9,2078.17,Mensuel,DSL,Chèque électronique,0,Hauts-de-France,0,1,0,8,Non
