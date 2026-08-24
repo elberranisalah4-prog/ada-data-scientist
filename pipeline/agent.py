@@ -444,11 +444,12 @@ def run(csv_path: str, target_arg: str | None, filename: str) -> None:
             method = "mode"
             df[col] = df[col].fillna(val)
         imputations.append({"column": col, "n": int(nmiss), "method": method, "value": val})
+        shown = round(val, 2) if isinstance(val, float) else val
         finding(
             "cleaning",
             "action",
             f"{int(nmiss)} manquants dans {col} → {method}",
-            f"Valeur d'imputation : {val}.",
+            f"Valeur d'imputation : {shown}.",
         )
     if missing_before.empty:
         finding("cleaning", "observation", "Pas de manquants restants", "Aucune imputation nécessaire.")
