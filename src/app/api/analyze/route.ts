@@ -1,29 +1,53 @@
-import { spawn } from "node:child_process";
+import { spawn, type ChildProcess } from "node:child_process";
 import { mkdtemp, readFile, rm, writeFile } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import path from "node:path";
 import { existsSync } from "node:fs";
-
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 export const maxDuration = 180;
 
 function pythonBin(): string {
-  const local = path.join(process.cwd(), ".venv", "bin", "python");
-  if (existsSync(local)) return local;
-  return "python3";
+  return process.env.ADA_PYTHON || "python3";
 }
 
 function isBinaryPart(value: FormDataEntryValue | null): value is File {
   return !!value && typeof value !== "string" && typeof value.arrayBuffer === "function";
 }
 
+async function readUpload(request: Request): Promise<{
+  useSample: boolean;
+  target: string;
+  file: FormDataEntryValue | null;
+}> {
+  const url = new URL(request.url);
+  let useSample = url.searchParams.get("sample") === "1";
+  let target = url.searchParams.get("target")?.trim() ?? "";
+  let file: FormDataEntryValue | null = null;
+
+  if (useSample) {
+    return { useSample, target, file };
+  }
+
+  const contentType = request.headers.get("content-type") ?? "";
+  if (
+    contentType.includes("multipart/form-data") ||
+    contentType.includes("application/x-www-form-urlencoded")
+  ) {
+    const form = await request.formData();
+    useSample = String(form.get("sample") ?? "") === "1";
+    file = form.get("file");
+    const fromForm = form.get("target");
+    if (typeof fromForm === "string" && fromForm.trim()) {
+      target = fromForm.trim();
+    }
+  }
+
+  return { useSample, target, file };
+}
+
 export async function POST(request: Request) {
-  const form = await request.formData();
-  const file = form.get("file");
-  const useSample = String(form.get("sample") ?? "") === "1";
-  const targetRaw = form.get("target");
-  const target = typeof targetRaw === "string" && targetRaw.trim() ? targetRaw.trim() : "";
+  const { useSample, target, file } = await readUpload(request);
 
   const dir = await mkdtemp(path.join(tmpdir(), "ada-"));
   const csvPath = path.join(dir, "input.csv");
@@ -63,59 +87,77 @@ export async function POST(request: Request) {
 
   const encoder = new TextEncoder();
 
+  let proc: ChildProcess | undefined;
+  let closed = false;
+
   const stream = new ReadableStream({
     start(controller) {
-      const proc = spawn(pythonBin(), args, {
+      const pushLine = (line: string) => {
+        if (closed) return;
+        const trimmed = line.trim();
+        if (!trimmed) return;
+        try {
+          controller.enqueue(encoder.encode(`data: ${trimmed}\n\n`));
+        } catch {
+          closed = true;
+          proc?.kill("SIGTERM");
+        }
+      };
+
+      proc = spawn(pythonBin(), args, {
         env: {
           ...process.env,
           PYTHONUNBUFFERED: "1",
           OMP_NUM_THREADS: "2",
           MKL_NUM_THREADS: "2",
+          PATH: pythonBin().includes(path.sep)
+            ? `${path.dirname(pythonBin())}${path.delimiter}${process.env.PATH ?? ""}`
+            : process.env.PATH,
         },
       });
 
       let buf = "";
-      let closed = false;
-      let sawError = false;
-      const pushLine = (line: string) => {
-        const trimmed = line.trim();
-        if (!trimmed) return;
-        if (trimmed.includes('"type": "error"')) sawError = true;
-        controller.enqueue(encoder.encode(`data: ${trimmed}\n\n`));
-      };
-
-      proc.stdout.on("data", (chunk: Buffer) => {
+      proc.stdout?.on("data", (chunk: Buffer) => {
         buf += chunk.toString("utf8");
         const lines = buf.split("\n");
         buf = lines.pop() ?? "";
         for (const line of lines) pushLine(line);
       });
 
-      proc.stderr.on("data", () => {
+      proc.stderr?.on("data", () => {
         /* sklearn / xgboost noise ignored — errors go through NDJSON */
       });
 
-      const finish = async (code: number | null) => {
-        if (closed) return;
-        closed = true;
+      const finish = (code: number | null) => {
+        if (closed) {
+          void rm(dir, { recursive: true, force: true });
+          return;
+        }
         if (buf.trim()) pushLine(buf);
-        if (code && code !== 0 && !sawError) {
-          controller.enqueue(
-            encoder.encode(
-              `data: ${JSON.stringify({ type: "error", message: "Le pipeline s'est arrêté de façon inattendue." })}\n\n`
-            )
+        if (code && code !== 0 && !buf.includes('"type": "error"')) {
+          pushLine(
+            JSON.stringify({
+              type: "error",
+              message: "Le pipeline s'est arrêté de façon inattendue.",
+            })
           );
         }
-        controller.close();
-        await rm(dir, { recursive: true, force: true });
+        closed = true;
+        try {
+          controller.close();
+        } catch {
+          /* already closed by the client */
+        }
+        void rm(dir, { recursive: true, force: true });
       };
 
-      proc.on("close", (code) => {
-        void finish(code);
-      });
-      proc.on("error", () => {
-        void finish(1);
-      });
+      proc.on("close", (code) => finish(code));
+      proc.on("error", () => finish(1));
+    },
+    cancel() {
+      closed = true;
+      proc?.kill("SIGTERM");
+      void rm(dir, { recursive: true, force: true });
     },
   });
 

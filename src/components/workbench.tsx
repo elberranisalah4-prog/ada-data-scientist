@@ -90,20 +90,27 @@ export function Workbench() {
       }))
     );
 
+    const params = new URLSearchParams();
+    if (sample) params.set("sample", "1");
+    if (tgt) params.set("target", tgt);
+    const endpoint = sample ? `/api/analyze?${params.toString()}` : "/api/analyze";
+
     const form = new FormData();
-    if (sample) {
-      form.append("sample", "1");
-    } else if (active instanceof File) {
+    if (!sample && active instanceof File) {
       form.append("file", active);
+      if (tgt) form.append("target", tgt);
     }
-    if (tgt) form.append("target", tgt);
 
     try {
-      const res = await fetch("/api/analyze", { method: "POST", body: form });
+      const res = await fetch(endpoint, {
+        method: "POST",
+        body: sample ? undefined : form,
+      });
       if (!res.ok || !res.body) {
         const payload = (await res.json().catch(() => null)) as { error?: string } | null;
         throw new Error(payload?.error ?? "Le serveur a refusé l'analyse.");
       }
+      let finished = false;
       await consumeStream(res.body, {
         onEvent: (event) => {
           if (event.type === "run_start") {
@@ -144,12 +151,14 @@ export function Workbench() {
             );
           }
           if (event.type === "complete") {
+            finished = true;
             setResult(event.result);
             setStatus("done");
             setSelectedId("report");
             setTab("report");
           }
           if (event.type === "error") {
+            finished = true;
             setError(event.message);
             setStatus("error");
             setStages((prev) =>
@@ -158,6 +167,10 @@ export function Workbench() {
           }
         },
       });
+      if (!finished) {
+        setStatus("error");
+        setError("Le run s'est arrêté avant le rapport.");
+      }
     } catch (err) {
       setStatus("error");
       setError(err instanceof Error ? err.message : "Analyse interrompue.");
@@ -514,11 +527,9 @@ async function consumeStream(
   const reader = body.getReader();
   const decoder = new TextDecoder();
   let buffer = "";
-  while (true) {
-    const { done, value } = await reader.read();
-    if (done) break;
-    buffer += decoder.decode(value, { stream: true });
-    const parts = buffer.split("\n\n");
+
+  const flush = (chunk: string) => {
+    const parts = chunk.split("\n\n");
     buffer = parts.pop() ?? "";
     for (const part of parts) {
       const line = part
@@ -533,5 +544,14 @@ async function consumeStream(
         /* skip malformed chunk */
       }
     }
+  };
+
+  while (true) {
+    const { done, value } = await reader.read();
+    if (done) {
+      flush(buffer + decoder.decode() + "\n\n");
+      break;
+    }
+    flush(buffer + decoder.decode(value, { stream: true }));
   }
 }

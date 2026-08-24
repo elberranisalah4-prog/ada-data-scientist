@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --hostname 0.0.0.0 --port 43217",
+    "dev": "ADA_PYTHON=$PWD/.venv/bin/python next dev --hostname 0.0.0.0 --port 43217",
     "build": "next build",
-    "start": "next start --hostname 0.0.0.0 --port 43217",
+    "start": "ADA_PYTHON=$PWD/.venv/bin/python next start --hostname 0.0.0.0 --port 43217",
     "lint": "eslint"
   },
   "dependencies": {
