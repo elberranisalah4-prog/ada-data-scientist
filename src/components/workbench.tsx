@@ -65,13 +65,18 @@ export function Workbench() {
     setFile(null);
     setColumns([]);
     setTarget("churn");
-    await run(undefined, "churn", true);
+    await run({ sample: true, target: "churn" });
   };
 
-  const run = async (csvFile?: File, csvTarget?: string, sample = false) => {
-    const active = csvFile ?? file;
-    const tgt = csvTarget ?? target;
-    if (!sample && !active) return;
+  const run = async (opts?: { file?: File; target?: string; sample?: boolean }) => {
+    const sample = opts?.sample === true;
+    const active = opts?.file instanceof File ? opts.file : file;
+    const tgt = opts?.target ?? target;
+    if (!sample && !(active instanceof File)) {
+      setError("Aucun fichier CSV.");
+      setStatus("error");
+      return;
+    }
     setStatus("running");
     setError(null);
     setResult(null);
@@ -88,7 +93,7 @@ export function Workbench() {
     const form = new FormData();
     if (sample) {
       form.append("sample", "1");
-    } else if (active) {
+    } else if (active instanceof File) {
       form.append("file", active);
     }
     if (tgt) form.append("target", tgt);
@@ -230,7 +235,7 @@ export function Workbench() {
                   columns={columns}
                   target={target}
                   setTarget={setTarget}
-                  onRun={run}
+                  onRun={() => void run()}
                   onReplace={onFile}
                 />
               ) : null}

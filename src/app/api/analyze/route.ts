@@ -14,6 +14,10 @@ function pythonBin(): string {
   return "python3";
 }
 
+function isBinaryPart(value: FormDataEntryValue | null): value is File {
+  return !!value && typeof value !== "string" && typeof value.arrayBuffer === "function";
+}
+
 export async function POST(request: Request) {
   const form = await request.formData();
   const file = form.get("file");
@@ -34,13 +38,13 @@ export async function POST(request: Request) {
       }
       await writeFile(csvPath, await readFile(sample));
       filename = "customers.csv";
-    } else if (file instanceof File) {
+    } else if (isBinaryPart(file)) {
       if (file.size > 20 * 1024 * 1024) {
         await rm(dir, { recursive: true, force: true });
         return Response.json({ error: "Fichier trop volumineux (20 Mo max)." }, { status: 413 });
       }
       await writeFile(csvPath, Buffer.from(await file.arrayBuffer()));
-      filename = file.name || "dataset.csv";
+      filename = "name" in file && file.name ? file.name : "dataset.csv";
     } else {
       await rm(dir, { recursive: true, force: true });
       return Response.json({ error: "Aucun fichier CSV." }, { status: 400 });
